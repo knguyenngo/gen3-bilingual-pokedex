@@ -1,10 +1,10 @@
 import pandas as pd
 
 # Import csv
-pokemon = pd.read_csv('./scraped/pokemon.csv')
-moves = pd.read_csv('./scraped/moves.csv')
-jp_names = pd.read_csv('./scraped/jp_names.csv')
-jp_moves = pd.read_csv('./scraped/jp_moves.csv')
+pokemon = pd.read_csv('../scraped/pokemon.csv')
+moves = pd.read_csv('../scraped/moves.csv')
+jp_names = pd.read_csv('../scraped/jp_names.csv')
+jp_moves = pd.read_csv('../scraped/jp_moves.csv')
 
 # Drop forms of same species
 pokemon.drop(pokemon[pokemon["name"] == "Deoxys-Attack"].index, inplace=True)
