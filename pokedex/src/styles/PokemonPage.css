@@ -1,0 +1,76 @@
+/* Page-level layout polish */
+.pokemonPage {
+  min-height: 100svh;
+  background:
+    radial-gradient(900px 500px at 50% 0%, rgba(255,255,255,.06), transparent 55%),
+    radial-gradient(600px 300px at 15% 20%, rgba(120,180,255,.08), transparent 60%),
+    #07080b;
+}
+
+/* Make the right side feel like a card without changing your Tailwind much */
+.pokemonTableShell {
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.35);
+  backdrop-filter: blur(10px);
+}
+
+/* Smooth sticky header + subtle divider */
+.pokemonTable thead {
+  background: rgba(15, 16, 20, 0.92);
+  backdrop-filter: blur(10px);
+}
+
+.pokemonTable thead th {
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.7);
+}
+
+/* Row hover that feels less "hard" */
+.pokemonTable tbody tr {
+  transition: background-color 120ms ease;
+}
+
+.pokemonTable tbody tr:hover td {
+  background: rgba(255,255,255,0.03);
+}
+
+/* Improve numeric readability */
+.pokemonTable td {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Scrollbar styling (webkit browsers) */
+.pokemonScroll {
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color: rgba(255,255,255,.22) transparent;
+}
+
+.pokemonScroll::-webkit-scrollbar {
+  width: 10px;
+}
+
+.pokemonScroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.pokemonScroll::-webkit-scrollbar-thumb {
+  background: rgba(255,255,255,.16);
+  border-radius: 999px;
+  border: 2px solid rgba(0,0,0,.35);
+}
+
+.pokemonScroll::-webkit-scrollbar-thumb:hover {
+  background: rgba(255,255,255,.24);
+}
+
+/* Optional: keep the table from feeling cramped on smaller screens */
+@media (max-width: 960px) {
+  .pokemonTableShell {
+    border-radius: 10px;
+  }
+}
+

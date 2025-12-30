@@ -1,5 +1,5 @@
 // src/components/TypeBadge/TypeBadge.tsx
-import { typeColors } from '../../domain/typeColors'
+import { typeColors } from '../domain/typeColors'
 
 const TypeBadge = ({ type }: { type: string }) => {
   const bg = typeColors[type] ?? '#777'

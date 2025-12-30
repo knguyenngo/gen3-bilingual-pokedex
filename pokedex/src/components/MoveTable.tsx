@@ -1,6 +1,6 @@
-// src/components/MoveTable/MoveTable.tsx
-import TypeBadge from '../TypeBadge/TypeBadge'
-import type { Move } from '../../domain/types'
+// src/components/MoveTable.tsx
+import TypeBadge from './TypeBadge'
+import type { Move } from '../domain/types'
 
 const MoveTable = ({ moves }: { moves: Move[] }) => {
   return (

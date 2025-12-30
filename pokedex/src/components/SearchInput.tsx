@@ -1,4 +1,4 @@
-// s// src/components/SearchInput/SearchInput.tsx
+// s// src/components/SearchInput.tsx
 type Props = {
   value: string
   onChange: (v: string) => void
