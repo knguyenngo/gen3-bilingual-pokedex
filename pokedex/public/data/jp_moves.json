@@ -1,0 +1,1772 @@
+[
+  {
+    "eng_name": "Absorb",
+    "kanji": "すいとる",
+    "hepburn": "Suitoru"
+  },
+  {
+    "eng_name": "Acid",
+    "kanji": "ようかいえき",
+    "hepburn": "Yōkaieki"
+  },
+  {
+    "eng_name": "Acid Armor",
+    "kanji": "とける",
+    "hepburn": "Tokeru"
+  },
+  {
+    "eng_name": "Aerial Ace",
+    "kanji": "つばめがえし",
+    "hepburn": "Tsubame Gaeshi"
+  },
+  {
+    "eng_name": "Aeroblast",
+    "kanji": "エアロブラスト",
+    "hepburn": "Earoburasuto"
+  },
+  {
+    "eng_name": "Agility",
+    "kanji": "こうそくいどう",
+    "hepburn": "Kōsoku Idō"
+  },
+  {
+    "eng_name": "Air Cutter",
+    "kanji": "エアカッター",
+    "hepburn": "Ea Kattā"
+  },
+  {
+    "eng_name": "Amnesia",
+    "kanji": "ドわすれ",
+    "hepburn": "Dowasure"
+  },
+  {
+    "eng_name": "Ancient Power",
+    "kanji": "げんしのちから",
+    "hepburn": "Genshi no Chikara"
+  },
+  {
+    "eng_name": "Arm Thrust",
+    "kanji": "つっぱり",
+    "hepburn": "Tsuppari"
+  },
+  {
+    "eng_name": "Aromatherapy",
+    "kanji": "アロマセラピー",
+    "hepburn": "Aromaserapī"
+  },
+  {
+    "eng_name": "Assist",
+    "kanji": "ねこのて",
+    "hepburn": "Neko no Te"
+  },
+  {
+    "eng_name": "Astonish",
+    "kanji": "おどろかす",
+    "hepburn": "Odorokasu"
+  },
+  {
+    "eng_name": "Attract",
+    "kanji": "メロメロ",
+    "hepburn": "Meromero"
+  },
+  {
+    "eng_name": "Aurora Beam",
+    "kanji": "オーロラビーム",
+    "hepburn": "Ōrora Bīmu"
+  },
+  {
+    "eng_name": "Barrage",
+    "kanji": "たまなげ",
+    "hepburn": "Tamanage"
+  },
+  {
+    "eng_name": "Barrier",
+    "kanji": "バリアー",
+    "hepburn": "Bariā"
+  },
+  {
+    "eng_name": "Baton Pass",
+    "kanji": "バトンタッチ",
+    "hepburn": "Baton Tacchi"
+  },
+  {
+    "eng_name": "Beat Up",
+    "kanji": "ふくろだたき",
+    "hepburn": "Fukurodataki"
+  },
+  {
+    "eng_name": "Belly Drum",
+    "kanji": "はらだいこ",
+    "hepburn": "Haradaiko"
+  },
+  {
+    "eng_name": "Bide",
+    "kanji": "がまん",
+    "hepburn": "Gaman"
+  },
+  {
+    "eng_name": "Bind",
+    "kanji": "しめつける",
+    "hepburn": "Shimetsukeru"
+  },
+  {
+    "eng_name": "Bite",
+    "kanji": "かみつく",
+    "hepburn": "Kamitsuku"
+  },
+  {
+    "eng_name": "Blast Burn",
+    "kanji": "ブラストバーン",
+    "hepburn": "Burasuto Bān"
+  },
+  {
+    "eng_name": "Blaze Kick",
+    "kanji": "ブレイズキック",
+    "hepburn": "Bureizu Kikku"
+  },
+  {
+    "eng_name": "Blizzard",
+    "kanji": "ふぶき",
+    "hepburn": "Fubuki"
+  },
+  {
+    "eng_name": "Block",
+    "kanji": "とおせんぼう",
+    "hepburn": "Tōsenbō"
+  },
+  {
+    "eng_name": "Body Slam",
+    "kanji": "のしかかり",
+    "hepburn": "Noshikakari"
+  },
+  {
+    "eng_name": "Bone Club",
+    "kanji": "ホネこんぼう",
+    "hepburn": "Hone Konbō"
+  },
+  {
+    "eng_name": "Bone Rush",
+    "kanji": "ボーンラッシュ",
+    "hepburn": "Bōn Rasshu"
+  },
+  {
+    "eng_name": "Bonemerang",
+    "kanji": "ホネブーメラン",
+    "hepburn": "Hone Būmeran"
+  },
+  {
+    "eng_name": "Bounce",
+    "kanji": "とびはねる",
+    "hepburn": "Tobihaneru"
+  },
+  {
+    "eng_name": "Brick Break",
+    "kanji": "かわらわり",
+    "hepburn": "Kawarawari"
+  },
+  {
+    "eng_name": "Bubble",
+    "kanji": "あわ",
+    "hepburn": "Awa"
+  },
+  {
+    "eng_name": "Bubble Beam",
+    "kanji": "バブルこうせん",
+    "hepburn": "Baburu Kōsen"
+  },
+  {
+    "eng_name": "Bulk Up",
+    "kanji": "ビルドアップ",
+    "hepburn": "Birudo Appu"
+  },
+  {
+    "eng_name": "Bullet Seed",
+    "kanji": "タネマシンガン",
+    "hepburn": "Tane Mashin Gan"
+  },
+  {
+    "eng_name": "Calm Mind",
+    "kanji": "めいそう",
+    "hepburn": "Meisō"
+  },
+  {
+    "eng_name": "Camouflage",
+    "kanji": "ほごしょく",
+    "hepburn": "Hogoshoku"
+  },
+  {
+    "eng_name": "Charge",
+    "kanji": "じゅうでん",
+    "hepburn": "Jūden"
+  },
+  {
+    "eng_name": "Charm",
+    "kanji": "あまえる",
+    "hepburn": "Amaeru"
+  },
+  {
+    "eng_name": "Clamp",
+    "kanji": "からではさむ",
+    "hepburn": "Kara de Hasamu"
+  },
+  {
+    "eng_name": "Comet Punch",
+    "kanji": "れんぞくパンチ",
+    "hepburn": "Renzoku Panchi"
+  },
+  {
+    "eng_name": "Confuse Ray",
+    "kanji": "あやしいひかり",
+    "hepburn": "Ayashī Hikari"
+  },
+  {
+    "eng_name": "Confusion",
+    "kanji": "ねんりき",
+    "hepburn": "Nenriki"
+  },
+  {
+    "eng_name": "Constrict",
+    "kanji": "からみつく",
+    "hepburn": "Karamitsuku"
+  },
+  {
+    "eng_name": "Conversion",
+    "kanji": "テクスチャー",
+    "hepburn": "Tekusuchā"
+  },
+  {
+    "eng_name": "Conversion 2",
+    "kanji": "テクスチャー２",
+    "hepburn": "Tekusuchā 2"
+  },
+  {
+    "eng_name": "Cosmic Power",
+    "kanji": "コスモパワー",
+    "hepburn": "Kosumo Pawā"
+  },
+  {
+    "eng_name": "Cotton Spore",
+    "kanji": "わたほうし",
+    "hepburn": "Wata Hōshi"
+  },
+  {
+    "eng_name": "Counter",
+    "kanji": "カウンター",
+    "hepburn": "Kauntā"
+  },
+  {
+    "eng_name": "Covet",
+    "kanji": "ほしがる",
+    "hepburn": "Hoshigaru"
+  },
+  {
+    "eng_name": "Crabhammer",
+    "kanji": "クラブハンマー",
+    "hepburn": "Kurabu Hanma"
+  },
+  {
+    "eng_name": "Cross Chop",
+    "kanji": "クロスチョップ",
+    "hepburn": "Kurosu Choppu"
+  },
+  {
+    "eng_name": "Crunch",
+    "kanji": "かみくだく",
+    "hepburn": "Kamikudaku"
+  },
+  {
+    "eng_name": "Crush Claw",
+    "kanji": "ブレイククロー",
+    "hepburn": "Bureiku Kurō"
+  },
+  {
+    "eng_name": "Curse",
+    "kanji": "のろい",
+    "hepburn": "Noroi"
+  },
+  {
+    "eng_name": "Cut",
+    "kanji": "いあいぎり",
+    "hepburn": "Iaigiri"
+  },
+  {
+    "eng_name": "Defense Curl",
+    "kanji": "まるくなる",
+    "hepburn": "Marukunaru"
+  },
+  {
+    "eng_name": "Destiny Bond",
+    "kanji": "みちづれ",
+    "hepburn": "Michizure"
+  },
+  {
+    "eng_name": "Detect",
+    "kanji": "みきり",
+    "hepburn": "Mikiri"
+  },
+  {
+    "eng_name": "Dig",
+    "kanji": "あなをほる",
+    "hepburn": "Ana o Horu"
+  },
+  {
+    "eng_name": "Disable",
+    "kanji": "かなしばり",
+    "hepburn": "Kanashibari"
+  },
+  {
+    "eng_name": "Dive",
+    "kanji": "ダイビング",
+    "hepburn": "Daibingu"
+  },
+  {
+    "eng_name": "Dizzy Punch",
+    "kanji": "ピヨピヨパンチ",
+    "hepburn": "Piyopiyo Panchi"
+  },
+  {
+    "eng_name": "Doom Desire",
+    "kanji": "はめつのねがい",
+    "hepburn": "Hametsu no Negai"
+  },
+  {
+    "eng_name": "Double Kick",
+    "kanji": "にどげり",
+    "hepburn": "Nidogeri"
+  },
+  {
+    "eng_name": "Double Slap",
+    "kanji": "おうふくビンタ",
+    "hepburn": "Ōfuku Binta"
+  },
+  {
+    "eng_name": "Double Team",
+    "kanji": "かげぶんしん",
+    "hepburn": "Kage Bunshin"
+  },
+  {
+    "eng_name": "Double-Edge",
+    "kanji": "すてみタックル",
+    "hepburn": "Sutemi Takkuru"
+  },
+  {
+    "eng_name": "Dragon Breath",
+    "kanji": "りゅうのいぶき",
+    "hepburn": "Ryū no Ibuki"
+  },
+  {
+    "eng_name": "Dragon Claw",
+    "kanji": "ドラゴンクロー",
+    "hepburn": "Doragon Kurō"
+  },
+  {
+    "eng_name": "Dragon Dance",
+    "kanji": "りゅうのまい",
+    "hepburn": "Ryū no Mai"
+  },
+  {
+    "eng_name": "Dragon Rage",
+    "kanji": "りゅうのいかり",
+    "hepburn": "Ryū no Ikari"
+  },
+  {
+    "eng_name": "Dream Eater",
+    "kanji": "ゆめくい",
+    "hepburn": "Yume Kui"
+  },
+  {
+    "eng_name": "Drill Peck",
+    "kanji": "ドリルくちばし",
+    "hepburn": "Doriru Kuchibashi"
+  },
+  {
+    "eng_name": "Dynamic Punch",
+    "kanji": "ばくれつパンチ",
+    "hepburn": "Bakuretsu Panchi"
+  },
+  {
+    "eng_name": "Earthquake",
+    "kanji": "じしん",
+    "hepburn": "Jishin"
+  },
+  {
+    "eng_name": "Egg Bomb",
+    "kanji": "タマゴばくだん",
+    "hepburn": "Tamago Bakudan"
+  },
+  {
+    "eng_name": "Ember",
+    "kanji": "ひのこ",
+    "hepburn": "Hinoko"
+  },
+  {
+    "eng_name": "Encore",
+    "kanji": "アンコール",
+    "hepburn": "Ankōru"
+  },
+  {
+    "eng_name": "Endeavor",
+    "kanji": "がむしゃら",
+    "hepburn": "Gamushara"
+  },
+  {
+    "eng_name": "Endure",
+    "kanji": "こらえる",
+    "hepburn": "Koraeru"
+  },
+  {
+    "eng_name": "Eruption",
+    "kanji": "ふんか",
+    "hepburn": "Funka"
+  },
+  {
+    "eng_name": "Explosion",
+    "kanji": "だいばくはつ",
+    "hepburn": "Dai Bakuhatsu"
+  },
+  {
+    "eng_name": "Extrasensory",
+    "kanji": "じんつうりき",
+    "hepburn": "Jintsūriki"
+  },
+  {
+    "eng_name": "Extreme Speed",
+    "kanji": "しんそく",
+    "hepburn": "Shinsoku"
+  },
+  {
+    "eng_name": "Facade",
+    "kanji": "からげんき",
+    "hepburn": "Karagenki"
+  },
+  {
+    "eng_name": "Fake Out",
+    "kanji": "ねこだまし",
+    "hepburn": "Nekodamashi"
+  },
+  {
+    "eng_name": "Fake Tears",
+    "kanji": "うそなき",
+    "hepburn": "Uso Naki"
+  },
+  {
+    "eng_name": "False Swipe",
+    "kanji": "みねうち",
+    "hepburn": "Mineuchi"
+  },
+  {
+    "eng_name": "Feather Dance",
+    "kanji": "フェザーダンス",
+    "hepburn": "Fezā Dansu"
+  },
+  {
+    "eng_name": "Feint Attack",
+    "kanji": "だましうち",
+    "hepburn": "Damashiuchi"
+  },
+  {
+    "eng_name": "Fire Blast",
+    "kanji": "だいもんじ",
+    "hepburn": "Dai Monji"
+  },
+  {
+    "eng_name": "Fire Punch",
+    "kanji": "ほのおのパンチ",
+    "hepburn": "Honō no Panchi"
+  },
+  {
+    "eng_name": "Fire Spin",
+    "kanji": "ほのおのうず",
+    "hepburn": "Honō no Uzu"
+  },
+  {
+    "eng_name": "Fissure",
+    "kanji": "じわれ",
+    "hepburn": "Jiware"
+  },
+  {
+    "eng_name": "Flail",
+    "kanji": "じたばた",
+    "hepburn": "Jitabata"
+  },
+  {
+    "eng_name": "Flame Wheel",
+    "kanji": "かえんぐるま",
+    "hepburn": "Kaen Guruma"
+  },
+  {
+    "eng_name": "Flamethrower",
+    "kanji": "かえんほうしゃ",
+    "hepburn": "Kaen Hōsha"
+  },
+  {
+    "eng_name": "Flash",
+    "kanji": "フラッシュ",
+    "hepburn": "Furasshu"
+  },
+  {
+    "eng_name": "Flatter",
+    "kanji": "おだてる",
+    "hepburn": "Odateru"
+  },
+  {
+    "eng_name": "Fly",
+    "kanji": "そらをとぶ",
+    "hepburn": "Sora o Tobu"
+  },
+  {
+    "eng_name": "Focus Energy",
+    "kanji": "きあいだめ",
+    "hepburn": "Kiai Dame"
+  },
+  {
+    "eng_name": "Focus Punch",
+    "kanji": "きあいパンチ",
+    "hepburn": "Kiai Panchi"
+  },
+  {
+    "eng_name": "Follow Me",
+    "kanji": "このゆびとまれ",
+    "hepburn": "Kono Yubi Tomare"
+  },
+  {
+    "eng_name": "Foresight",
+    "kanji": "みやぶる",
+    "hepburn": "Miyaburu"
+  },
+  {
+    "eng_name": "Frenzy Plant",
+    "kanji": "ハードプラント",
+    "hepburn": "Hādo Puranto"
+  },
+  {
+    "eng_name": "Frustration",
+    "kanji": "やつあたり",
+    "hepburn": "Yatsuatari"
+  },
+  {
+    "eng_name": "Fury Attack",
+    "kanji": "みだれづき",
+    "hepburn": "Midare Dzuki"
+  },
+  {
+    "eng_name": "Fury Cutter",
+    "kanji": "れんぞくぎり",
+    "hepburn": "Renzoku Giri"
+  },
+  {
+    "eng_name": "Fury Swipes",
+    "kanji": "みだれひっかき",
+    "hepburn": "Midare Hikkaki"
+  },
+  {
+    "eng_name": "Future Sight",
+    "kanji": "みらいよち",
+    "hepburn": "Mirai Yochi"
+  },
+  {
+    "eng_name": "Giga Drain",
+    "kanji": "ギガドレイン",
+    "hepburn": "Giga Dorein"
+  },
+  {
+    "eng_name": "Glare",
+    "kanji": "へびにらみ",
+    "hepburn": "Hebi Nirami"
+  },
+  {
+    "eng_name": "Grass Whistle",
+    "kanji": "くさぶえ",
+    "hepburn": "Kusabue"
+  },
+  {
+    "eng_name": "Growl",
+    "kanji": "なきごえ",
+    "hepburn": "Nakigoe"
+  },
+  {
+    "eng_name": "Growth",
+    "kanji": "せいちょう",
+    "hepburn": "Seichō"
+  },
+  {
+    "eng_name": "Grudge",
+    "kanji": "おんねん",
+    "hepburn": "Onnen"
+  },
+  {
+    "eng_name": "Guillotine",
+    "kanji": "ハサミギロチン",
+    "hepburn": "Hasami Girochin"
+  },
+  {
+    "eng_name": "Gust",
+    "kanji": "かぜおこし",
+    "hepburn": "Kaze Okoshi"
+  },
+  {
+    "eng_name": "Hail",
+    "kanji": "あられ",
+    "hepburn": "Arare"
+  },
+  {
+    "eng_name": "Harden",
+    "kanji": "かたくなる",
+    "hepburn": "Katakunaru"
+  },
+  {
+    "eng_name": "Haze",
+    "kanji": "くろいきり",
+    "hepburn": "Kuroi Kiri"
+  },
+  {
+    "eng_name": "Headbutt",
+    "kanji": "ずつき",
+    "hepburn": "Zutsuki"
+  },
+  {
+    "eng_name": "Heal Bell",
+    "kanji": "いやしのすず",
+    "hepburn": "Iyashi no Suzu"
+  },
+  {
+    "eng_name": "Heat Wave",
+    "kanji": "ねっぷう",
+    "hepburn": "Neppū"
+  },
+  {
+    "eng_name": "Helping Hand",
+    "kanji": "てだすけ",
+    "hepburn": "Tedasuke"
+  },
+  {
+    "eng_name": "Hidden Power",
+    "kanji": "めざめるパワー",
+    "hepburn": "Mezameru Pawā"
+  },
+  {
+    "eng_name": "High Jump Kick",
+    "kanji": "とびひざげり",
+    "hepburn": "Tobihizageri"
+  },
+  {
+    "eng_name": "Horn Attack",
+    "kanji": "つのでつく",
+    "hepburn": "Tsuno de Tsuku"
+  },
+  {
+    "eng_name": "Horn Drill",
+    "kanji": "つのドリル",
+    "hepburn": "Tsuno Doriru"
+  },
+  {
+    "eng_name": "Howl",
+    "kanji": "とおぼえ",
+    "hepburn": "Tōboe"
+  },
+  {
+    "eng_name": "Hydro Cannon",
+    "kanji": "ハイドロカノン",
+    "hepburn": "Haidoro Kyanon"
+  },
+  {
+    "eng_name": "Hydro Pump",
+    "kanji": "ハイドロポンプ",
+    "hepburn": "Haidoro Ponpu"
+  },
+  {
+    "eng_name": "Hyper Beam",
+    "kanji": "はかいこうせん",
+    "hepburn": "Hakai Kōsen"
+  },
+  {
+    "eng_name": "Hyper Fang",
+    "kanji": "ひっさつまえば",
+    "hepburn": "Hissatsu Maeba"
+  },
+  {
+    "eng_name": "Hyper Voice",
+    "kanji": "ハイパーボイス",
+    "hepburn": "Haipā Boisu"
+  },
+  {
+    "eng_name": "Hypnosis",
+    "kanji": "さいみんじゅつ",
+    "hepburn": "Saimin Jutsu"
+  },
+  {
+    "eng_name": "Ice Ball",
+    "kanji": "アイスボール",
+    "hepburn": "Aisu Bōru"
+  },
+  {
+    "eng_name": "Ice Beam",
+    "kanji": "れいとうビーム",
+    "hepburn": "Reitō Bīmu"
+  },
+  {
+    "eng_name": "Ice Punch",
+    "kanji": "れいとうパンチ",
+    "hepburn": "Reitō Panchi"
+  },
+  {
+    "eng_name": "Icicle Spear",
+    "kanji": "つららばり",
+    "hepburn": "Tsurara Bari"
+  },
+  {
+    "eng_name": "Icy Wind",
+    "kanji": "こごえるかぜ",
+    "hepburn": "Kogoeru Kaze"
+  },
+  {
+    "eng_name": "Imprison",
+    "kanji": "ふういん",
+    "hepburn": "Fūin"
+  },
+  {
+    "eng_name": "Ingrain",
+    "kanji": "ねをはる",
+    "hepburn": "Ne o Haru"
+  },
+  {
+    "eng_name": "Iron Defense",
+    "kanji": "てっぺき",
+    "hepburn": "Teppeki"
+  },
+  {
+    "eng_name": "Iron Tail",
+    "kanji": "アイアンテール",
+    "hepburn": "Aian Tēru"
+  },
+  {
+    "eng_name": "Jump Kick",
+    "kanji": "とびげり",
+    "hepburn": "Tobigeri"
+  },
+  {
+    "eng_name": "Karate Chop",
+    "kanji": "からてチョップ",
+    "hepburn": "Karate Choppu"
+  },
+  {
+    "eng_name": "Kinesis",
+    "kanji": "スプーンまげ",
+    "hepburn": "Supūn Mage"
+  },
+  {
+    "eng_name": "Knock Off",
+    "kanji": "はたきおとす",
+    "hepburn": "Hataki Otosu"
+  },
+  {
+    "eng_name": "Leaf Blade",
+    "kanji": "リーフブレード",
+    "hepburn": "Rīfu Bureido"
+  },
+  {
+    "eng_name": "Leech Life",
+    "kanji": "きゅうけつ",
+    "hepburn": "Kyūketsu"
+  },
+  {
+    "eng_name": "Leech Seed",
+    "kanji": "やどりぎのタネ",
+    "hepburn": "Yadorigi no Tane"
+  },
+  {
+    "eng_name": "Leer",
+    "kanji": "にらみつける",
+    "hepburn": "Niramitsukeru"
+  },
+  {
+    "eng_name": "Lick",
+    "kanji": "したでなめる",
+    "hepburn": "Shita de Nameru"
+  },
+  {
+    "eng_name": "Light Screen",
+    "kanji": "ひかりのかべ",
+    "hepburn": "Hikari no Kabe"
+  },
+  {
+    "eng_name": "Lock-On",
+    "kanji": "ロックオン",
+    "hepburn": "Rokku On"
+  },
+  {
+    "eng_name": "Lovely Kiss",
+    "kanji": "あくまのキッス",
+    "hepburn": "Akuma no Kissu"
+  },
+  {
+    "eng_name": "Low Kick",
+    "kanji": "けたぐり",
+    "hepburn": "Ketaguri"
+  },
+  {
+    "eng_name": "Luster Purge",
+    "kanji": "ラスターパージ",
+    "hepburn": "Rasutā Pāji"
+  },
+  {
+    "eng_name": "Mach Punch",
+    "kanji": "マッハパンチ",
+    "hepburn": "Mahha Panchi"
+  },
+  {
+    "eng_name": "Magic Coat",
+    "kanji": "マジックコート",
+    "hepburn": "Majikku Kōto"
+  },
+  {
+    "eng_name": "Magical Leaf",
+    "kanji": "マジカルリーフ",
+    "hepburn": "Majikaru Rīfu"
+  },
+  {
+    "eng_name": "Magnitude",
+    "kanji": "マグニチュード",
+    "hepburn": "Magunichūdo"
+  },
+  {
+    "eng_name": "Mean Look",
+    "kanji": "くろいまなざし",
+    "hepburn": "Kuroi Manazashi"
+  },
+  {
+    "eng_name": "Meditate",
+    "kanji": "ヨガのポーズ",
+    "hepburn": "Yoga no Pōzu"
+  },
+  {
+    "eng_name": "Mega Drain",
+    "kanji": "メガドレイン",
+    "hepburn": "Mega Dorein"
+  },
+  {
+    "eng_name": "Mega Kick",
+    "kanji": "メガトンキック",
+    "hepburn": "Megaton Kikku"
+  },
+  {
+    "eng_name": "Mega Punch",
+    "kanji": "メガトンパンチ",
+    "hepburn": "Megaton Panchi"
+  },
+  {
+    "eng_name": "Megahorn",
+    "kanji": "メガホーン",
+    "hepburn": "Megahōn"
+  },
+  {
+    "eng_name": "Memento",
+    "kanji": "おきみやげ",
+    "hepburn": "Okimiyage"
+  },
+  {
+    "eng_name": "Metal Claw",
+    "kanji": "メタルクロー",
+    "hepburn": "Metaru Kurō"
+  },
+  {
+    "eng_name": "Metal Sound",
+    "kanji": "きんぞくおん",
+    "hepburn": "Kinzoku On"
+  },
+  {
+    "eng_name": "Meteor Mash",
+    "kanji": "コメットパンチ",
+    "hepburn": "Kometto Panchi"
+  },
+  {
+    "eng_name": "Metronome",
+    "kanji": "ゆびをふる",
+    "hepburn": "Yubi o Furu"
+  },
+  {
+    "eng_name": "Milk Drink",
+    "kanji": "ミルクのみ",
+    "hepburn": "Miruku Nomi"
+  },
+  {
+    "eng_name": "Mimic",
+    "kanji": "ものまね",
+    "hepburn": "Monomane"
+  },
+  {
+    "eng_name": "Mind Reader",
+    "kanji": "こころのめ",
+    "hepburn": "Kokoro no Me"
+  },
+  {
+    "eng_name": "Minimize",
+    "kanji": "ちいさくなる",
+    "hepburn": "Chīsakunaru"
+  },
+  {
+    "eng_name": "Mirror Coat",
+    "kanji": "ミラーコート",
+    "hepburn": "Mirā Kōto"
+  },
+  {
+    "eng_name": "Mirror Move",
+    "kanji": "オウムがえし",
+    "hepburn": "Ōmu Gaeshi"
+  },
+  {
+    "eng_name": "Mist",
+    "kanji": "しろいきり",
+    "hepburn": "Shiroi Kiri"
+  },
+  {
+    "eng_name": "Mist Ball",
+    "kanji": "ミストボール",
+    "hepburn": "Misuto Bōru"
+  },
+  {
+    "eng_name": "Moonlight",
+    "kanji": "つきのひかり",
+    "hepburn": "Tsuki no Hikari"
+  },
+  {
+    "eng_name": "Morning Sun",
+    "kanji": "あさのひざし",
+    "hepburn": "Asa no Hizashi"
+  },
+  {
+    "eng_name": "Mud Shot",
+    "kanji": "マッドショット",
+    "hepburn": "Maddo Shotto"
+  },
+  {
+    "eng_name": "Mud Sport",
+    "kanji": "どろあそび",
+    "hepburn": "Doro Asobi"
+  },
+  {
+    "eng_name": "Mud-Slap",
+    "kanji": "どろかけ",
+    "hepburn": "Dorokake"
+  },
+  {
+    "eng_name": "Muddy Water",
+    "kanji": "だくりゅう",
+    "hepburn": "Dakuryū"
+  },
+  {
+    "eng_name": "Nature Power",
+    "kanji": "しぜんのちから",
+    "hepburn": "Shizen no Chikara"
+  },
+  {
+    "eng_name": "Needle Arm",
+    "kanji": "ニードルアーム",
+    "hepburn": "Nīdoru Āmu"
+  },
+  {
+    "eng_name": "Night Shade",
+    "kanji": "ナイトヘッド",
+    "hepburn": "Naito Heddo"
+  },
+  {
+    "eng_name": "Nightmare",
+    "kanji": "あくむ",
+    "hepburn": "Akumu"
+  },
+  {
+    "eng_name": "Octazooka",
+    "kanji": "オクタンほう",
+    "hepburn": "Okutank Hō"
+  },
+  {
+    "eng_name": "Odor Sleuth",
+    "kanji": "かぎわける",
+    "hepburn": "Kagiwakeru"
+  },
+  {
+    "eng_name": "Outrage",
+    "kanji": "げきりん",
+    "hepburn": "Gekirin"
+  },
+  {
+    "eng_name": "Overheat",
+    "kanji": "オーバーヒート",
+    "hepburn": "Ōbāhīto"
+  },
+  {
+    "eng_name": "Pain Split",
+    "kanji": "いたみわけ",
+    "hepburn": "Itamiwake"
+  },
+  {
+    "eng_name": "Pay Day",
+    "kanji": "ネコにこばん",
+    "hepburn": "Neko ni Koban"
+  },
+  {
+    "eng_name": "Peck",
+    "kanji": "つつく",
+    "hepburn": "Tsutsuku"
+  },
+  {
+    "eng_name": "Perish Song",
+    "kanji": "ほろびのうた",
+    "hepburn": "Horobi no Uta"
+  },
+  {
+    "eng_name": "Petal Dance",
+    "kanji": "はなびらのまい",
+    "hepburn": "Hanabira no Mai"
+  },
+  {
+    "eng_name": "Pin Missile",
+    "kanji": "ミサイルばり",
+    "hepburn": "Misairu Bari"
+  },
+  {
+    "eng_name": "Poison Fang",
+    "kanji": "どくどくのキバ",
+    "hepburn": "Dokudoku no Kiba"
+  },
+  {
+    "eng_name": "Poison Gas",
+    "kanji": "どくガス",
+    "hepburn": "Doku Gasu"
+  },
+  {
+    "eng_name": "Poison Powder",
+    "kanji": "どくのこな",
+    "hepburn": "Doku no Kona"
+  },
+  {
+    "eng_name": "Poison Sting",
+    "kanji": "どくばり",
+    "hepburn": "Doku Bari"
+  },
+  {
+    "eng_name": "Poison Tail",
+    "kanji": "ポイズンテール",
+    "hepburn": "Poizun Tēru"
+  },
+  {
+    "eng_name": "Pound",
+    "kanji": "はたく",
+    "hepburn": "Hataku"
+  },
+  {
+    "eng_name": "Powder Snow",
+    "kanji": "こなゆき",
+    "hepburn": "Konayuki"
+  },
+  {
+    "eng_name": "Present",
+    "kanji": "プレゼント",
+    "hepburn": "Purezento"
+  },
+  {
+    "eng_name": "Protect",
+    "kanji": "まもる",
+    "hepburn": "Mamoru"
+  },
+  {
+    "eng_name": "Psybeam",
+    "kanji": "サイケこうせん",
+    "hepburn": "Psyche Kōsen"
+  },
+  {
+    "eng_name": "Psych Up",
+    "kanji": "じこあんじ",
+    "hepburn": "Jikoanji"
+  },
+  {
+    "eng_name": "Psychic",
+    "kanji": "サイコキネシス",
+    "hepburn": "Saikokineshisu"
+  },
+  {
+    "eng_name": "Psycho Boost",
+    "kanji": "サイコブースト",
+    "hepburn": "Saiko Būsuto"
+  },
+  {
+    "eng_name": "Psywave",
+    "kanji": "サイコウェーブ",
+    "hepburn": "Saiko Uēbu"
+  },
+  {
+    "eng_name": "Pursuit",
+    "kanji": "おいうち",
+    "hepburn": "Oiuchi"
+  },
+  {
+    "eng_name": "Quick Attack",
+    "kanji": "でんこうせっか",
+    "hepburn": "Denkō Sekka"
+  },
+  {
+    "eng_name": "Rage",
+    "kanji": "いかり",
+    "hepburn": "Ikari"
+  },
+  {
+    "eng_name": "Rain Dance",
+    "kanji": "あまごい",
+    "hepburn": "Amagoi"
+  },
+  {
+    "eng_name": "Rapid Spin",
+    "kanji": "こうそくスピン",
+    "hepburn": "Kōsoku Supin"
+  },
+  {
+    "eng_name": "Razor Leaf",
+    "kanji": "はっぱカッター",
+    "hepburn": "Happa Kattā"
+  },
+  {
+    "eng_name": "Razor Wind",
+    "kanji": "かまいたち",
+    "hepburn": "Kamaitachi"
+  },
+  {
+    "eng_name": "Recover",
+    "kanji": "じこさいせい",
+    "hepburn": "Jikosaisei"
+  },
+  {
+    "eng_name": "Recycle",
+    "kanji": "リサイクル",
+    "hepburn": "Risaikuru"
+  },
+  {
+    "eng_name": "Reflect",
+    "kanji": "リフレクター",
+    "hepburn": "Rifurekutā"
+  },
+  {
+    "eng_name": "Refresh",
+    "kanji": "リフレッシュ",
+    "hepburn": "Rifuresshu"
+  },
+  {
+    "eng_name": "Rest",
+    "kanji": "ねむる",
+    "hepburn": "Nemuru"
+  },
+  {
+    "eng_name": "Return",
+    "kanji": "おんがえし",
+    "hepburn": "Ongaeshi"
+  },
+  {
+    "eng_name": "Revenge",
+    "kanji": "リベンジ",
+    "hepburn": "Ribenji"
+  },
+  {
+    "eng_name": "Reversal",
+    "kanji": "きしかいせい",
+    "hepburn": "Kishi Kaisei"
+  },
+  {
+    "eng_name": "Roar",
+    "kanji": "ほえる",
+    "hepburn": "Hoeru"
+  },
+  {
+    "eng_name": "Rock Blast",
+    "kanji": "ロックブラスト",
+    "hepburn": "Rokku Burasuto"
+  },
+  {
+    "eng_name": "Rock Slide",
+    "kanji": "いわなだれ",
+    "hepburn": "Iwa Nadare"
+  },
+  {
+    "eng_name": "Rock Smash",
+    "kanji": "いわくだき",
+    "hepburn": "Iwakudaki"
+  },
+  {
+    "eng_name": "Rock Throw",
+    "kanji": "いわおとし",
+    "hepburn": "Iwa Otoshi"
+  },
+  {
+    "eng_name": "Rock Tomb",
+    "kanji": "がんせきふうじ",
+    "hepburn": "Ganseki Fūji"
+  },
+  {
+    "eng_name": "Role Play",
+    "kanji": "なりきり",
+    "hepburn": "Narikiri"
+  },
+  {
+    "eng_name": "Rolling Kick",
+    "kanji": "まわしげり",
+    "hepburn": "Mawashigeri"
+  },
+  {
+    "eng_name": "Rollout",
+    "kanji": "ころがる",
+    "hepburn": "Korogaru"
+  },
+  {
+    "eng_name": "Sacred Fire",
+    "kanji": "せいなるほのお",
+    "hepburn": "Seinaru Honō"
+  },
+  {
+    "eng_name": "Safeguard",
+    "kanji": "しんぴのまもり",
+    "hepburn": "Shinpi no Mamori"
+  },
+  {
+    "eng_name": "Sand Attack",
+    "kanji": "すなかけ",
+    "hepburn": "Sunakake"
+  },
+  {
+    "eng_name": "Sand Tomb",
+    "kanji": "すなじごく",
+    "hepburn": "Suna Jigoku"
+  },
+  {
+    "eng_name": "Sandstorm",
+    "kanji": "すなあらし",
+    "hepburn": "Suna Arashi"
+  },
+  {
+    "eng_name": "Scary Face",
+    "kanji": "こわいかお",
+    "hepburn": "Kowai Kao"
+  },
+  {
+    "eng_name": "Scratch",
+    "kanji": "ひっかく",
+    "hepburn": "Hikkaku"
+  },
+  {
+    "eng_name": "Screech",
+    "kanji": "いやなおと",
+    "hepburn": "Iyanaoto"
+  },
+  {
+    "eng_name": "Secret Power",
+    "kanji": "ひみつのちから",
+    "hepburn": "Himitsu no Chikara"
+  },
+  {
+    "eng_name": "Seismic Toss",
+    "kanji": "ちきゅうなげ",
+    "hepburn": "Chikyū Nage"
+  },
+  {
+    "eng_name": "Self-Destruct",
+    "kanji": "じばく",
+    "hepburn": "Jibaku"
+  },
+  {
+    "eng_name": "Shadow Ball",
+    "kanji": "シャドーボール",
+    "hepburn": "Shadō Bōru"
+  },
+  {
+    "eng_name": "Shadow Punch",
+    "kanji": "シャドーパンチ",
+    "hepburn": "Shadō Panchi"
+  },
+  {
+    "eng_name": "Sharpen",
+    "kanji": "かくばる",
+    "hepburn": "Kakubaru"
+  },
+  {
+    "eng_name": "Sheer Cold",
+    "kanji": "ぜったいれいど",
+    "hepburn": "Zettai Reido"
+  },
+  {
+    "eng_name": "Shock Wave",
+    "kanji": "でんげきは",
+    "hepburn": "Dengekiha"
+  },
+  {
+    "eng_name": "Signal Beam",
+    "kanji": "シグナルビーム",
+    "hepburn": "Shigunaru Bīmu"
+  },
+  {
+    "eng_name": "Silver Wind",
+    "kanji": "ぎんいろのかぜ",
+    "hepburn": "Gin'iro no Kaze"
+  },
+  {
+    "eng_name": "Sing",
+    "kanji": "うたう",
+    "hepburn": "Utau"
+  },
+  {
+    "eng_name": "Sketch",
+    "kanji": "スケッチ",
+    "hepburn": "Sukecchi"
+  },
+  {
+    "eng_name": "Skill Swap",
+    "kanji": "スキルスワップ",
+    "hepburn": "Sukiru Suwappu"
+  },
+  {
+    "eng_name": "Skull Bash",
+    "kanji": "ロケットずつき",
+    "hepburn": "Rokketo Zutsuki"
+  },
+  {
+    "eng_name": "Sky Attack",
+    "kanji": "ゴッドバード",
+    "hepburn": "Goddo Bādo"
+  },
+  {
+    "eng_name": "Sky Uppercut",
+    "kanji": "スカイアッパー",
+    "hepburn": "Sukai Appā"
+  },
+  {
+    "eng_name": "Slack Off",
+    "kanji": "なまける",
+    "hepburn": "Namakeru"
+  },
+  {
+    "eng_name": "Slam",
+    "kanji": "たたきつける",
+    "hepburn": "Tatakitsukeru"
+  },
+  {
+    "eng_name": "Slash",
+    "kanji": "きりさく",
+    "hepburn": "Kirisaku"
+  },
+  {
+    "eng_name": "Sleep Powder",
+    "kanji": "ねむりごな",
+    "hepburn": "Nemuri Gona"
+  },
+  {
+    "eng_name": "Sleep Talk",
+    "kanji": "ねごと",
+    "hepburn": "Negoto"
+  },
+  {
+    "eng_name": "Sludge",
+    "kanji": "ヘドロこうげき",
+    "hepburn": "Hedoro Kōgeki"
+  },
+  {
+    "eng_name": "Sludge Bomb",
+    "kanji": "ヘドロばくだん",
+    "hepburn": "Hedoro Bakudan"
+  },
+  {
+    "eng_name": "Smelling Salts",
+    "kanji": "きつけ",
+    "hepburn": "Kitsuke"
+  },
+  {
+    "eng_name": "Smog",
+    "kanji": "スモッグ",
+    "hepburn": "Sumoggu"
+  },
+  {
+    "eng_name": "Smokescreen",
+    "kanji": "えんまく",
+    "hepburn": "Enmaku"
+  },
+  {
+    "eng_name": "Snatch",
+    "kanji": "よこどり",
+    "hepburn": "Yokodori"
+  },
+  {
+    "eng_name": "Snore",
+    "kanji": "いびき",
+    "hepburn": "Ibiki"
+  },
+  {
+    "eng_name": "Soft-Boiled",
+    "kanji": "タマゴうみ",
+    "hepburn": "Tamago Umi"
+  },
+  {
+    "eng_name": "Solar Beam",
+    "kanji": "ソーラービーム",
+    "hepburn": "Sōrā Bīmu"
+  },
+  {
+    "eng_name": "Sonic Boom",
+    "kanji": "ソニックブーム",
+    "hepburn": "Sonikku Būmu"
+  },
+  {
+    "eng_name": "Spark",
+    "kanji": "スパーク",
+    "hepburn": "Supāku"
+  },
+  {
+    "eng_name": "Spider Web",
+    "kanji": "クモのす",
+    "hepburn": "Kumo no Su"
+  },
+  {
+    "eng_name": "Spike Cannon",
+    "kanji": "とげキャノン",
+    "hepburn": "Toge Kyanon"
+  },
+  {
+    "eng_name": "Spikes",
+    "kanji": "まきびし",
+    "hepburn": "Makibishi"
+  },
+  {
+    "eng_name": "Spit Up",
+    "kanji": "はきだす",
+    "hepburn": "Hakidasu"
+  },
+  {
+    "eng_name": "Spite",
+    "kanji": "うらみ",
+    "hepburn": "Urami"
+  },
+  {
+    "eng_name": "Splash",
+    "kanji": "はねる",
+    "hepburn": "Haneru"
+  },
+  {
+    "eng_name": "Spore",
+    "kanji": "キノコのほうし",
+    "hepburn": "Kinoko no Hōshi"
+  },
+  {
+    "eng_name": "Steel Wing",
+    "kanji": "はがねのつばさ",
+    "hepburn": "Hagane no Tsubasa"
+  },
+  {
+    "eng_name": "Stockpile",
+    "kanji": "たくわえる",
+    "hepburn": "Takuwaeru"
+  },
+  {
+    "eng_name": "Stomp",
+    "kanji": "ふみつけ",
+    "hepburn": "Fumitsuke"
+  },
+  {
+    "eng_name": "Strength",
+    "kanji": "かいりき",
+    "hepburn": "Kairiki"
+  },
+  {
+    "eng_name": "String Shot",
+    "kanji": "いとをはく",
+    "hepburn": "Ito o Haku"
+  },
+  {
+    "eng_name": "Struggle",
+    "kanji": "わるあがき",
+    "hepburn": "Waruagaki"
+  },
+  {
+    "eng_name": "Stun Spore",
+    "kanji": "しびれごな",
+    "hepburn": "Shibire Gona"
+  },
+  {
+    "eng_name": "Submission",
+    "kanji": "じごくぐるま",
+    "hepburn": "Jigoku Guruma"
+  },
+  {
+    "eng_name": "Substitute",
+    "kanji": "みがわり",
+    "hepburn": "Migawari"
+  },
+  {
+    "eng_name": "Sunny Day",
+    "kanji": "にほんばれ",
+    "hepburn": "Nihonbare"
+  },
+  {
+    "eng_name": "Super Fang",
+    "kanji": "いかりのまえば",
+    "hepburn": "Ikari no Maeba"
+  },
+  {
+    "eng_name": "Superpower",
+    "kanji": "ばかぢから",
+    "hepburn": "Bakajikara"
+  },
+  {
+    "eng_name": "Supersonic",
+    "kanji": "ちょうおんぱ",
+    "hepburn": "Chōonpa"
+  },
+  {
+    "eng_name": "Surf",
+    "kanji": "なみのり",
+    "hepburn": "Naminori"
+  },
+  {
+    "eng_name": "Swagger",
+    "kanji": "いばる",
+    "hepburn": "Ibaru"
+  },
+  {
+    "eng_name": "Swallow",
+    "kanji": "のみこむ",
+    "hepburn": "Nomikomu"
+  },
+  {
+    "eng_name": "Sweet Kiss",
+    "kanji": "てんしのキッス",
+    "hepburn": "Tenshi no Kissu"
+  },
+  {
+    "eng_name": "Sweet Scent",
+    "kanji": "あまいかおり",
+    "hepburn": "Amai Kaori"
+  },
+  {
+    "eng_name": "Swift",
+    "kanji": "スピードスター",
+    "hepburn": "Supīdo Sutā"
+  },
+  {
+    "eng_name": "Swords Dance",
+    "kanji": "つるぎのまい",
+    "hepburn": "Tsurugi no Mai"
+  },
+  {
+    "eng_name": "Synthesis",
+    "kanji": "こうごうせい",
+    "hepburn": "Kōgōsei"
+  },
+  {
+    "eng_name": "Tackle",
+    "kanji": "たいあたり",
+    "hepburn": "Taiatari"
+  },
+  {
+    "eng_name": "Tail Glow",
+    "kanji": "ほたるび",
+    "hepburn": "Hotarubi"
+  },
+  {
+    "eng_name": "Tail Whip",
+    "kanji": "しっぽをふる",
+    "hepburn": "Shippo o Furu"
+  },
+  {
+    "eng_name": "Take Down",
+    "kanji": "とっしん",
+    "hepburn": "Tosshin"
+  },
+  {
+    "eng_name": "Taunt",
+    "kanji": "ちょうはつ",
+    "hepburn": "Chōhatsu"
+  },
+  {
+    "eng_name": "Teeter Dance",
+    "kanji": "フラフラダンス",
+    "hepburn": "Furafura Dansu"
+  },
+  {
+    "eng_name": "Teleport",
+    "kanji": "テレポート",
+    "hepburn": "Terepōto"
+  },
+  {
+    "eng_name": "Thief",
+    "kanji": "どろぼう",
+    "hepburn": "Dorobō"
+  },
+  {
+    "eng_name": "Thrash",
+    "kanji": "あばれる",
+    "hepburn": "Abareru"
+  },
+  {
+    "eng_name": "Thunder",
+    "kanji": "かみなり",
+    "hepburn": "Kaminari"
+  },
+  {
+    "eng_name": "Thunder Punch",
+    "kanji": "かみなりパンチ",
+    "hepburn": "Kaminari Panchi"
+  },
+  {
+    "eng_name": "Thunder Shock",
+    "kanji": "でんきショック",
+    "hepburn": "Denki Shokku"
+  },
+  {
+    "eng_name": "Thunder Wave",
+    "kanji": "でんじは",
+    "hepburn": "Denjiha"
+  },
+  {
+    "eng_name": "Thunderbolt",
+    "kanji": "１０まんボルト",
+    "hepburn": "Jūman Boruto"
+  },
+  {
+    "eng_name": "Tickle",
+    "kanji": "くすぐる",
+    "hepburn": "Kusuguru"
+  },
+  {
+    "eng_name": "Torment",
+    "kanji": "いちゃもん",
+    "hepburn": "Ichamon"
+  },
+  {
+    "eng_name": "Toxic",
+    "kanji": "どくどく",
+    "hepburn": "Dokudoku"
+  },
+  {
+    "eng_name": "Transform",
+    "kanji": "へんしん",
+    "hepburn": "Henshin"
+  },
+  {
+    "eng_name": "Tri Attack",
+    "kanji": "トライアタック",
+    "hepburn": "Torai Atakku"
+  },
+  {
+    "eng_name": "Trick",
+    "kanji": "トリック",
+    "hepburn": "Torikku"
+  },
+  {
+    "eng_name": "Triple Kick",
+    "kanji": "トリプルキック",
+    "hepburn": "Toripuru Kikku"
+  },
+  {
+    "eng_name": "Twineedle",
+    "kanji": "ダブルニードル",
+    "hepburn": "Daburu Nīdoru"
+  },
+  {
+    "eng_name": "Twister",
+    "kanji": "たつまき",
+    "hepburn": "Tatsumaki"
+  },
+  {
+    "eng_name": "Uproar",
+    "kanji": "さわぐ",
+    "hepburn": "Sawagu"
+  },
+  {
+    "eng_name": "Vice Grip",
+    "kanji": "はさむ",
+    "hepburn": "Hasamu"
+  },
+  {
+    "eng_name": "Vine Whip",
+    "kanji": "つるのムチ",
+    "hepburn": "Tsuru no Muchi"
+  },
+  {
+    "eng_name": "Vital Throw",
+    "kanji": "あてみなげ",
+    "hepburn": "Ateminage"
+  },
+  {
+    "eng_name": "Volt Tackle",
+    "kanji": "ボルテッカー",
+    "hepburn": "Borutekkā"
+  },
+  {
+    "eng_name": "Water Gun",
+    "kanji": "みずでっぽう",
+    "hepburn": "Mizu Deppō"
+  },
+  {
+    "eng_name": "Water Pulse",
+    "kanji": "みずのはどう",
+    "hepburn": "Mizu no Hadō"
+  },
+  {
+    "eng_name": "Water Sport",
+    "kanji": "みずあそび",
+    "hepburn": "Mizu Asobi"
+  },
+  {
+    "eng_name": "Water Spout",
+    "kanji": "しおふき",
+    "hepburn": "Shiofuki"
+  },
+  {
+    "eng_name": "Waterfall",
+    "kanji": "たきのぼり",
+    "hepburn": "Taki Nobori"
+  },
+  {
+    "eng_name": "Weather Ball",
+    "kanji": "ウェザーボール",
+    "hepburn": "Uezā Bōru"
+  },
+  {
+    "eng_name": "Whirlpool",
+    "kanji": "うずしお",
+    "hepburn": "Uzushio"
+  },
+  {
+    "eng_name": "Whirlwind",
+    "kanji": "ふきとばし",
+    "hepburn": "Fukitobashi"
+  },
+  {
+    "eng_name": "Will-O-Wisp",
+    "kanji": "おにび",
+    "hepburn": "Onibi"
+  },
+  {
+    "eng_name": "Wing Attack",
+    "kanji": "つばさでうつ",
+    "hepburn": "Tsubasa de Utsu"
+  },
+  {
+    "eng_name": "Wish",
+    "kanji": "ねがいごと",
+    "hepburn": "Negaigoto"
+  },
+  {
+    "eng_name": "Withdraw",
+    "kanji": "からにこもる",
+    "hepburn": "Kara ni Komoru"
+  },
+  {
+    "eng_name": "Wrap",
+    "kanji": "まきつく",
+    "hepburn": "Makitsuku"
+  },
+  {
+    "eng_name": "Yawn",
+    "kanji": "あくび",
+    "hepburn": "Akubi"
+  },
+  {
+    "eng_name": "Zap Cannon",
+    "kanji": "でんじほう",
+    "hepburn": "Denjihō"
+  }
+]

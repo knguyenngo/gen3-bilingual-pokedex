@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+/* Base document defaults that won't fight Tailwind */
+:root {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Let Tailwind handle theming; keep a safe default background */
+  background-color: #0b0b0f;
+  color: rgb(244 244 245);
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: #0b0b0f;
+  color: rgb(244 244 245);
+}
+
+/* Make sure the React root can grow normally */
+#root {
+  min-height: 100%;
+}
+
+/* Optional: nicer default link behavior (Tailwind will override if you use classes) */
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+/* Optional: consistent media elements */
+img,
+svg,
+video,
+canvas {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Optional: remove default button styling surprises
+   (you'll usually style buttons with Tailwind classes anyway) */
+button {
+  font: inherit;
+}
+

@@ -1,0 +1,2318 @@
+[
+  {
+    "dex_entry": "#0001",
+    "eng_name": "Bulbasaur",
+    "kanji": "フシギダネ",
+    "hepburn": "Fushigidane"
+  },
+  {
+    "dex_entry": "#0002",
+    "eng_name": "Ivysaur",
+    "kanji": "フシギソウ",
+    "hepburn": "Fushigisō"
+  },
+  {
+    "dex_entry": "#0003",
+    "eng_name": "Venusaur",
+    "kanji": "フシギバナ",
+    "hepburn": "Fushigibana"
+  },
+  {
+    "dex_entry": "#0004",
+    "eng_name": "Charmander",
+    "kanji": "ヒトカゲ",
+    "hepburn": "Hitokage"
+  },
+  {
+    "dex_entry": "#0005",
+    "eng_name": "Charmeleon",
+    "kanji": "リザード",
+    "hepburn": "Rizādo"
+  },
+  {
+    "dex_entry": "#0006",
+    "eng_name": "Charizard",
+    "kanji": "リザードン",
+    "hepburn": "Rizādon"
+  },
+  {
+    "dex_entry": "#0007",
+    "eng_name": "Squirtle",
+    "kanji": "ゼニガメ",
+    "hepburn": "Zenigame"
+  },
+  {
+    "dex_entry": "#0008",
+    "eng_name": "Wartortle",
+    "kanji": "カメール",
+    "hepburn": "Kamēru"
+  },
+  {
+    "dex_entry": "#0009",
+    "eng_name": "Blastoise",
+    "kanji": "カメックス",
+    "hepburn": "Kamekkusu"
+  },
+  {
+    "dex_entry": "#0010",
+    "eng_name": "Caterpie",
+    "kanji": "キャタピー",
+    "hepburn": "Kyatapī"
+  },
+  {
+    "dex_entry": "#0011",
+    "eng_name": "Metapod",
+    "kanji": "トランセル",
+    "hepburn": "Toranseru"
+  },
+  {
+    "dex_entry": "#0012",
+    "eng_name": "Butterfree",
+    "kanji": "バタフリー",
+    "hepburn": "Batafurī"
+  },
+  {
+    "dex_entry": "#0013",
+    "eng_name": "Weedle",
+    "kanji": "ビードル",
+    "hepburn": "Bīdoru"
+  },
+  {
+    "dex_entry": "#0014",
+    "eng_name": "Kakuna",
+    "kanji": "コクーン",
+    "hepburn": "Kokūn"
+  },
+  {
+    "dex_entry": "#0015",
+    "eng_name": "Beedrill",
+    "kanji": "スピアー",
+    "hepburn": "Supiā"
+  },
+  {
+    "dex_entry": "#0016",
+    "eng_name": "Pidgey",
+    "kanji": "ポッポ",
+    "hepburn": "Poppo"
+  },
+  {
+    "dex_entry": "#0017",
+    "eng_name": "Pidgeotto",
+    "kanji": "ピジョン",
+    "hepburn": "Pijon"
+  },
+  {
+    "dex_entry": "#0018",
+    "eng_name": "Pidgeot",
+    "kanji": "ピジョット",
+    "hepburn": "Pijotto"
+  },
+  {
+    "dex_entry": "#0019",
+    "eng_name": "Rattata",
+    "kanji": "コラッタ",
+    "hepburn": "Koratta"
+  },
+  {
+    "dex_entry": "#0020",
+    "eng_name": "Raticate",
+    "kanji": "ラッタ",
+    "hepburn": "Ratta"
+  },
+  {
+    "dex_entry": "#0021",
+    "eng_name": "Spearow",
+    "kanji": "オニスズメ",
+    "hepburn": "Onisuzume"
+  },
+  {
+    "dex_entry": "#0022",
+    "eng_name": "Fearow",
+    "kanji": "オニドリル",
+    "hepburn": "Onidoriru"
+  },
+  {
+    "dex_entry": "#0023",
+    "eng_name": "Ekans",
+    "kanji": "アーボ",
+    "hepburn": "Ābo"
+  },
+  {
+    "dex_entry": "#0024",
+    "eng_name": "Arbok",
+    "kanji": "アーボック",
+    "hepburn": "Ābokku"
+  },
+  {
+    "dex_entry": "#0025",
+    "eng_name": "Pikachu",
+    "kanji": "ピカチュウ",
+    "hepburn": "Pikachū"
+  },
+  {
+    "dex_entry": "#0026",
+    "eng_name": "Raichu",
+    "kanji": "ライチュウ",
+    "hepburn": "Raichū"
+  },
+  {
+    "dex_entry": "#0027",
+    "eng_name": "Sandshrew",
+    "kanji": "サンド",
+    "hepburn": "Sando"
+  },
+  {
+    "dex_entry": "#0028",
+    "eng_name": "Sandslash",
+    "kanji": "サンドパン",
+    "hepburn": "Sandopan"
+  },
+  {
+    "dex_entry": "#0029",
+    "eng_name": "Nidoran-F",
+    "kanji": "ニドラン♀",
+    "hepburn": "Nidoran Mesu"
+  },
+  {
+    "dex_entry": "#0030",
+    "eng_name": "Nidorina",
+    "kanji": "ニドリーナ",
+    "hepburn": "Nidorīna"
+  },
+  {
+    "dex_entry": "#0031",
+    "eng_name": "Nidoqueen",
+    "kanji": "ニドクイン",
+    "hepburn": "Nidokuin"
+  },
+  {
+    "dex_entry": "#0032",
+    "eng_name": "Nidoran-M",
+    "kanji": "ニドラン♂",
+    "hepburn": "Nidoran Osu"
+  },
+  {
+    "dex_entry": "#0033",
+    "eng_name": "Nidorino",
+    "kanji": "ニドリーノ",
+    "hepburn": "Nidorīno"
+  },
+  {
+    "dex_entry": "#0034",
+    "eng_name": "Nidoking",
+    "kanji": "ニドキング",
+    "hepburn": "Nidokingu"
+  },
+  {
+    "dex_entry": "#0035",
+    "eng_name": "Clefairy",
+    "kanji": "ピッピ",
+    "hepburn": "Pippi"
+  },
+  {
+    "dex_entry": "#0036",
+    "eng_name": "Clefable",
+    "kanji": "ピクシー",
+    "hepburn": "Pikushī"
+  },
+  {
+    "dex_entry": "#0037",
+    "eng_name": "Vulpix",
+    "kanji": "ロコン",
+    "hepburn": "Rokon"
+  },
+  {
+    "dex_entry": "#0038",
+    "eng_name": "Ninetales",
+    "kanji": "キュウコン",
+    "hepburn": "Kyūkon"
+  },
+  {
+    "dex_entry": "#0039",
+    "eng_name": "Jigglypuff",
+    "kanji": "プリン",
+    "hepburn": "Purin"
+  },
+  {
+    "dex_entry": "#0040",
+    "eng_name": "Wigglytuff",
+    "kanji": "プクリン",
+    "hepburn": "Pukurin"
+  },
+  {
+    "dex_entry": "#0041",
+    "eng_name": "Zubat",
+    "kanji": "ズバット",
+    "hepburn": "Zubatto"
+  },
+  {
+    "dex_entry": "#0042",
+    "eng_name": "Golbat",
+    "kanji": "ゴルバット",
+    "hepburn": "Gorubatto"
+  },
+  {
+    "dex_entry": "#0043",
+    "eng_name": "Oddish",
+    "kanji": "ナゾノクサ",
+    "hepburn": "Nazonokusa"
+  },
+  {
+    "dex_entry": "#0044",
+    "eng_name": "Gloom",
+    "kanji": "クサイハナ",
+    "hepburn": "Kusaihana"
+  },
+  {
+    "dex_entry": "#0045",
+    "eng_name": "Vileplume",
+    "kanji": "ラフレシア",
+    "hepburn": "Rafureshia"
+  },
+  {
+    "dex_entry": "#0046",
+    "eng_name": "Paras",
+    "kanji": "パラス",
+    "hepburn": "Parasu"
+  },
+  {
+    "dex_entry": "#0047",
+    "eng_name": "Parasect",
+    "kanji": "パラセクト",
+    "hepburn": "Parasekuto"
+  },
+  {
+    "dex_entry": "#0048",
+    "eng_name": "Venonat",
+    "kanji": "コンパン",
+    "hepburn": "Konpan"
+  },
+  {
+    "dex_entry": "#0049",
+    "eng_name": "Venomoth",
+    "kanji": "モルフォン",
+    "hepburn": "Morufon"
+  },
+  {
+    "dex_entry": "#0050",
+    "eng_name": "Diglett",
+    "kanji": "ディグダ",
+    "hepburn": "Diguda"
+  },
+  {
+    "dex_entry": "#0051",
+    "eng_name": "Dugtrio",
+    "kanji": "ダグトリオ",
+    "hepburn": "Dagutorio"
+  },
+  {
+    "dex_entry": "#0052",
+    "eng_name": "Meowth",
+    "kanji": "ニャース",
+    "hepburn": "Nyāsu"
+  },
+  {
+    "dex_entry": "#0053",
+    "eng_name": "Persian",
+    "kanji": "ペルシアン",
+    "hepburn": "Perushian"
+  },
+  {
+    "dex_entry": "#0054",
+    "eng_name": "Psyduck",
+    "kanji": "コダック",
+    "hepburn": "Kodakku"
+  },
+  {
+    "dex_entry": "#0055",
+    "eng_name": "Golduck",
+    "kanji": "ゴルダック",
+    "hepburn": "Gorudakku"
+  },
+  {
+    "dex_entry": "#0056",
+    "eng_name": "Mankey",
+    "kanji": "マンキー",
+    "hepburn": "Mankī"
+  },
+  {
+    "dex_entry": "#0057",
+    "eng_name": "Primeape",
+    "kanji": "オコリザル",
+    "hepburn": "Okorizaru"
+  },
+  {
+    "dex_entry": "#0058",
+    "eng_name": "Growlithe",
+    "kanji": "ガーディ",
+    "hepburn": "Gādi"
+  },
+  {
+    "dex_entry": "#0059",
+    "eng_name": "Arcanine",
+    "kanji": "ウインディ",
+    "hepburn": "Uindi"
+  },
+  {
+    "dex_entry": "#0060",
+    "eng_name": "Poliwag",
+    "kanji": "ニョロモ",
+    "hepburn": "Nyoromo"
+  },
+  {
+    "dex_entry": "#0061",
+    "eng_name": "Poliwhirl",
+    "kanji": "ニョロゾ",
+    "hepburn": "Nyorozo"
+  },
+  {
+    "dex_entry": "#0062",
+    "eng_name": "Poliwrath",
+    "kanji": "ニョロボン",
+    "hepburn": "Nyorobon"
+  },
+  {
+    "dex_entry": "#0063",
+    "eng_name": "Abra",
+    "kanji": "ケーシィ",
+    "hepburn": "Kēshī"
+  },
+  {
+    "dex_entry": "#0064",
+    "eng_name": "Kadabra",
+    "kanji": "ユンゲラー",
+    "hepburn": "Yungerā"
+  },
+  {
+    "dex_entry": "#0065",
+    "eng_name": "Alakazam",
+    "kanji": "フーディン",
+    "hepburn": "Fūdin"
+  },
+  {
+    "dex_entry": "#0066",
+    "eng_name": "Machop",
+    "kanji": "ワンリキー",
+    "hepburn": "Wanrikī"
+  },
+  {
+    "dex_entry": "#0067",
+    "eng_name": "Machoke",
+    "kanji": "ゴーリキー",
+    "hepburn": "Gōrikī"
+  },
+  {
+    "dex_entry": "#0068",
+    "eng_name": "Machamp",
+    "kanji": "カイリキー",
+    "hepburn": "Kairikī"
+  },
+  {
+    "dex_entry": "#0069",
+    "eng_name": "Bellsprout",
+    "kanji": "マダツボミ",
+    "hepburn": "Madatsubomi"
+  },
+  {
+    "dex_entry": "#0070",
+    "eng_name": "Weepinbell",
+    "kanji": "ウツドン",
+    "hepburn": "Utsudon"
+  },
+  {
+    "dex_entry": "#0071",
+    "eng_name": "Victreebel",
+    "kanji": "ウツボット",
+    "hepburn": "Utsubotto"
+  },
+  {
+    "dex_entry": "#0072",
+    "eng_name": "Tentacool",
+    "kanji": "メノクラゲ",
+    "hepburn": "Menokurage"
+  },
+  {
+    "dex_entry": "#0073",
+    "eng_name": "Tentacruel",
+    "kanji": "ドククラゲ",
+    "hepburn": "Dokukurage"
+  },
+  {
+    "dex_entry": "#0074",
+    "eng_name": "Geodude",
+    "kanji": "イシツブテ",
+    "hepburn": "Ishitsubute"
+  },
+  {
+    "dex_entry": "#0075",
+    "eng_name": "Graveler",
+    "kanji": "ゴローン",
+    "hepburn": "Gorōn"
+  },
+  {
+    "dex_entry": "#0076",
+    "eng_name": "Golem",
+    "kanji": "ゴローニャ",
+    "hepburn": "Gorōnya"
+  },
+  {
+    "dex_entry": "#0077",
+    "eng_name": "Ponyta",
+    "kanji": "ポニータ",
+    "hepburn": "Ponīta"
+  },
+  {
+    "dex_entry": "#0078",
+    "eng_name": "Rapidash",
+    "kanji": "ギャロップ",
+    "hepburn": "Gyaroppu"
+  },
+  {
+    "dex_entry": "#0079",
+    "eng_name": "Slowpoke",
+    "kanji": "ヤドン",
+    "hepburn": "Yadon"
+  },
+  {
+    "dex_entry": "#0080",
+    "eng_name": "Slowbro",
+    "kanji": "ヤドラン",
+    "hepburn": "Yadoran"
+  },
+  {
+    "dex_entry": "#0081",
+    "eng_name": "Magnemite",
+    "kanji": "コイル",
+    "hepburn": "Koiru"
+  },
+  {
+    "dex_entry": "#0082",
+    "eng_name": "Magneton",
+    "kanji": "レアコイル",
+    "hepburn": "Reakoiru"
+  },
+  {
+    "dex_entry": "#0083",
+    "eng_name": "Farfetch'd",
+    "kanji": "カモネギ",
+    "hepburn": "Kamonegi"
+  },
+  {
+    "dex_entry": "#0084",
+    "eng_name": "Doduo",
+    "kanji": "ドードー",
+    "hepburn": "Dōdō"
+  },
+  {
+    "dex_entry": "#0085",
+    "eng_name": "Dodrio",
+    "kanji": "ドードリオ",
+    "hepburn": "Dōdorio"
+  },
+  {
+    "dex_entry": "#0086",
+    "eng_name": "Seel",
+    "kanji": "パウワウ",
+    "hepburn": "Pauwau"
+  },
+  {
+    "dex_entry": "#0087",
+    "eng_name": "Dewgong",
+    "kanji": "ジュゴン",
+    "hepburn": "Jugon"
+  },
+  {
+    "dex_entry": "#0088",
+    "eng_name": "Grimer",
+    "kanji": "ベトベター",
+    "hepburn": "Betobetā"
+  },
+  {
+    "dex_entry": "#0089",
+    "eng_name": "Muk",
+    "kanji": "ベトベトン",
+    "hepburn": "Betobeton"
+  },
+  {
+    "dex_entry": "#0090",
+    "eng_name": "Shellder",
+    "kanji": "シェルダー",
+    "hepburn": "Sherudā"
+  },
+  {
+    "dex_entry": "#0091",
+    "eng_name": "Cloyster",
+    "kanji": "パルシェン",
+    "hepburn": "Parushen"
+  },
+  {
+    "dex_entry": "#0092",
+    "eng_name": "Gastly",
+    "kanji": "ゴース",
+    "hepburn": "Gōsu"
+  },
+  {
+    "dex_entry": "#0093",
+    "eng_name": "Haunter",
+    "kanji": "ゴースト",
+    "hepburn": "Gōsuto"
+  },
+  {
+    "dex_entry": "#0094",
+    "eng_name": "Gengar",
+    "kanji": "ゲンガー",
+    "hepburn": "Gengā"
+  },
+  {
+    "dex_entry": "#0095",
+    "eng_name": "Onix",
+    "kanji": "イワーク",
+    "hepburn": "Iwāku"
+  },
+  {
+    "dex_entry": "#0096",
+    "eng_name": "Drowzee",
+    "kanji": "スリープ",
+    "hepburn": "Surīpu"
+  },
+  {
+    "dex_entry": "#0097",
+    "eng_name": "Hypno",
+    "kanji": "スリーパー",
+    "hepburn": "Surīpā"
+  },
+  {
+    "dex_entry": "#0098",
+    "eng_name": "Krabby",
+    "kanji": "クラブ",
+    "hepburn": "Kurabu"
+  },
+  {
+    "dex_entry": "#0099",
+    "eng_name": "Kingler",
+    "kanji": "キングラー",
+    "hepburn": "Kingurā"
+  },
+  {
+    "dex_entry": "#0100",
+    "eng_name": "Voltorb",
+    "kanji": "ビリリダマ",
+    "hepburn": "Biriridama"
+  },
+  {
+    "dex_entry": "#0101",
+    "eng_name": "Electrode",
+    "kanji": "マルマイン",
+    "hepburn": "Marumain"
+  },
+  {
+    "dex_entry": "#0102",
+    "eng_name": "Exeggcute",
+    "kanji": "タマタマ",
+    "hepburn": "Tamatama"
+  },
+  {
+    "dex_entry": "#0103",
+    "eng_name": "Exeggutor",
+    "kanji": "ナッシー",
+    "hepburn": "Nasshī"
+  },
+  {
+    "dex_entry": "#0104",
+    "eng_name": "Cubone",
+    "kanji": "カラカラ",
+    "hepburn": "Karakara"
+  },
+  {
+    "dex_entry": "#0105",
+    "eng_name": "Marowak",
+    "kanji": "ガラガラ",
+    "hepburn": "Garagara"
+  },
+  {
+    "dex_entry": "#0106",
+    "eng_name": "Hitmonlee",
+    "kanji": "サワムラー",
+    "hepburn": "Sawamurā"
+  },
+  {
+    "dex_entry": "#0107",
+    "eng_name": "Hitmonchan",
+    "kanji": "エビワラー",
+    "hepburn": "Ebiwarā"
+  },
+  {
+    "dex_entry": "#0108",
+    "eng_name": "Lickitung",
+    "kanji": "ベロリンガ",
+    "hepburn": "Beroringa"
+  },
+  {
+    "dex_entry": "#0109",
+    "eng_name": "Koffing",
+    "kanji": "ドガース",
+    "hepburn": "Dogāsu"
+  },
+  {
+    "dex_entry": "#0110",
+    "eng_name": "Weezing",
+    "kanji": "マタドガス",
+    "hepburn": "Matadogasu"
+  },
+  {
+    "dex_entry": "#0111",
+    "eng_name": "Rhyhorn",
+    "kanji": "サイホーン",
+    "hepburn": "Saihōn"
+  },
+  {
+    "dex_entry": "#0112",
+    "eng_name": "Rhydon",
+    "kanji": "サイドン",
+    "hepburn": "Saidon"
+  },
+  {
+    "dex_entry": "#0113",
+    "eng_name": "Chansey",
+    "kanji": "ラッキー",
+    "hepburn": "Rakkī"
+  },
+  {
+    "dex_entry": "#0114",
+    "eng_name": "Tangela",
+    "kanji": "モンジャラ",
+    "hepburn": "Monjara"
+  },
+  {
+    "dex_entry": "#0115",
+    "eng_name": "Kangaskhan",
+    "kanji": "ガルーラ",
+    "hepburn": "Garūra"
+  },
+  {
+    "dex_entry": "#0116",
+    "eng_name": "Horsea",
+    "kanji": "タッツー",
+    "hepburn": "Tattsū"
+  },
+  {
+    "dex_entry": "#0117",
+    "eng_name": "Seadra",
+    "kanji": "シードラ",
+    "hepburn": "Shīdora"
+  },
+  {
+    "dex_entry": "#0118",
+    "eng_name": "Goldeen",
+    "kanji": "トサキント",
+    "hepburn": "Tosakinto"
+  },
+  {
+    "dex_entry": "#0119",
+    "eng_name": "Seaking",
+    "kanji": "アズマオウ",
+    "hepburn": "Azumaō"
+  },
+  {
+    "dex_entry": "#0120",
+    "eng_name": "Staryu",
+    "kanji": "ヒトデマン",
+    "hepburn": "Hitodeman"
+  },
+  {
+    "dex_entry": "#0121",
+    "eng_name": "Starmie",
+    "kanji": "スターミー",
+    "hepburn": "Sutāmī"
+  },
+  {
+    "dex_entry": "#0122",
+    "eng_name": "Mr. Mime",
+    "kanji": "バリヤード",
+    "hepburn": "Bariyādo"
+  },
+  {
+    "dex_entry": "#0123",
+    "eng_name": "Scyther",
+    "kanji": "ストライク",
+    "hepburn": "Sutoraiku"
+  },
+  {
+    "dex_entry": "#0124",
+    "eng_name": "Jynx",
+    "kanji": "ルージュラ",
+    "hepburn": "Rūjura"
+  },
+  {
+    "dex_entry": "#0125",
+    "eng_name": "Electabuzz",
+    "kanji": "エレブー",
+    "hepburn": "Erebū"
+  },
+  {
+    "dex_entry": "#0126",
+    "eng_name": "Magmar",
+    "kanji": "ブーバー",
+    "hepburn": "Būbā"
+  },
+  {
+    "dex_entry": "#0127",
+    "eng_name": "Pinsir",
+    "kanji": "カイロス",
+    "hepburn": "Kairosu"
+  },
+  {
+    "dex_entry": "#0128",
+    "eng_name": "Tauros",
+    "kanji": "ケンタロス",
+    "hepburn": "Kentarosu"
+  },
+  {
+    "dex_entry": "#0129",
+    "eng_name": "Magikarp",
+    "kanji": "コイキング",
+    "hepburn": "Koikingu"
+  },
+  {
+    "dex_entry": "#0130",
+    "eng_name": "Gyarados",
+    "kanji": "ギャラドス",
+    "hepburn": "Gyaradosu"
+  },
+  {
+    "dex_entry": "#0131",
+    "eng_name": "Lapras",
+    "kanji": "ラプラス",
+    "hepburn": "Rapurasu"
+  },
+  {
+    "dex_entry": "#0132",
+    "eng_name": "Ditto",
+    "kanji": "メタモン",
+    "hepburn": "Metamon"
+  },
+  {
+    "dex_entry": "#0133",
+    "eng_name": "Eevee",
+    "kanji": "イーブイ",
+    "hepburn": "Ībui"
+  },
+  {
+    "dex_entry": "#0134",
+    "eng_name": "Vaporeon",
+    "kanji": "シャワーズ",
+    "hepburn": "Shawāzu"
+  },
+  {
+    "dex_entry": "#0135",
+    "eng_name": "Jolteon",
+    "kanji": "サンダース",
+    "hepburn": "Sandāsu"
+  },
+  {
+    "dex_entry": "#0136",
+    "eng_name": "Flareon",
+    "kanji": "ブースター",
+    "hepburn": "Būsutā"
+  },
+  {
+    "dex_entry": "#0137",
+    "eng_name": "Porygon",
+    "kanji": "ポリゴン",
+    "hepburn": "Porigon"
+  },
+  {
+    "dex_entry": "#0138",
+    "eng_name": "Omanyte",
+    "kanji": "オムナイト",
+    "hepburn": "Omunaito"
+  },
+  {
+    "dex_entry": "#0139",
+    "eng_name": "Omastar",
+    "kanji": "オムスター",
+    "hepburn": "Omusutā"
+  },
+  {
+    "dex_entry": "#0140",
+    "eng_name": "Kabuto",
+    "kanji": "カブト",
+    "hepburn": "Kabuto"
+  },
+  {
+    "dex_entry": "#0141",
+    "eng_name": "Kabutops",
+    "kanji": "カブトプス",
+    "hepburn": "Kabutopusu"
+  },
+  {
+    "dex_entry": "#0142",
+    "eng_name": "Aerodactyl",
+    "kanji": "プテラ",
+    "hepburn": "Putera"
+  },
+  {
+    "dex_entry": "#0143",
+    "eng_name": "Snorlax",
+    "kanji": "カビゴン",
+    "hepburn": "Kabigon"
+  },
+  {
+    "dex_entry": "#0144",
+    "eng_name": "Articuno",
+    "kanji": "フリーザー",
+    "hepburn": "Furīzā"
+  },
+  {
+    "dex_entry": "#0145",
+    "eng_name": "Zapdos",
+    "kanji": "サンダー",
+    "hepburn": "Sandā"
+  },
+  {
+    "dex_entry": "#0146",
+    "eng_name": "Moltres",
+    "kanji": "ファイヤー",
+    "hepburn": "Faiyā"
+  },
+  {
+    "dex_entry": "#0147",
+    "eng_name": "Dratini",
+    "kanji": "ミニリュウ",
+    "hepburn": "Miniryū"
+  },
+  {
+    "dex_entry": "#0148",
+    "eng_name": "Dragonair",
+    "kanji": "ハクリュー",
+    "hepburn": "Hakuryū"
+  },
+  {
+    "dex_entry": "#0149",
+    "eng_name": "Dragonite",
+    "kanji": "カイリュー",
+    "hepburn": "Kairyū"
+  },
+  {
+    "dex_entry": "#0150",
+    "eng_name": "Mewtwo",
+    "kanji": "ミュウツー",
+    "hepburn": "Myūtsū"
+  },
+  {
+    "dex_entry": "#0151",
+    "eng_name": "Mew",
+    "kanji": "ミュウ",
+    "hepburn": "Myū"
+  },
+  {
+    "dex_entry": "#0152",
+    "eng_name": "Chikorita",
+    "kanji": "チコリータ",
+    "hepburn": "Chikorīta"
+  },
+  {
+    "dex_entry": "#0153",
+    "eng_name": "Bayleef",
+    "kanji": "ベイリーフ",
+    "hepburn": "Beirīfu"
+  },
+  {
+    "dex_entry": "#0154",
+    "eng_name": "Meganium",
+    "kanji": "メガニウム",
+    "hepburn": "Meganiumu"
+  },
+  {
+    "dex_entry": "#0155",
+    "eng_name": "Cyndaquil",
+    "kanji": "ヒノアラシ",
+    "hepburn": "Hinoarashi"
+  },
+  {
+    "dex_entry": "#0156",
+    "eng_name": "Quilava",
+    "kanji": "マグマラシ",
+    "hepburn": "Magumarashi"
+  },
+  {
+    "dex_entry": "#0157",
+    "eng_name": "Typhlosion",
+    "kanji": "バクフーン",
+    "hepburn": "Bakufūn"
+  },
+  {
+    "dex_entry": "#0158",
+    "eng_name": "Totodile",
+    "kanji": "ワニノコ",
+    "hepburn": "Waninoko"
+  },
+  {
+    "dex_entry": "#0159",
+    "eng_name": "Croconaw",
+    "kanji": "アリゲイツ",
+    "hepburn": "Arigeitsu"
+  },
+  {
+    "dex_entry": "#0160",
+    "eng_name": "Feraligatr",
+    "kanji": "オーダイル",
+    "hepburn": "Ōdairu"
+  },
+  {
+    "dex_entry": "#0161",
+    "eng_name": "Sentret",
+    "kanji": "オタチ",
+    "hepburn": "Otachi"
+  },
+  {
+    "dex_entry": "#0162",
+    "eng_name": "Furret",
+    "kanji": "オオタチ",
+    "hepburn": "Ōtachi"
+  },
+  {
+    "dex_entry": "#0163",
+    "eng_name": "Hoothoot",
+    "kanji": "ホーホー",
+    "hepburn": "Hōhō"
+  },
+  {
+    "dex_entry": "#0164",
+    "eng_name": "Noctowl",
+    "kanji": "ヨルノズク",
+    "hepburn": "Yorunozuku"
+  },
+  {
+    "dex_entry": "#0165",
+    "eng_name": "Ledyba",
+    "kanji": "レディバ",
+    "hepburn": "Rediba"
+  },
+  {
+    "dex_entry": "#0166",
+    "eng_name": "Ledian",
+    "kanji": "レディアン",
+    "hepburn": "Redian"
+  },
+  {
+    "dex_entry": "#0167",
+    "eng_name": "Spinarak",
+    "kanji": "イトマル",
+    "hepburn": "Itomaru"
+  },
+  {
+    "dex_entry": "#0168",
+    "eng_name": "Ariados",
+    "kanji": "アリアドス",
+    "hepburn": "Ariadosu"
+  },
+  {
+    "dex_entry": "#0169",
+    "eng_name": "Crobat",
+    "kanji": "クロバット",
+    "hepburn": "Kurobatto"
+  },
+  {
+    "dex_entry": "#0170",
+    "eng_name": "Chinchou",
+    "kanji": "チョンチー",
+    "hepburn": "Chonchī"
+  },
+  {
+    "dex_entry": "#0171",
+    "eng_name": "Lanturn",
+    "kanji": "ランターン",
+    "hepburn": "Rantān"
+  },
+  {
+    "dex_entry": "#0172",
+    "eng_name": "Pichu",
+    "kanji": "ピチュー",
+    "hepburn": "Pichū"
+  },
+  {
+    "dex_entry": "#0173",
+    "eng_name": "Cleffa",
+    "kanji": "ピィ",
+    "hepburn": "Pī"
+  },
+  {
+    "dex_entry": "#0174",
+    "eng_name": "Igglybuff",
+    "kanji": "ププリン",
+    "hepburn": "Pupurin"
+  },
+  {
+    "dex_entry": "#0175",
+    "eng_name": "Togepi",
+    "kanji": "トゲピー",
+    "hepburn": "Togepī"
+  },
+  {
+    "dex_entry": "#0176",
+    "eng_name": "Togetic",
+    "kanji": "トゲチック",
+    "hepburn": "Togechikku"
+  },
+  {
+    "dex_entry": "#0177",
+    "eng_name": "Natu",
+    "kanji": "ネイティ",
+    "hepburn": "Neiti"
+  },
+  {
+    "dex_entry": "#0178",
+    "eng_name": "Xatu",
+    "kanji": "ネイティオ",
+    "hepburn": "Neitio"
+  },
+  {
+    "dex_entry": "#0179",
+    "eng_name": "Mareep",
+    "kanji": "メリープ",
+    "hepburn": "Merīpu"
+  },
+  {
+    "dex_entry": "#0180",
+    "eng_name": "Flaaffy",
+    "kanji": "モココ",
+    "hepburn": "Mokoko"
+  },
+  {
+    "dex_entry": "#0181",
+    "eng_name": "Ampharos",
+    "kanji": "デンリュウ",
+    "hepburn": "Denryū"
+  },
+  {
+    "dex_entry": "#0182",
+    "eng_name": "Bellossom",
+    "kanji": "キレイハナ",
+    "hepburn": "Kireihana"
+  },
+  {
+    "dex_entry": "#0183",
+    "eng_name": "Marill",
+    "kanji": "マリル",
+    "hepburn": "Mariru"
+  },
+  {
+    "dex_entry": "#0184",
+    "eng_name": "Azumarill",
+    "kanji": "マリルリ",
+    "hepburn": "Mariruri"
+  },
+  {
+    "dex_entry": "#0185",
+    "eng_name": "Sudowoodo",
+    "kanji": "ウソッキー",
+    "hepburn": "Usokkī"
+  },
+  {
+    "dex_entry": "#0186",
+    "eng_name": "Politoed",
+    "kanji": "ニョロトノ",
+    "hepburn": "Nyorotono"
+  },
+  {
+    "dex_entry": "#0187",
+    "eng_name": "Hoppip",
+    "kanji": "ハネッコ",
+    "hepburn": "Hanekko"
+  },
+  {
+    "dex_entry": "#0188",
+    "eng_name": "Skiploom",
+    "kanji": "ポポッコ",
+    "hepburn": "Popokko"
+  },
+  {
+    "dex_entry": "#0189",
+    "eng_name": "Jumpluff",
+    "kanji": "ワタッコ",
+    "hepburn": "Watakko"
+  },
+  {
+    "dex_entry": "#0190",
+    "eng_name": "Aipom",
+    "kanji": "エイパム",
+    "hepburn": "Eipamu"
+  },
+  {
+    "dex_entry": "#0191",
+    "eng_name": "Sunkern",
+    "kanji": "ヒマナッツ",
+    "hepburn": "Himanattsu"
+  },
+  {
+    "dex_entry": "#0192",
+    "eng_name": "Sunflora",
+    "kanji": "キマワリ",
+    "hepburn": "Kimawari"
+  },
+  {
+    "dex_entry": "#0193",
+    "eng_name": "Yanma",
+    "kanji": "ヤンヤンマ",
+    "hepburn": "Yan'yanma"
+  },
+  {
+    "dex_entry": "#0194",
+    "eng_name": "Wooper",
+    "kanji": "ウパー",
+    "hepburn": "Upā"
+  },
+  {
+    "dex_entry": "#0195",
+    "eng_name": "Quagsire",
+    "kanji": "ヌオー",
+    "hepburn": "Nuō"
+  },
+  {
+    "dex_entry": "#0196",
+    "eng_name": "Espeon",
+    "kanji": "エーフィ",
+    "hepburn": "Ēfi"
+  },
+  {
+    "dex_entry": "#0197",
+    "eng_name": "Umbreon",
+    "kanji": "ブラッキー",
+    "hepburn": "Burakkī"
+  },
+  {
+    "dex_entry": "#0198",
+    "eng_name": "Murkrow",
+    "kanji": "ヤミカラス",
+    "hepburn": "Yamikarasu"
+  },
+  {
+    "dex_entry": "#0199",
+    "eng_name": "Slowking",
+    "kanji": "ヤドキング",
+    "hepburn": "Yadokingu"
+  },
+  {
+    "dex_entry": "#0200",
+    "eng_name": "Misdreavus",
+    "kanji": "ムウマ",
+    "hepburn": "Mūma"
+  },
+  {
+    "dex_entry": "#0201",
+    "eng_name": "Unown",
+    "kanji": "アンノーン",
+    "hepburn": "Annōn"
+  },
+  {
+    "dex_entry": "#0202",
+    "eng_name": "Wobbuffet",
+    "kanji": "ソーナンス",
+    "hepburn": "Sōnansu"
+  },
+  {
+    "dex_entry": "#0203",
+    "eng_name": "Girafarig",
+    "kanji": "キリンリキ",
+    "hepburn": "Kirinriki"
+  },
+  {
+    "dex_entry": "#0204",
+    "eng_name": "Pineco",
+    "kanji": "クヌギダマ",
+    "hepburn": "Kunugidama"
+  },
+  {
+    "dex_entry": "#0205",
+    "eng_name": "Forretress",
+    "kanji": "フォレトス",
+    "hepburn": "Foretosu"
+  },
+  {
+    "dex_entry": "#0206",
+    "eng_name": "Dunsparce",
+    "kanji": "ノコッチ",
+    "hepburn": "Nokotchi"
+  },
+  {
+    "dex_entry": "#0207",
+    "eng_name": "Gligar",
+    "kanji": "グライガー",
+    "hepburn": "Guraigā"
+  },
+  {
+    "dex_entry": "#0208",
+    "eng_name": "Steelix",
+    "kanji": "ハガネール",
+    "hepburn": "Haganēru"
+  },
+  {
+    "dex_entry": "#0209",
+    "eng_name": "Snubbull",
+    "kanji": "ブルー",
+    "hepburn": "Burū"
+  },
+  {
+    "dex_entry": "#0210",
+    "eng_name": "Granbull",
+    "kanji": "グランブル",
+    "hepburn": "Guranburu"
+  },
+  {
+    "dex_entry": "#0211",
+    "eng_name": "Qwilfish",
+    "kanji": "ハリーセン",
+    "hepburn": "Harīsen"
+  },
+  {
+    "dex_entry": "#0212",
+    "eng_name": "Scizor",
+    "kanji": "ハッサム",
+    "hepburn": "Hassamu"
+  },
+  {
+    "dex_entry": "#0213",
+    "eng_name": "Shuckle",
+    "kanji": "ツボツボ",
+    "hepburn": "Tsubotsubo"
+  },
+  {
+    "dex_entry": "#0214",
+    "eng_name": "Heracross",
+    "kanji": "ヘラクロス",
+    "hepburn": "Herakurosu"
+  },
+  {
+    "dex_entry": "#0215",
+    "eng_name": "Sneasel",
+    "kanji": "ニューラ",
+    "hepburn": "Nyūra"
+  },
+  {
+    "dex_entry": "#0216",
+    "eng_name": "Teddiursa",
+    "kanji": "ヒメグマ",
+    "hepburn": "Himeguma"
+  },
+  {
+    "dex_entry": "#0217",
+    "eng_name": "Ursaring",
+    "kanji": "リングマ",
+    "hepburn": "Ringuma"
+  },
+  {
+    "dex_entry": "#0218",
+    "eng_name": "Slugma",
+    "kanji": "マグマッグ",
+    "hepburn": "Magumaggu"
+  },
+  {
+    "dex_entry": "#0219",
+    "eng_name": "Magcargo",
+    "kanji": "マグカルゴ",
+    "hepburn": "Magukarugo"
+  },
+  {
+    "dex_entry": "#0220",
+    "eng_name": "Swinub",
+    "kanji": "ウリムー",
+    "hepburn": "Urimū"
+  },
+  {
+    "dex_entry": "#0221",
+    "eng_name": "Piloswine",
+    "kanji": "イノムー",
+    "hepburn": "Inomū"
+  },
+  {
+    "dex_entry": "#0222",
+    "eng_name": "Corsola",
+    "kanji": "サニーゴ",
+    "hepburn": "Sanīgo"
+  },
+  {
+    "dex_entry": "#0223",
+    "eng_name": "Remoraid",
+    "kanji": "テッポウオ",
+    "hepburn": "Teppouo"
+  },
+  {
+    "dex_entry": "#0224",
+    "eng_name": "Octillery",
+    "kanji": "オクタン",
+    "hepburn": "Okutan"
+  },
+  {
+    "dex_entry": "#0225",
+    "eng_name": "Delibird",
+    "kanji": "デリバード",
+    "hepburn": "Deribādo"
+  },
+  {
+    "dex_entry": "#0226",
+    "eng_name": "Mantine",
+    "kanji": "マンタイン",
+    "hepburn": "Mantain"
+  },
+  {
+    "dex_entry": "#0227",
+    "eng_name": "Skarmory",
+    "kanji": "エアームド",
+    "hepburn": "Eāmudo"
+  },
+  {
+    "dex_entry": "#0228",
+    "eng_name": "Houndour",
+    "kanji": "デルビル",
+    "hepburn": "Derubiru"
+  },
+  {
+    "dex_entry": "#0229",
+    "eng_name": "Houndoom",
+    "kanji": "ヘルガー",
+    "hepburn": "Herugā"
+  },
+  {
+    "dex_entry": "#0230",
+    "eng_name": "Kingdra",
+    "kanji": "キングドラ",
+    "hepburn": "Kingudora"
+  },
+  {
+    "dex_entry": "#0231",
+    "eng_name": "Phanpy",
+    "kanji": "ゴマゾウ",
+    "hepburn": "Gomazō"
+  },
+  {
+    "dex_entry": "#0232",
+    "eng_name": "Donphan",
+    "kanji": "ドンファン",
+    "hepburn": "Donfan"
+  },
+  {
+    "dex_entry": "#0233",
+    "eng_name": "Porygon2",
+    "kanji": "ポリゴン２",
+    "hepburn": "Porigon Tsū"
+  },
+  {
+    "dex_entry": "#0234",
+    "eng_name": "Stantler",
+    "kanji": "オドシシ",
+    "hepburn": "Odoshishi"
+  },
+  {
+    "dex_entry": "#0235",
+    "eng_name": "Smeargle",
+    "kanji": "ドーブル",
+    "hepburn": "Dōburu"
+  },
+  {
+    "dex_entry": "#0236",
+    "eng_name": "Tyrogue",
+    "kanji": "バルキー",
+    "hepburn": "Barukī"
+  },
+  {
+    "dex_entry": "#0237",
+    "eng_name": "Hitmontop",
+    "kanji": "カポエラー",
+    "hepburn": "Kapoerā"
+  },
+  {
+    "dex_entry": "#0238",
+    "eng_name": "Smoochum",
+    "kanji": "ムチュール",
+    "hepburn": "Muchūru"
+  },
+  {
+    "dex_entry": "#0239",
+    "eng_name": "Elekid",
+    "kanji": "エレキッド",
+    "hepburn": "Erekiddo"
+  },
+  {
+    "dex_entry": "#0240",
+    "eng_name": "Magby",
+    "kanji": "ブビィ",
+    "hepburn": "Bubī"
+  },
+  {
+    "dex_entry": "#0241",
+    "eng_name": "Miltank",
+    "kanji": "ミルタンク",
+    "hepburn": "Mirutanku"
+  },
+  {
+    "dex_entry": "#0242",
+    "eng_name": "Blissey",
+    "kanji": "ハピナス",
+    "hepburn": "Hapinasu"
+  },
+  {
+    "dex_entry": "#0243",
+    "eng_name": "Raikou",
+    "kanji": "ライコウ",
+    "hepburn": "Raikō"
+  },
+  {
+    "dex_entry": "#0244",
+    "eng_name": "Entei",
+    "kanji": "エンテイ",
+    "hepburn": "Entei"
+  },
+  {
+    "dex_entry": "#0245",
+    "eng_name": "Suicune",
+    "kanji": "スイクン",
+    "hepburn": "Suikun"
+  },
+  {
+    "dex_entry": "#0246",
+    "eng_name": "Larvitar",
+    "kanji": "ヨーギラス",
+    "hepburn": "Yōgirasu"
+  },
+  {
+    "dex_entry": "#0247",
+    "eng_name": "Pupitar",
+    "kanji": "サナギラス",
+    "hepburn": "Sanagirasu"
+  },
+  {
+    "dex_entry": "#0248",
+    "eng_name": "Tyranitar",
+    "kanji": "バンギラス",
+    "hepburn": "Bangirasu"
+  },
+  {
+    "dex_entry": "#0249",
+    "eng_name": "Lugia",
+    "kanji": "ルギア",
+    "hepburn": "Rugia"
+  },
+  {
+    "dex_entry": "#0250",
+    "eng_name": "Ho-Oh",
+    "kanji": "ホウオウ",
+    "hepburn": "Hōō"
+  },
+  {
+    "dex_entry": "#0251",
+    "eng_name": "Celebi",
+    "kanji": "セレビィ",
+    "hepburn": "Serebī"
+  },
+  {
+    "dex_entry": "#0252",
+    "eng_name": "Treecko",
+    "kanji": "キモリ",
+    "hepburn": "Kimori"
+  },
+  {
+    "dex_entry": "#0253",
+    "eng_name": "Grovyle",
+    "kanji": "ジュプトル",
+    "hepburn": "Juputoru"
+  },
+  {
+    "dex_entry": "#0254",
+    "eng_name": "Sceptile",
+    "kanji": "ジュカイン",
+    "hepburn": "Jukain"
+  },
+  {
+    "dex_entry": "#0255",
+    "eng_name": "Torchic",
+    "kanji": "アチャモ",
+    "hepburn": "Achamo"
+  },
+  {
+    "dex_entry": "#0256",
+    "eng_name": "Combusken",
+    "kanji": "ワカシャモ",
+    "hepburn": "Wakashamo"
+  },
+  {
+    "dex_entry": "#0257",
+    "eng_name": "Blaziken",
+    "kanji": "バシャーモ",
+    "hepburn": "Bashāmo"
+  },
+  {
+    "dex_entry": "#0258",
+    "eng_name": "Mudkip",
+    "kanji": "ミズゴロウ",
+    "hepburn": "Mizugorō"
+  },
+  {
+    "dex_entry": "#0259",
+    "eng_name": "Marshtomp",
+    "kanji": "ヌマクロー",
+    "hepburn": "Numakurō"
+  },
+  {
+    "dex_entry": "#0260",
+    "eng_name": "Swampert",
+    "kanji": "ラグラージ",
+    "hepburn": "Ragurāji"
+  },
+  {
+    "dex_entry": "#0261",
+    "eng_name": "Poochyena",
+    "kanji": "ポチエナ",
+    "hepburn": "Pochiena"
+  },
+  {
+    "dex_entry": "#0262",
+    "eng_name": "Mightyena",
+    "kanji": "グラエナ",
+    "hepburn": "Guraena"
+  },
+  {
+    "dex_entry": "#0263",
+    "eng_name": "Zigzagoon",
+    "kanji": "ジグザグマ",
+    "hepburn": "Jiguzaguma"
+  },
+  {
+    "dex_entry": "#0264",
+    "eng_name": "Linoone",
+    "kanji": "マッスグマ",
+    "hepburn": "Massuguma"
+  },
+  {
+    "dex_entry": "#0265",
+    "eng_name": "Wurmple",
+    "kanji": "ケムッソ",
+    "hepburn": "Kemusso"
+  },
+  {
+    "dex_entry": "#0266",
+    "eng_name": "Silcoon",
+    "kanji": "カラサリス",
+    "hepburn": "Karasarisu"
+  },
+  {
+    "dex_entry": "#0267",
+    "eng_name": "Beautifly",
+    "kanji": "アゲハント",
+    "hepburn": "Agehanto"
+  },
+  {
+    "dex_entry": "#0268",
+    "eng_name": "Cascoon",
+    "kanji": "マユルド",
+    "hepburn": "Mayurudo"
+  },
+  {
+    "dex_entry": "#0269",
+    "eng_name": "Dustox",
+    "kanji": "ドクケイル",
+    "hepburn": "Dokukeiru"
+  },
+  {
+    "dex_entry": "#0270",
+    "eng_name": "Lotad",
+    "kanji": "ハスボー",
+    "hepburn": "Hasubō"
+  },
+  {
+    "dex_entry": "#0271",
+    "eng_name": "Lombre",
+    "kanji": "ハスブレロ",
+    "hepburn": "Hasuburero"
+  },
+  {
+    "dex_entry": "#0272",
+    "eng_name": "Ludicolo",
+    "kanji": "ルンパッパ",
+    "hepburn": "Runpappa"
+  },
+  {
+    "dex_entry": "#0273",
+    "eng_name": "Seedot",
+    "kanji": "タネボー",
+    "hepburn": "Tanebō"
+  },
+  {
+    "dex_entry": "#0274",
+    "eng_name": "Nuzleaf",
+    "kanji": "コノハナ",
+    "hepburn": "Konohana"
+  },
+  {
+    "dex_entry": "#0275",
+    "eng_name": "Shiftry",
+    "kanji": "ダーテング",
+    "hepburn": "Dātengu"
+  },
+  {
+    "dex_entry": "#0276",
+    "eng_name": "Taillow",
+    "kanji": "スバメ",
+    "hepburn": "Subame"
+  },
+  {
+    "dex_entry": "#0277",
+    "eng_name": "Swellow",
+    "kanji": "オオスバメ",
+    "hepburn": "Ōsubame"
+  },
+  {
+    "dex_entry": "#0278",
+    "eng_name": "Wingull",
+    "kanji": "キャモメ",
+    "hepburn": "Kyamome"
+  },
+  {
+    "dex_entry": "#0279",
+    "eng_name": "Pelipper",
+    "kanji": "ペリッパー",
+    "hepburn": "Perippā"
+  },
+  {
+    "dex_entry": "#0280",
+    "eng_name": "Ralts",
+    "kanji": "ラルトス",
+    "hepburn": "Rarutosu"
+  },
+  {
+    "dex_entry": "#0281",
+    "eng_name": "Kirlia",
+    "kanji": "キルリア",
+    "hepburn": "Kiruria"
+  },
+  {
+    "dex_entry": "#0282",
+    "eng_name": "Gardevoir",
+    "kanji": "サーナイト",
+    "hepburn": "Sānaito"
+  },
+  {
+    "dex_entry": "#0283",
+    "eng_name": "Surskit",
+    "kanji": "アメタマ",
+    "hepburn": "Ametama"
+  },
+  {
+    "dex_entry": "#0284",
+    "eng_name": "Masquerain",
+    "kanji": "アメモース",
+    "hepburn": "Amemōsu"
+  },
+  {
+    "dex_entry": "#0285",
+    "eng_name": "Shroomish",
+    "kanji": "キノココ",
+    "hepburn": "Kinokoko"
+  },
+  {
+    "dex_entry": "#0286",
+    "eng_name": "Breloom",
+    "kanji": "キノガッサ",
+    "hepburn": "Kinogassa"
+  },
+  {
+    "dex_entry": "#0287",
+    "eng_name": "Slakoth",
+    "kanji": "ナマケロ",
+    "hepburn": "Namakero"
+  },
+  {
+    "dex_entry": "#0288",
+    "eng_name": "Vigoroth",
+    "kanji": "ヤルキモノ",
+    "hepburn": "Yarukimono"
+  },
+  {
+    "dex_entry": "#0289",
+    "eng_name": "Slaking",
+    "kanji": "ケッキング",
+    "hepburn": "Kekkingu"
+  },
+  {
+    "dex_entry": "#0290",
+    "eng_name": "Nincada",
+    "kanji": "ツチニン",
+    "hepburn": "Tsuchinin"
+  },
+  {
+    "dex_entry": "#0291",
+    "eng_name": "Ninjask",
+    "kanji": "テッカニン",
+    "hepburn": "Tekkanin"
+  },
+  {
+    "dex_entry": "#0292",
+    "eng_name": "Shedinja",
+    "kanji": "ヌケニン",
+    "hepburn": "Nukenin"
+  },
+  {
+    "dex_entry": "#0293",
+    "eng_name": "Whismur",
+    "kanji": "ゴニョニョ",
+    "hepburn": "Gonyonyo"
+  },
+  {
+    "dex_entry": "#0294",
+    "eng_name": "Loudred",
+    "kanji": "ドゴーム",
+    "hepburn": "Dogōmu"
+  },
+  {
+    "dex_entry": "#0295",
+    "eng_name": "Exploud",
+    "kanji": "バクオング",
+    "hepburn": "Bakuongu"
+  },
+  {
+    "dex_entry": "#0296",
+    "eng_name": "Makuhita",
+    "kanji": "マクノシタ",
+    "hepburn": "Makunoshita"
+  },
+  {
+    "dex_entry": "#0297",
+    "eng_name": "Hariyama",
+    "kanji": "ハリテヤマ",
+    "hepburn": "Hariteyama"
+  },
+  {
+    "dex_entry": "#0298",
+    "eng_name": "Azurill",
+    "kanji": "ルリリ",
+    "hepburn": "Ruriri"
+  },
+  {
+    "dex_entry": "#0299",
+    "eng_name": "Nosepass",
+    "kanji": "ノズパス",
+    "hepburn": "Nozupasu"
+  },
+  {
+    "dex_entry": "#0300",
+    "eng_name": "Skitty",
+    "kanji": "エネコ",
+    "hepburn": "Eneko"
+  },
+  {
+    "dex_entry": "#0301",
+    "eng_name": "Delcatty",
+    "kanji": "エネコロロ",
+    "hepburn": "Enekororo"
+  },
+  {
+    "dex_entry": "#0302",
+    "eng_name": "Sableye",
+    "kanji": "ヤミラミ",
+    "hepburn": "Yamirami"
+  },
+  {
+    "dex_entry": "#0303",
+    "eng_name": "Mawile",
+    "kanji": "クチート",
+    "hepburn": "Kuchīto"
+  },
+  {
+    "dex_entry": "#0304",
+    "eng_name": "Aron",
+    "kanji": "ココドラ",
+    "hepburn": "Kokodora"
+  },
+  {
+    "dex_entry": "#0305",
+    "eng_name": "Lairon",
+    "kanji": "コドラ",
+    "hepburn": "Kodora"
+  },
+  {
+    "dex_entry": "#0306",
+    "eng_name": "Aggron",
+    "kanji": "ボスゴドラ",
+    "hepburn": "Bosugodora"
+  },
+  {
+    "dex_entry": "#0307",
+    "eng_name": "Meditite",
+    "kanji": "アサナン",
+    "hepburn": "Asanan"
+  },
+  {
+    "dex_entry": "#0308",
+    "eng_name": "Medicham",
+    "kanji": "チャーレム",
+    "hepburn": "Chāremu"
+  },
+  {
+    "dex_entry": "#0309",
+    "eng_name": "Electrike",
+    "kanji": "ラクライ",
+    "hepburn": "Rakurai"
+  },
+  {
+    "dex_entry": "#0310",
+    "eng_name": "Manectric",
+    "kanji": "ライボルト",
+    "hepburn": "Raiboruto"
+  },
+  {
+    "dex_entry": "#0311",
+    "eng_name": "Plusle",
+    "kanji": "プラスル",
+    "hepburn": "Purasuru"
+  },
+  {
+    "dex_entry": "#0312",
+    "eng_name": "Minun",
+    "kanji": "マイナン",
+    "hepburn": "Mainan"
+  },
+  {
+    "dex_entry": "#0313",
+    "eng_name": "Volbeat",
+    "kanji": "バルビート",
+    "hepburn": "Barubīto"
+  },
+  {
+    "dex_entry": "#0314",
+    "eng_name": "Illumise",
+    "kanji": "イルミーゼ",
+    "hepburn": "Irumīze"
+  },
+  {
+    "dex_entry": "#0315",
+    "eng_name": "Roselia",
+    "kanji": "ロゼリア",
+    "hepburn": "Rozeria"
+  },
+  {
+    "dex_entry": "#0316",
+    "eng_name": "Gulpin",
+    "kanji": "ゴクリン",
+    "hepburn": "Gokurin"
+  },
+  {
+    "dex_entry": "#0317",
+    "eng_name": "Swalot",
+    "kanji": "マルノーム",
+    "hepburn": "Marunōmu"
+  },
+  {
+    "dex_entry": "#0318",
+    "eng_name": "Carvanha",
+    "kanji": "キバニア",
+    "hepburn": "Kibania"
+  },
+  {
+    "dex_entry": "#0319",
+    "eng_name": "Sharpedo",
+    "kanji": "サメハダー",
+    "hepburn": "Samehadā"
+  },
+  {
+    "dex_entry": "#0320",
+    "eng_name": "Wailmer",
+    "kanji": "ホエルコ",
+    "hepburn": "Hoeruko"
+  },
+  {
+    "dex_entry": "#0321",
+    "eng_name": "Wailord",
+    "kanji": "ホエルオー",
+    "hepburn": "Hoeruō"
+  },
+  {
+    "dex_entry": "#0322",
+    "eng_name": "Numel",
+    "kanji": "ドンメル",
+    "hepburn": "Donmeru"
+  },
+  {
+    "dex_entry": "#0323",
+    "eng_name": "Camerupt",
+    "kanji": "バクーダ",
+    "hepburn": "Bakūda"
+  },
+  {
+    "dex_entry": "#0324",
+    "eng_name": "Torkoal",
+    "kanji": "コータス",
+    "hepburn": "Kōtasu"
+  },
+  {
+    "dex_entry": "#0325",
+    "eng_name": "Spoink",
+    "kanji": "バネブー",
+    "hepburn": "Banebū"
+  },
+  {
+    "dex_entry": "#0326",
+    "eng_name": "Grumpig",
+    "kanji": "ブーピッグ",
+    "hepburn": "Būpiggu"
+  },
+  {
+    "dex_entry": "#0327",
+    "eng_name": "Spinda",
+    "kanji": "パッチール",
+    "hepburn": "Patchīru"
+  },
+  {
+    "dex_entry": "#0328",
+    "eng_name": "Trapinch",
+    "kanji": "ナックラー",
+    "hepburn": "Nakkurā"
+  },
+  {
+    "dex_entry": "#0329",
+    "eng_name": "Vibrava",
+    "kanji": "ビブラーバ",
+    "hepburn": "Biburāba"
+  },
+  {
+    "dex_entry": "#0330",
+    "eng_name": "Flygon",
+    "kanji": "フライゴン",
+    "hepburn": "Furaigon"
+  },
+  {
+    "dex_entry": "#0331",
+    "eng_name": "Cacnea",
+    "kanji": "サボネア",
+    "hepburn": "Sabonea"
+  },
+  {
+    "dex_entry": "#0332",
+    "eng_name": "Cacturne",
+    "kanji": "ノクタス",
+    "hepburn": "Nokutasu"
+  },
+  {
+    "dex_entry": "#0333",
+    "eng_name": "Swablu",
+    "kanji": "チルット",
+    "hepburn": "Chirutto"
+  },
+  {
+    "dex_entry": "#0334",
+    "eng_name": "Altaria",
+    "kanji": "チルタリス",
+    "hepburn": "Chirutarisu"
+  },
+  {
+    "dex_entry": "#0335",
+    "eng_name": "Zangoose",
+    "kanji": "ザングース",
+    "hepburn": "Zangūsu"
+  },
+  {
+    "dex_entry": "#0336",
+    "eng_name": "Seviper",
+    "kanji": "ハブネーク",
+    "hepburn": "Habunēku"
+  },
+  {
+    "dex_entry": "#0337",
+    "eng_name": "Lunatone",
+    "kanji": "ルナトーン",
+    "hepburn": "Runatōn"
+  },
+  {
+    "dex_entry": "#0338",
+    "eng_name": "Solrock",
+    "kanji": "ソルロック",
+    "hepburn": "Sorurokku"
+  },
+  {
+    "dex_entry": "#0339",
+    "eng_name": "Barboach",
+    "kanji": "ドジョッチ",
+    "hepburn": "Dojotchi"
+  },
+  {
+    "dex_entry": "#0340",
+    "eng_name": "Whiscash",
+    "kanji": "ナマズン",
+    "hepburn": "Namazun"
+  },
+  {
+    "dex_entry": "#0341",
+    "eng_name": "Corphish",
+    "kanji": "ヘイガニ",
+    "hepburn": "Heigani"
+  },
+  {
+    "dex_entry": "#0342",
+    "eng_name": "Crawdaunt",
+    "kanji": "シザリガー",
+    "hepburn": "Shizarigā"
+  },
+  {
+    "dex_entry": "#0343",
+    "eng_name": "Baltoy",
+    "kanji": "ヤジロン",
+    "hepburn": "Yajiron"
+  },
+  {
+    "dex_entry": "#0344",
+    "eng_name": "Claydol",
+    "kanji": "ネンドール",
+    "hepburn": "Nendōru"
+  },
+  {
+    "dex_entry": "#0345",
+    "eng_name": "Lileep",
+    "kanji": "リリーラ",
+    "hepburn": "Rirīra"
+  },
+  {
+    "dex_entry": "#0346",
+    "eng_name": "Cradily",
+    "kanji": "ユレイドル",
+    "hepburn": "Yureidoru"
+  },
+  {
+    "dex_entry": "#0347",
+    "eng_name": "Anorith",
+    "kanji": "アノプス",
+    "hepburn": "Anopusu"
+  },
+  {
+    "dex_entry": "#0348",
+    "eng_name": "Armaldo",
+    "kanji": "アーマルド",
+    "hepburn": "Āmarudo"
+  },
+  {
+    "dex_entry": "#0349",
+    "eng_name": "Feebas",
+    "kanji": "ヒンバス",
+    "hepburn": "Hinbasu"
+  },
+  {
+    "dex_entry": "#0350",
+    "eng_name": "Milotic",
+    "kanji": "ミロカロス",
+    "hepburn": "Mirokarosu"
+  },
+  {
+    "dex_entry": "#0351",
+    "eng_name": "Castform",
+    "kanji": "ポワルン",
+    "hepburn": "Powarun"
+  },
+  {
+    "dex_entry": "#0352",
+    "eng_name": "Kecleon",
+    "kanji": "カクレオン",
+    "hepburn": "Kakureon"
+  },
+  {
+    "dex_entry": "#0353",
+    "eng_name": "Shuppet",
+    "kanji": "カゲボウズ",
+    "hepburn": "Kagebōzu"
+  },
+  {
+    "dex_entry": "#0354",
+    "eng_name": "Banette",
+    "kanji": "ジュペッタ",
+    "hepburn": "Jupetta"
+  },
+  {
+    "dex_entry": "#0355",
+    "eng_name": "Duskull",
+    "kanji": "ヨマワル",
+    "hepburn": "Yomawaru"
+  },
+  {
+    "dex_entry": "#0356",
+    "eng_name": "Dusclops",
+    "kanji": "サマヨール",
+    "hepburn": "Samayōru"
+  },
+  {
+    "dex_entry": "#0357",
+    "eng_name": "Tropius",
+    "kanji": "トロピウス",
+    "hepburn": "Toropiusu"
+  },
+  {
+    "dex_entry": "#0358",
+    "eng_name": "Chimecho",
+    "kanji": "チリーン",
+    "hepburn": "Chirīn"
+  },
+  {
+    "dex_entry": "#0359",
+    "eng_name": "Absol",
+    "kanji": "アブソル",
+    "hepburn": "Abusoru"
+  },
+  {
+    "dex_entry": "#0360",
+    "eng_name": "Wynaut",
+    "kanji": "ソーナノ",
+    "hepburn": "Sōnano"
+  },
+  {
+    "dex_entry": "#0361",
+    "eng_name": "Snorunt",
+    "kanji": "ユキワラシ",
+    "hepburn": "Yukiwarashi"
+  },
+  {
+    "dex_entry": "#0362",
+    "eng_name": "Glalie",
+    "kanji": "オニゴーリ",
+    "hepburn": "Onigōri"
+  },
+  {
+    "dex_entry": "#0363",
+    "eng_name": "Spheal",
+    "kanji": "タマザラシ",
+    "hepburn": "Tamazarashi"
+  },
+  {
+    "dex_entry": "#0364",
+    "eng_name": "Sealeo",
+    "kanji": "トドグラー",
+    "hepburn": "Todogurā"
+  },
+  {
+    "dex_entry": "#0365",
+    "eng_name": "Walrein",
+    "kanji": "トドゼルガ",
+    "hepburn": "Todozeruga"
+  },
+  {
+    "dex_entry": "#0366",
+    "eng_name": "Clamperl",
+    "kanji": "パールル",
+    "hepburn": "Pāruru"
+  },
+  {
+    "dex_entry": "#0367",
+    "eng_name": "Huntail",
+    "kanji": "ハンテール",
+    "hepburn": "Hantēru"
+  },
+  {
+    "dex_entry": "#0368",
+    "eng_name": "Gorebyss",
+    "kanji": "サクラビス",
+    "hepburn": "Sakurabisu"
+  },
+  {
+    "dex_entry": "#0369",
+    "eng_name": "Relicanth",
+    "kanji": "ジーランス",
+    "hepburn": "Jīransu"
+  },
+  {
+    "dex_entry": "#0370",
+    "eng_name": "Luvdisc",
+    "kanji": "ラブカス",
+    "hepburn": "Rabukasu"
+  },
+  {
+    "dex_entry": "#0371",
+    "eng_name": "Bagon",
+    "kanji": "タツベイ",
+    "hepburn": "Tatsubei"
+  },
+  {
+    "dex_entry": "#0372",
+    "eng_name": "Shelgon",
+    "kanji": "コモルー",
+    "hepburn": "Komorū"
+  },
+  {
+    "dex_entry": "#0373",
+    "eng_name": "Salamence",
+    "kanji": "ボーマンダ",
+    "hepburn": "Bōmanda"
+  },
+  {
+    "dex_entry": "#0374",
+    "eng_name": "Beldum",
+    "kanji": "ダンバル",
+    "hepburn": "Danbaru"
+  },
+  {
+    "dex_entry": "#0375",
+    "eng_name": "Metang",
+    "kanji": "メタング",
+    "hepburn": "Metangu"
+  },
+  {
+    "dex_entry": "#0376",
+    "eng_name": "Metagross",
+    "kanji": "メタグロス",
+    "hepburn": "Metagurosu"
+  },
+  {
+    "dex_entry": "#0377",
+    "eng_name": "Regirock",
+    "kanji": "レジロック",
+    "hepburn": "Rejirokku"
+  },
+  {
+    "dex_entry": "#0378",
+    "eng_name": "Regice",
+    "kanji": "レジアイス",
+    "hepburn": "Rejiaisu"
+  },
+  {
+    "dex_entry": "#0379",
+    "eng_name": "Registeel",
+    "kanji": "レジスチル",
+    "hepburn": "Rejisuchiru"
+  },
+  {
+    "dex_entry": "#0380",
+    "eng_name": "Latias",
+    "kanji": "ラティアス",
+    "hepburn": "Ratiasu"
+  },
+  {
+    "dex_entry": "#0381",
+    "eng_name": "Latios",
+    "kanji": "ラティオス",
+    "hepburn": "Ratiosu"
+  },
+  {
+    "dex_entry": "#0382",
+    "eng_name": "Kyogre",
+    "kanji": "カイオーガ",
+    "hepburn": "Kaiōga"
+  },
+  {
+    "dex_entry": "#0383",
+    "eng_name": "Groudon",
+    "kanji": "グラードン",
+    "hepburn": "Gurādon"
+  },
+  {
+    "dex_entry": "#0384",
+    "eng_name": "Rayquaza",
+    "kanji": "レックウザ",
+    "hepburn": "Rekkūza"
+  },
+  {
+    "dex_entry": "#0385",
+    "eng_name": "Jirachi",
+    "kanji": "ジラーチ",
+    "hepburn": "Jirāchi"
+  },
+  {
+    "dex_entry": "#0386",
+    "eng_name": "Deoxys",
+    "kanji": "デオキシス",
+    "hepburn": "Deokishisu"
+  }
+]

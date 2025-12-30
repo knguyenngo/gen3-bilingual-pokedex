@@ -1,0 +1,5202 @@
+[
+  {
+    "name": "Abra",
+    "type": "Psychic",
+    "ability": [
+      "Synchronize",
+      "Inner Focus"
+    ],
+    "hp": 25,
+    "attack": 20,
+    "defense": 15,
+    "special_attack": 105,
+    "special_defense": 55,
+    "speed": 90
+  },
+  {
+    "name": "Absol",
+    "type": "Dark",
+    "ability": "Pressure",
+    "hp": 65,
+    "attack": 130,
+    "defense": 60,
+    "special_attack": 75,
+    "special_defense": 60,
+    "speed": 75
+  },
+  {
+    "name": "Aerodactyl",
+    "type": [
+      "Rock",
+      "Flying"
+    ],
+    "ability": [
+      "Rock Head",
+      "Pressure"
+    ],
+    "hp": 80,
+    "attack": 105,
+    "defense": 65,
+    "special_attack": 60,
+    "special_defense": 75,
+    "speed": 130
+  },
+  {
+    "name": "Aggron",
+    "type": [
+      "Steel",
+      "Rock"
+    ],
+    "ability": [
+      "Sturdy",
+      "Rock Head"
+    ],
+    "hp": 70,
+    "attack": 110,
+    "defense": 180,
+    "special_attack": 60,
+    "special_defense": 60,
+    "speed": 50
+  },
+  {
+    "name": "Aipom",
+    "type": "Normal",
+    "ability": [
+      "Run Away",
+      "Pickup"
+    ],
+    "hp": 55,
+    "attack": 70,
+    "defense": 55,
+    "special_attack": 40,
+    "special_defense": 55,
+    "speed": 85
+  },
+  {
+    "name": "Alakazam",
+    "type": "Psychic",
+    "ability": [
+      "Synchronize",
+      "Inner Focus"
+    ],
+    "hp": 55,
+    "attack": 50,
+    "defense": 45,
+    "special_attack": 135,
+    "special_defense": 85,
+    "speed": 120
+  },
+  {
+    "name": "Altaria",
+    "type": [
+      "Dragon",
+      "Flying"
+    ],
+    "ability": "Natural Cure",
+    "hp": 75,
+    "attack": 70,
+    "defense": 90,
+    "special_attack": 70,
+    "special_defense": 105,
+    "speed": 80
+  },
+  {
+    "name": "Ampharos",
+    "type": "Electric",
+    "ability": "Static",
+    "hp": 90,
+    "attack": 75,
+    "defense": 75,
+    "special_attack": 115,
+    "special_defense": 90,
+    "speed": 55
+  },
+  {
+    "name": "Anorith",
+    "type": [
+      "Rock",
+      "Bug"
+    ],
+    "ability": "Battle Armor",
+    "hp": 45,
+    "attack": 95,
+    "defense": 50,
+    "special_attack": 40,
+    "special_defense": 50,
+    "speed": 75
+  },
+  {
+    "name": "Arbok",
+    "type": "Poison",
+    "ability": [
+      "Intimidate",
+      "Shed Skin"
+    ],
+    "hp": 60,
+    "attack": 85,
+    "defense": 69,
+    "special_attack": 65,
+    "special_defense": 79,
+    "speed": 80
+  },
+  {
+    "name": "Arcanine",
+    "type": "Fire",
+    "ability": [
+      "Intimidate",
+      "Flash Fire"
+    ],
+    "hp": 90,
+    "attack": 110,
+    "defense": 80,
+    "special_attack": 100,
+    "special_defense": 80,
+    "speed": 95
+  },
+  {
+    "name": "Ariados",
+    "type": [
+      "Bug",
+      "Poison"
+    ],
+    "ability": [
+      "Swarm",
+      "Insomnia"
+    ],
+    "hp": 70,
+    "attack": 90,
+    "defense": 70,
+    "special_attack": 60,
+    "special_defense": 60,
+    "speed": 40
+  },
+  {
+    "name": "Armaldo",
+    "type": [
+      "Rock",
+      "Bug"
+    ],
+    "ability": "Battle Armor",
+    "hp": 75,
+    "attack": 125,
+    "defense": 100,
+    "special_attack": 70,
+    "special_defense": 80,
+    "speed": 45
+  },
+  {
+    "name": "Aron",
+    "type": [
+      "Steel",
+      "Rock"
+    ],
+    "ability": [
+      "Sturdy",
+      "Rock Head"
+    ],
+    "hp": 50,
+    "attack": 70,
+    "defense": 100,
+    "special_attack": 40,
+    "special_defense": 40,
+    "speed": 30
+  },
+  {
+    "name": "Articuno",
+    "type": [
+      "Ice",
+      "Flying"
+    ],
+    "ability": "Pressure",
+    "hp": 90,
+    "attack": 85,
+    "defense": 100,
+    "special_attack": 95,
+    "special_defense": 125,
+    "speed": 85
+  },
+  {
+    "name": "Azumarill",
+    "type": "Water",
+    "ability": [
+      "Thick Fat",
+      "Huge Power"
+    ],
+    "hp": 100,
+    "attack": 50,
+    "defense": 80,
+    "special_attack": 50,
+    "special_defense": 80,
+    "speed": 50
+  },
+  {
+    "name": "Azurill",
+    "type": "Normal",
+    "ability": [
+      "Thick Fat",
+      "Huge Power"
+    ],
+    "hp": 50,
+    "attack": 20,
+    "defense": 40,
+    "special_attack": 20,
+    "special_defense": 40,
+    "speed": 20
+  },
+  {
+    "name": "Bagon",
+    "type": "Dragon",
+    "ability": "Rock Head",
+    "hp": 45,
+    "attack": 75,
+    "defense": 60,
+    "special_attack": 40,
+    "special_defense": 30,
+    "speed": 50
+  },
+  {
+    "name": "Baltoy",
+    "type": [
+      "Ground",
+      "Psychic"
+    ],
+    "ability": "Levitate",
+    "hp": 40,
+    "attack": 40,
+    "defense": 55,
+    "special_attack": 40,
+    "special_defense": 70,
+    "speed": 55
+  },
+  {
+    "name": "Banette",
+    "type": "Ghost",
+    "ability": "Insomnia",
+    "hp": 64,
+    "attack": 115,
+    "defense": 65,
+    "special_attack": 83,
+    "special_defense": 63,
+    "speed": 65
+  },
+  {
+    "name": "Barboach",
+    "type": [
+      "Water",
+      "Ground"
+    ],
+    "ability": "Oblivious",
+    "hp": 50,
+    "attack": 48,
+    "defense": 43,
+    "special_attack": 46,
+    "special_defense": 41,
+    "speed": 60
+  },
+  {
+    "name": "Bayleef",
+    "type": "Grass",
+    "ability": "Overgrow",
+    "hp": 60,
+    "attack": 62,
+    "defense": 80,
+    "special_attack": 63,
+    "special_defense": 80,
+    "speed": 60
+  },
+  {
+    "name": "Beautifly",
+    "type": [
+      "Bug",
+      "Flying"
+    ],
+    "ability": "Swarm",
+    "hp": 60,
+    "attack": 70,
+    "defense": 50,
+    "special_attack": 90,
+    "special_defense": 50,
+    "speed": 65
+  },
+  {
+    "name": "Beedrill",
+    "type": [
+      "Bug",
+      "Poison"
+    ],
+    "ability": "Swarm",
+    "hp": 65,
+    "attack": 80,
+    "defense": 40,
+    "special_attack": 45,
+    "special_defense": 80,
+    "speed": 75
+  },
+  {
+    "name": "Beldum",
+    "type": [
+      "Steel",
+      "Psychic"
+    ],
+    "ability": "Clear Body",
+    "hp": 40,
+    "attack": 55,
+    "defense": 80,
+    "special_attack": 35,
+    "special_defense": 60,
+    "speed": 30
+  },
+  {
+    "name": "Bellossom",
+    "type": "Grass",
+    "ability": "Chlorophyll",
+    "hp": 75,
+    "attack": 80,
+    "defense": 85,
+    "special_attack": 90,
+    "special_defense": 100,
+    "speed": 50
+  },
+  {
+    "name": "Bellsprout",
+    "type": [
+      "Grass",
+      "Poison"
+    ],
+    "ability": "Chlorophyll",
+    "hp": 50,
+    "attack": 75,
+    "defense": 35,
+    "special_attack": 70,
+    "special_defense": 30,
+    "speed": 40
+  },
+  {
+    "name": "Blastoise",
+    "type": "Water",
+    "ability": "Torrent",
+    "hp": 79,
+    "attack": 83,
+    "defense": 100,
+    "special_attack": 85,
+    "special_defense": 105,
+    "speed": 78
+  },
+  {
+    "name": "Blaziken",
+    "type": [
+      "Fire",
+      "Fighting"
+    ],
+    "ability": "Blaze",
+    "hp": 80,
+    "attack": 120,
+    "defense": 70,
+    "special_attack": 110,
+    "special_defense": 70,
+    "speed": 80
+  },
+  {
+    "name": "Blissey",
+    "type": "Normal",
+    "ability": [
+      "Natural Cure",
+      "Serene Grace"
+    ],
+    "hp": 255,
+    "attack": 10,
+    "defense": 10,
+    "special_attack": 75,
+    "special_defense": 135,
+    "speed": 55
+  },
+  {
+    "name": "Breloom",
+    "type": [
+      "Grass",
+      "Fighting"
+    ],
+    "ability": "Effect Spore",
+    "hp": 60,
+    "attack": 130,
+    "defense": 80,
+    "special_attack": 60,
+    "special_defense": 60,
+    "speed": 70
+  },
+  {
+    "name": "Bulbasaur",
+    "type": [
+      "Grass",
+      "Poison"
+    ],
+    "ability": "Overgrow",
+    "hp": 45,
+    "attack": 49,
+    "defense": 49,
+    "special_attack": 65,
+    "special_defense": 65,
+    "speed": 45
+  },
+  {
+    "name": "Butterfree",
+    "type": [
+      "Bug",
+      "Flying"
+    ],
+    "ability": "Compound Eyes",
+    "hp": 60,
+    "attack": 45,
+    "defense": 50,
+    "special_attack": 80,
+    "special_defense": 80,
+    "speed": 70
+  },
+  {
+    "name": "Cacnea",
+    "type": "Grass",
+    "ability": "Sand Veil",
+    "hp": 50,
+    "attack": 85,
+    "defense": 40,
+    "special_attack": 85,
+    "special_defense": 40,
+    "speed": 35
+  },
+  {
+    "name": "Cacturne",
+    "type": [
+      "Grass",
+      "Dark"
+    ],
+    "ability": "Sand Veil",
+    "hp": 70,
+    "attack": 115,
+    "defense": 60,
+    "special_attack": 115,
+    "special_defense": 60,
+    "speed": 55
+  },
+  {
+    "name": "Camerupt",
+    "type": [
+      "Fire",
+      "Ground"
+    ],
+    "ability": "Magma Armor",
+    "hp": 70,
+    "attack": 100,
+    "defense": 70,
+    "special_attack": 105,
+    "special_defense": 75,
+    "speed": 40
+  },
+  {
+    "name": "Carvanha",
+    "type": [
+      "Water",
+      "Dark"
+    ],
+    "ability": "Rough Skin",
+    "hp": 45,
+    "attack": 90,
+    "defense": 20,
+    "special_attack": 65,
+    "special_defense": 20,
+    "speed": 65
+  },
+  {
+    "name": "Cascoon",
+    "type": "Bug",
+    "ability": "Shed Skin",
+    "hp": 50,
+    "attack": 35,
+    "defense": 55,
+    "special_attack": 25,
+    "special_defense": 25,
+    "speed": 15
+  },
+  {
+    "name": "Castform",
+    "type": "Normal",
+    "ability": "Forecast",
+    "hp": 70,
+    "attack": 70,
+    "defense": 70,
+    "special_attack": 70,
+    "special_defense": 70,
+    "speed": 70
+  },
+  {
+    "name": "Castform-Rainy",
+    "type": "Water",
+    "ability": "Forecast",
+    "hp": 70,
+    "attack": 70,
+    "defense": 70,
+    "special_attack": 70,
+    "special_defense": 70,
+    "speed": 70
+  },
+  {
+    "name": "Castform-Snowy",
+    "type": "Ice",
+    "ability": "Forecast",
+    "hp": 70,
+    "attack": 70,
+    "defense": 70,
+    "special_attack": 70,
+    "special_defense": 70,
+    "speed": 70
+  },
+  {
+    "name": "Castform-Sunny",
+    "type": "Fire",
+    "ability": "Forecast",
+    "hp": 70,
+    "attack": 70,
+    "defense": 70,
+    "special_attack": 70,
+    "special_defense": 70,
+    "speed": 70
+  },
+  {
+    "name": "Caterpie",
+    "type": "Bug",
+    "ability": "Shield Dust",
+    "hp": 45,
+    "attack": 30,
+    "defense": 35,
+    "special_attack": 20,
+    "special_defense": 20,
+    "speed": 45
+  },
+  {
+    "name": "Celebi",
+    "type": [
+      "Psychic",
+      "Grass"
+    ],
+    "ability": "Natural Cure",
+    "hp": 100,
+    "attack": 100,
+    "defense": 100,
+    "special_attack": 100,
+    "special_defense": 100,
+    "speed": 100
+  },
+  {
+    "name": "Chansey",
+    "type": "Normal",
+    "ability": [
+      "Natural Cure",
+      "Serene Grace"
+    ],
+    "hp": 250,
+    "attack": 5,
+    "defense": 5,
+    "special_attack": 35,
+    "special_defense": 105,
+    "speed": 50
+  },
+  {
+    "name": "Charizard",
+    "type": [
+      "Fire",
+      "Flying"
+    ],
+    "ability": "Blaze",
+    "hp": 78,
+    "attack": 84,
+    "defense": 78,
+    "special_attack": 109,
+    "special_defense": 85,
+    "speed": 100
+  },
+  {
+    "name": "Charmander",
+    "type": "Fire",
+    "ability": "Blaze",
+    "hp": 39,
+    "attack": 52,
+    "defense": 43,
+    "special_attack": 60,
+    "special_defense": 50,
+    "speed": 65
+  },
+  {
+    "name": "Charmeleon",
+    "type": "Fire",
+    "ability": "Blaze",
+    "hp": 58,
+    "attack": 64,
+    "defense": 58,
+    "special_attack": 80,
+    "special_defense": 65,
+    "speed": 80
+  },
+  {
+    "name": "Chikorita",
+    "type": "Grass",
+    "ability": "Overgrow",
+    "hp": 45,
+    "attack": 49,
+    "defense": 65,
+    "special_attack": 49,
+    "special_defense": 65,
+    "speed": 45
+  },
+  {
+    "name": "Chimecho",
+    "type": "Psychic",
+    "ability": "Levitate",
+    "hp": 65,
+    "attack": 50,
+    "defense": 70,
+    "special_attack": 95,
+    "special_defense": 80,
+    "speed": 65
+  },
+  {
+    "name": "Chinchou",
+    "type": [
+      "Water",
+      "Electric"
+    ],
+    "ability": [
+      "Volt Absorb",
+      "Illuminate"
+    ],
+    "hp": 75,
+    "attack": 38,
+    "defense": 38,
+    "special_attack": 56,
+    "special_defense": 56,
+    "speed": 67
+  },
+  {
+    "name": "Clamperl",
+    "type": "Water",
+    "ability": "Shell Armor",
+    "hp": 35,
+    "attack": 64,
+    "defense": 85,
+    "special_attack": 74,
+    "special_defense": 55,
+    "speed": 32
+  },
+  {
+    "name": "Claydol",
+    "type": [
+      "Ground",
+      "Psychic"
+    ],
+    "ability": "Levitate",
+    "hp": 60,
+    "attack": 70,
+    "defense": 105,
+    "special_attack": 70,
+    "special_defense": 120,
+    "speed": 75
+  },
+  {
+    "name": "Clefable",
+    "type": "Normal",
+    "ability": "Cute Charm",
+    "hp": 95,
+    "attack": 70,
+    "defense": 73,
+    "special_attack": 85,
+    "special_defense": 90,
+    "speed": 60
+  },
+  {
+    "name": "Clefairy",
+    "type": "Normal",
+    "ability": "Cute Charm",
+    "hp": 70,
+    "attack": 45,
+    "defense": 48,
+    "special_attack": 60,
+    "special_defense": 65,
+    "speed": 35
+  },
+  {
+    "name": "Cleffa",
+    "type": "Normal",
+    "ability": "Cute Charm",
+    "hp": 50,
+    "attack": 25,
+    "defense": 28,
+    "special_attack": 45,
+    "special_defense": 55,
+    "speed": 15
+  },
+  {
+    "name": "Cloyster",
+    "type": [
+      "Water",
+      "Ice"
+    ],
+    "ability": "Shell Armor",
+    "hp": 50,
+    "attack": 95,
+    "defense": 180,
+    "special_attack": 85,
+    "special_defense": 45,
+    "speed": 70
+  },
+  {
+    "name": "Combusken",
+    "type": [
+      "Fire",
+      "Fighting"
+    ],
+    "ability": "Blaze",
+    "hp": 60,
+    "attack": 85,
+    "defense": 60,
+    "special_attack": 85,
+    "special_defense": 60,
+    "speed": 55
+  },
+  {
+    "name": "Corphish",
+    "type": "Water",
+    "ability": [
+      "Hyper Cutter",
+      "Shell Armor"
+    ],
+    "hp": 43,
+    "attack": 80,
+    "defense": 65,
+    "special_attack": 50,
+    "special_defense": 35,
+    "speed": 35
+  },
+  {
+    "name": "Corsola",
+    "type": [
+      "Water",
+      "Rock"
+    ],
+    "ability": [
+      "Hustle",
+      "Natural Cure"
+    ],
+    "hp": 55,
+    "attack": 55,
+    "defense": 85,
+    "special_attack": 65,
+    "special_defense": 85,
+    "speed": 35
+  },
+  {
+    "name": "Cradily",
+    "type": [
+      "Rock",
+      "Grass"
+    ],
+    "ability": "Suction Cups",
+    "hp": 86,
+    "attack": 81,
+    "defense": 97,
+    "special_attack": 81,
+    "special_defense": 107,
+    "speed": 43
+  },
+  {
+    "name": "Crawdaunt",
+    "type": [
+      "Water",
+      "Dark"
+    ],
+    "ability": [
+      "Hyper Cutter",
+      "Shell Armor"
+    ],
+    "hp": 63,
+    "attack": 120,
+    "defense": 85,
+    "special_attack": 90,
+    "special_defense": 55,
+    "speed": 55
+  },
+  {
+    "name": "Crobat",
+    "type": [
+      "Poison",
+      "Flying"
+    ],
+    "ability": "Inner Focus",
+    "hp": 85,
+    "attack": 90,
+    "defense": 80,
+    "special_attack": 70,
+    "special_defense": 80,
+    "speed": 130
+  },
+  {
+    "name": "Croconaw",
+    "type": "Water",
+    "ability": "Torrent",
+    "hp": 65,
+    "attack": 80,
+    "defense": 80,
+    "special_attack": 59,
+    "special_defense": 63,
+    "speed": 58
+  },
+  {
+    "name": "Cubone",
+    "type": "Ground",
+    "ability": [
+      "Rock Head",
+      "Lightning Rod"
+    ],
+    "hp": 50,
+    "attack": 50,
+    "defense": 95,
+    "special_attack": 40,
+    "special_defense": 50,
+    "speed": 35
+  },
+  {
+    "name": "Cyndaquil",
+    "type": "Fire",
+    "ability": "Blaze",
+    "hp": 39,
+    "attack": 52,
+    "defense": 43,
+    "special_attack": 60,
+    "special_defense": 50,
+    "speed": 65
+  },
+  {
+    "name": "Delcatty",
+    "type": "Normal",
+    "ability": "Cute Charm",
+    "hp": 70,
+    "attack": 65,
+    "defense": 65,
+    "special_attack": 55,
+    "special_defense": 55,
+    "speed": 70
+  },
+  {
+    "name": "Delibird",
+    "type": [
+      "Ice",
+      "Flying"
+    ],
+    "ability": [
+      "Vital Spirit",
+      "Hustle"
+    ],
+    "hp": 45,
+    "attack": 55,
+    "defense": 45,
+    "special_attack": 65,
+    "special_defense": 45,
+    "speed": 75
+  },
+  {
+    "name": "Deoxys",
+    "type": "Psychic",
+    "ability": "Pressure",
+    "hp": 50,
+    "attack": 150,
+    "defense": 50,
+    "special_attack": 150,
+    "special_defense": 50,
+    "speed": 150
+  },
+  {
+    "name": "Deoxys-Attack",
+    "type": "Psychic",
+    "ability": "Pressure",
+    "hp": 50,
+    "attack": 180,
+    "defense": 20,
+    "special_attack": 180,
+    "special_defense": 20,
+    "speed": 150
+  },
+  {
+    "name": "Deoxys-Defense",
+    "type": "Psychic",
+    "ability": "Pressure",
+    "hp": 50,
+    "attack": 70,
+    "defense": 160,
+    "special_attack": 70,
+    "special_defense": 160,
+    "speed": 90
+  },
+  {
+    "name": "Deoxys-Speed",
+    "type": "Psychic",
+    "ability": "Pressure",
+    "hp": 50,
+    "attack": 95,
+    "defense": 90,
+    "special_attack": 95,
+    "special_defense": 90,
+    "speed": 180
+  },
+  {
+    "name": "Dewgong",
+    "type": [
+      "Water",
+      "Ice"
+    ],
+    "ability": "Thick Fat",
+    "hp": 90,
+    "attack": 70,
+    "defense": 80,
+    "special_attack": 70,
+    "special_defense": 95,
+    "speed": 70
+  },
+  {
+    "name": "Diglett",
+    "type": "Ground",
+    "ability": [
+      "Sand Veil",
+      "Arena Trap"
+    ],
+    "hp": 10,
+    "attack": 55,
+    "defense": 25,
+    "special_attack": 35,
+    "special_defense": 45,
+    "speed": 95
+  },
+  {
+    "name": "Ditto",
+    "type": "Normal",
+    "ability": "Limber",
+    "hp": 48,
+    "attack": 48,
+    "defense": 48,
+    "special_attack": 48,
+    "special_defense": 48,
+    "speed": 48
+  },
+  {
+    "name": "Dodrio",
+    "type": [
+      "Normal",
+      "Flying"
+    ],
+    "ability": [
+      "Run Away",
+      "Early Bird"
+    ],
+    "hp": 60,
+    "attack": 110,
+    "defense": 70,
+    "special_attack": 60,
+    "special_defense": 60,
+    "speed": 100
+  },
+  {
+    "name": "Doduo",
+    "type": [
+      "Normal",
+      "Flying"
+    ],
+    "ability": [
+      "Run Away",
+      "Early Bird"
+    ],
+    "hp": 35,
+    "attack": 85,
+    "defense": 45,
+    "special_attack": 35,
+    "special_defense": 35,
+    "speed": 75
+  },
+  {
+    "name": "Donphan",
+    "type": "Ground",
+    "ability": "Sturdy",
+    "hp": 90,
+    "attack": 120,
+    "defense": 120,
+    "special_attack": 60,
+    "special_defense": 60,
+    "speed": 50
+  },
+  {
+    "name": "Dragonair",
+    "type": "Dragon",
+    "ability": "Shed Skin",
+    "hp": 61,
+    "attack": 84,
+    "defense": 65,
+    "special_attack": 70,
+    "special_defense": 70,
+    "speed": 70
+  },
+  {
+    "name": "Dragonite",
+    "type": [
+      "Dragon",
+      "Flying"
+    ],
+    "ability": "Inner Focus",
+    "hp": 91,
+    "attack": 134,
+    "defense": 95,
+    "special_attack": 100,
+    "special_defense": 100,
+    "speed": 80
+  },
+  {
+    "name": "Dratini",
+    "type": "Dragon",
+    "ability": "Shed Skin",
+    "hp": 41,
+    "attack": 64,
+    "defense": 45,
+    "special_attack": 50,
+    "special_defense": 50,
+    "speed": 50
+  },
+  {
+    "name": "Drowzee",
+    "type": "Psychic",
+    "ability": "Insomnia",
+    "hp": 60,
+    "attack": 48,
+    "defense": 45,
+    "special_attack": 43,
+    "special_defense": 90,
+    "speed": 42
+  },
+  {
+    "name": "Dugtrio",
+    "type": "Ground",
+    "ability": [
+      "Sand Veil",
+      "Arena Trap"
+    ],
+    "hp": 35,
+    "attack": 80,
+    "defense": 50,
+    "special_attack": 50,
+    "special_defense": 70,
+    "speed": 120
+  },
+  {
+    "name": "Dunsparce",
+    "type": "Normal",
+    "ability": [
+      "Serene Grace",
+      "Run Away"
+    ],
+    "hp": 100,
+    "attack": 70,
+    "defense": 70,
+    "special_attack": 65,
+    "special_defense": 65,
+    "speed": 45
+  },
+  {
+    "name": "Dusclops",
+    "type": "Ghost",
+    "ability": "Pressure",
+    "hp": 40,
+    "attack": 70,
+    "defense": 130,
+    "special_attack": 60,
+    "special_defense": 130,
+    "speed": 25
+  },
+  {
+    "name": "Duskull",
+    "type": "Ghost",
+    "ability": "Levitate",
+    "hp": 20,
+    "attack": 40,
+    "defense": 90,
+    "special_attack": 30,
+    "special_defense": 90,
+    "speed": 25
+  },
+  {
+    "name": "Dustox",
+    "type": [
+      "Bug",
+      "Poison"
+    ],
+    "ability": "Shield Dust",
+    "hp": 60,
+    "attack": 50,
+    "defense": 70,
+    "special_attack": 50,
+    "special_defense": 90,
+    "speed": 65
+  },
+  {
+    "name": "Eevee",
+    "type": "Normal",
+    "ability": "Run Away",
+    "hp": 55,
+    "attack": 55,
+    "defense": 50,
+    "special_attack": 45,
+    "special_defense": 65,
+    "speed": 55
+  },
+  {
+    "name": "Ekans",
+    "type": "Poison",
+    "ability": [
+      "Intimidate",
+      "Shed Skin"
+    ],
+    "hp": 35,
+    "attack": 60,
+    "defense": 44,
+    "special_attack": 40,
+    "special_defense": 54,
+    "speed": 55
+  },
+  {
+    "name": "Electabuzz",
+    "type": "Electric",
+    "ability": "Static",
+    "hp": 65,
+    "attack": 83,
+    "defense": 57,
+    "special_attack": 95,
+    "special_defense": 85,
+    "speed": 105
+  },
+  {
+    "name": "Electrike",
+    "type": "Electric",
+    "ability": [
+      "Static",
+      "Lightning Rod"
+    ],
+    "hp": 40,
+    "attack": 45,
+    "defense": 40,
+    "special_attack": 65,
+    "special_defense": 40,
+    "speed": 65
+  },
+  {
+    "name": "Electrode",
+    "type": "Electric",
+    "ability": [
+      "Soundproof",
+      "Static"
+    ],
+    "hp": 60,
+    "attack": 50,
+    "defense": 70,
+    "special_attack": 80,
+    "special_defense": 80,
+    "speed": 140
+  },
+  {
+    "name": "Elekid",
+    "type": "Electric",
+    "ability": "Static",
+    "hp": 45,
+    "attack": 63,
+    "defense": 37,
+    "special_attack": 65,
+    "special_defense": 55,
+    "speed": 95
+  },
+  {
+    "name": "Entei",
+    "type": "Fire",
+    "ability": "Pressure",
+    "hp": 115,
+    "attack": 115,
+    "defense": 85,
+    "special_attack": 90,
+    "special_defense": 75,
+    "speed": 100
+  },
+  {
+    "name": "Espeon",
+    "type": "Psychic",
+    "ability": "Synchronize",
+    "hp": 65,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 130,
+    "special_defense": 95,
+    "speed": 110
+  },
+  {
+    "name": "Exeggcute",
+    "type": [
+      "Grass",
+      "Psychic"
+    ],
+    "ability": "Chlorophyll",
+    "hp": 60,
+    "attack": 40,
+    "defense": 80,
+    "special_attack": 60,
+    "special_defense": 45,
+    "speed": 40
+  },
+  {
+    "name": "Exeggutor",
+    "type": [
+      "Grass",
+      "Psychic"
+    ],
+    "ability": "Chlorophyll",
+    "hp": 95,
+    "attack": 95,
+    "defense": 85,
+    "special_attack": 125,
+    "special_defense": 65,
+    "speed": 55
+  },
+  {
+    "name": "Exploud",
+    "type": "Normal",
+    "ability": "Soundproof",
+    "hp": 104,
+    "attack": 91,
+    "defense": 63,
+    "special_attack": 91,
+    "special_defense": 63,
+    "speed": 68
+  },
+  {
+    "name": "Farfetch'd",
+    "type": [
+      "Normal",
+      "Flying"
+    ],
+    "ability": [
+      "Keen Eye",
+      "Inner Focus"
+    ],
+    "hp": 52,
+    "attack": 65,
+    "defense": 55,
+    "special_attack": 58,
+    "special_defense": 62,
+    "speed": 60
+  },
+  {
+    "name": "Fearow",
+    "type": [
+      "Normal",
+      "Flying"
+    ],
+    "ability": "Keen Eye",
+    "hp": 65,
+    "attack": 90,
+    "defense": 65,
+    "special_attack": 61,
+    "special_defense": 61,
+    "speed": 100
+  },
+  {
+    "name": "Feebas",
+    "type": "Water",
+    "ability": "Swift Swim",
+    "hp": 20,
+    "attack": 15,
+    "defense": 20,
+    "special_attack": 10,
+    "special_defense": 55,
+    "speed": 80
+  },
+  {
+    "name": "Feraligatr",
+    "type": "Water",
+    "ability": "Torrent",
+    "hp": 85,
+    "attack": 105,
+    "defense": 100,
+    "special_attack": 79,
+    "special_defense": 83,
+    "speed": 78
+  },
+  {
+    "name": "Flaaffy",
+    "type": "Electric",
+    "ability": "Static",
+    "hp": 70,
+    "attack": 55,
+    "defense": 55,
+    "special_attack": 80,
+    "special_defense": 60,
+    "speed": 45
+  },
+  {
+    "name": "Flareon",
+    "type": "Fire",
+    "ability": "Flash Fire",
+    "hp": 65,
+    "attack": 130,
+    "defense": 60,
+    "special_attack": 95,
+    "special_defense": 110,
+    "speed": 65
+  },
+  {
+    "name": "Flygon",
+    "type": [
+      "Ground",
+      "Dragon"
+    ],
+    "ability": "Levitate",
+    "hp": 80,
+    "attack": 100,
+    "defense": 80,
+    "special_attack": 80,
+    "special_defense": 80,
+    "speed": 100
+  },
+  {
+    "name": "Forretress",
+    "type": [
+      "Bug",
+      "Steel"
+    ],
+    "ability": "Sturdy",
+    "hp": 75,
+    "attack": 90,
+    "defense": 140,
+    "special_attack": 60,
+    "special_defense": 60,
+    "speed": 40
+  },
+  {
+    "name": "Furret",
+    "type": "Normal",
+    "ability": [
+      "Run Away",
+      "Keen Eye"
+    ],
+    "hp": 85,
+    "attack": 76,
+    "defense": 64,
+    "special_attack": 45,
+    "special_defense": 55,
+    "speed": 90
+  },
+  {
+    "name": "Gardevoir",
+    "type": "Psychic",
+    "ability": [
+      "Synchronize",
+      "Trace"
+    ],
+    "hp": 68,
+    "attack": 65,
+    "defense": 65,
+    "special_attack": 125,
+    "special_defense": 115,
+    "speed": 80
+  },
+  {
+    "name": "Gastly",
+    "type": [
+      "Ghost",
+      "Poison"
+    ],
+    "ability": "Levitate",
+    "hp": 30,
+    "attack": 35,
+    "defense": 30,
+    "special_attack": 100,
+    "special_defense": 35,
+    "speed": 80
+  },
+  {
+    "name": "Gengar",
+    "type": [
+      "Ghost",
+      "Poison"
+    ],
+    "ability": "Levitate",
+    "hp": 60,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 130,
+    "special_defense": 75,
+    "speed": 110
+  },
+  {
+    "name": "Geodude",
+    "type": [
+      "Rock",
+      "Ground"
+    ],
+    "ability": [
+      "Rock Head",
+      "Sturdy"
+    ],
+    "hp": 40,
+    "attack": 80,
+    "defense": 100,
+    "special_attack": 30,
+    "special_defense": 30,
+    "speed": 20
+  },
+  {
+    "name": "Girafarig",
+    "type": [
+      "Normal",
+      "Psychic"
+    ],
+    "ability": [
+      "Inner Focus",
+      "Early Bird"
+    ],
+    "hp": 70,
+    "attack": 80,
+    "defense": 65,
+    "special_attack": 90,
+    "special_defense": 65,
+    "speed": 85
+  },
+  {
+    "name": "Glalie",
+    "type": "Ice",
+    "ability": "Inner Focus",
+    "hp": 80,
+    "attack": 80,
+    "defense": 80,
+    "special_attack": 80,
+    "special_defense": 80,
+    "speed": 80
+  },
+  {
+    "name": "Gligar",
+    "type": [
+      "Ground",
+      "Flying"
+    ],
+    "ability": [
+      "Hyper Cutter",
+      "Sand Veil"
+    ],
+    "hp": 65,
+    "attack": 75,
+    "defense": 105,
+    "special_attack": 35,
+    "special_defense": 65,
+    "speed": 85
+  },
+  {
+    "name": "Gloom",
+    "type": [
+      "Grass",
+      "Poison"
+    ],
+    "ability": "Chlorophyll",
+    "hp": 60,
+    "attack": 65,
+    "defense": 70,
+    "special_attack": 85,
+    "special_defense": 75,
+    "speed": 40
+  },
+  {
+    "name": "Golbat",
+    "type": [
+      "Poison",
+      "Flying"
+    ],
+    "ability": "Inner Focus",
+    "hp": 75,
+    "attack": 80,
+    "defense": 70,
+    "special_attack": 65,
+    "special_defense": 75,
+    "speed": 90
+  },
+  {
+    "name": "Goldeen",
+    "type": "Water",
+    "ability": [
+      "Swift Swim",
+      "Water Veil"
+    ],
+    "hp": 45,
+    "attack": 67,
+    "defense": 60,
+    "special_attack": 35,
+    "special_defense": 50,
+    "speed": 63
+  },
+  {
+    "name": "Golduck",
+    "type": "Water",
+    "ability": [
+      "Damp",
+      "Cloud Nine"
+    ],
+    "hp": 80,
+    "attack": 82,
+    "defense": 78,
+    "special_attack": 95,
+    "special_defense": 80,
+    "speed": 85
+  },
+  {
+    "name": "Golem",
+    "type": [
+      "Rock",
+      "Ground"
+    ],
+    "ability": [
+      "Rock Head",
+      "Sturdy"
+    ],
+    "hp": 80,
+    "attack": 110,
+    "defense": 130,
+    "special_attack": 55,
+    "special_defense": 65,
+    "speed": 45
+  },
+  {
+    "name": "Gorebyss",
+    "type": "Water",
+    "ability": "Swift Swim",
+    "hp": 55,
+    "attack": 84,
+    "defense": 105,
+    "special_attack": 114,
+    "special_defense": 75,
+    "speed": 52
+  },
+  {
+    "name": "Granbull",
+    "type": "Normal",
+    "ability": "Intimidate",
+    "hp": 90,
+    "attack": 120,
+    "defense": 75,
+    "special_attack": 60,
+    "special_defense": 60,
+    "speed": 45
+  },
+  {
+    "name": "Graveler",
+    "type": [
+      "Rock",
+      "Ground"
+    ],
+    "ability": [
+      "Rock Head",
+      "Sturdy"
+    ],
+    "hp": 55,
+    "attack": 95,
+    "defense": 115,
+    "special_attack": 45,
+    "special_defense": 45,
+    "speed": 35
+  },
+  {
+    "name": "Grimer",
+    "type": "Poison",
+    "ability": [
+      "Stench",
+      "Sticky Hold"
+    ],
+    "hp": 80,
+    "attack": 80,
+    "defense": 50,
+    "special_attack": 40,
+    "special_defense": 50,
+    "speed": 25
+  },
+  {
+    "name": "Groudon",
+    "type": "Ground",
+    "ability": "Drought",
+    "hp": 100,
+    "attack": 150,
+    "defense": 140,
+    "special_attack": 100,
+    "special_defense": 90,
+    "speed": 90
+  },
+  {
+    "name": "Grovyle",
+    "type": "Grass",
+    "ability": "Overgrow",
+    "hp": 50,
+    "attack": 65,
+    "defense": 45,
+    "special_attack": 85,
+    "special_defense": 65,
+    "speed": 95
+  },
+  {
+    "name": "Growlithe",
+    "type": "Fire",
+    "ability": [
+      "Intimidate",
+      "Flash Fire"
+    ],
+    "hp": 55,
+    "attack": 70,
+    "defense": 45,
+    "special_attack": 70,
+    "special_defense": 50,
+    "speed": 60
+  },
+  {
+    "name": "Grumpig",
+    "type": "Psychic",
+    "ability": [
+      "Thick Fat",
+      "Own Tempo"
+    ],
+    "hp": 80,
+    "attack": 45,
+    "defense": 65,
+    "special_attack": 90,
+    "special_defense": 110,
+    "speed": 80
+  },
+  {
+    "name": "Gulpin",
+    "type": "Poison",
+    "ability": [
+      "Liquid Ooze",
+      "Sticky Hold"
+    ],
+    "hp": 70,
+    "attack": 43,
+    "defense": 53,
+    "special_attack": 43,
+    "special_defense": 53,
+    "speed": 40
+  },
+  {
+    "name": "Gyarados",
+    "type": [
+      "Water",
+      "Flying"
+    ],
+    "ability": "Intimidate",
+    "hp": 95,
+    "attack": 125,
+    "defense": 79,
+    "special_attack": 60,
+    "special_defense": 100,
+    "speed": 81
+  },
+  {
+    "name": "Hariyama",
+    "type": "Fighting",
+    "ability": [
+      "Thick Fat",
+      "Guts"
+    ],
+    "hp": 144,
+    "attack": 120,
+    "defense": 60,
+    "special_attack": 40,
+    "special_defense": 60,
+    "speed": 50
+  },
+  {
+    "name": "Haunter",
+    "type": [
+      "Ghost",
+      "Poison"
+    ],
+    "ability": "Levitate",
+    "hp": 45,
+    "attack": 50,
+    "defense": 45,
+    "special_attack": 115,
+    "special_defense": 55,
+    "speed": 95
+  },
+  {
+    "name": "Heracross",
+    "type": [
+      "Bug",
+      "Fighting"
+    ],
+    "ability": [
+      "Swarm",
+      "Guts"
+    ],
+    "hp": 80,
+    "attack": 125,
+    "defense": 75,
+    "special_attack": 40,
+    "special_defense": 95,
+    "speed": 85
+  },
+  {
+    "name": "Hitmonchan",
+    "type": "Fighting",
+    "ability": "Keen Eye",
+    "hp": 50,
+    "attack": 105,
+    "defense": 79,
+    "special_attack": 35,
+    "special_defense": 110,
+    "speed": 76
+  },
+  {
+    "name": "Hitmonlee",
+    "type": "Fighting",
+    "ability": "Limber",
+    "hp": 50,
+    "attack": 120,
+    "defense": 53,
+    "special_attack": 35,
+    "special_defense": 110,
+    "speed": 87
+  },
+  {
+    "name": "Hitmontop",
+    "type": "Fighting",
+    "ability": "Intimidate",
+    "hp": 50,
+    "attack": 95,
+    "defense": 95,
+    "special_attack": 35,
+    "special_defense": 110,
+    "speed": 70
+  },
+  {
+    "name": "Ho-Oh",
+    "type": [
+      "Fire",
+      "Flying"
+    ],
+    "ability": "Pressure",
+    "hp": 106,
+    "attack": 130,
+    "defense": 90,
+    "special_attack": 110,
+    "special_defense": 154,
+    "speed": 90
+  },
+  {
+    "name": "Hoothoot",
+    "type": [
+      "Normal",
+      "Flying"
+    ],
+    "ability": [
+      "Insomnia",
+      "Keen Eye"
+    ],
+    "hp": 60,
+    "attack": 30,
+    "defense": 30,
+    "special_attack": 36,
+    "special_defense": 56,
+    "speed": 50
+  },
+  {
+    "name": "Hoppip",
+    "type": [
+      "Grass",
+      "Flying"
+    ],
+    "ability": "Chlorophyll",
+    "hp": 35,
+    "attack": 35,
+    "defense": 40,
+    "special_attack": 35,
+    "special_defense": 55,
+    "speed": 50
+  },
+  {
+    "name": "Horsea",
+    "type": "Water",
+    "ability": "Swift Swim",
+    "hp": 30,
+    "attack": 40,
+    "defense": 70,
+    "special_attack": 70,
+    "special_defense": 25,
+    "speed": 60
+  },
+  {
+    "name": "Houndoom",
+    "type": [
+      "Dark",
+      "Fire"
+    ],
+    "ability": [
+      "Early Bird",
+      "Flash Fire"
+    ],
+    "hp": 75,
+    "attack": 90,
+    "defense": 50,
+    "special_attack": 110,
+    "special_defense": 80,
+    "speed": 95
+  },
+  {
+    "name": "Houndour",
+    "type": [
+      "Dark",
+      "Fire"
+    ],
+    "ability": [
+      "Early Bird",
+      "Flash Fire"
+    ],
+    "hp": 45,
+    "attack": 60,
+    "defense": 30,
+    "special_attack": 80,
+    "special_defense": 50,
+    "speed": 65
+  },
+  {
+    "name": "Huntail",
+    "type": "Water",
+    "ability": "Swift Swim",
+    "hp": 55,
+    "attack": 104,
+    "defense": 105,
+    "special_attack": 94,
+    "special_defense": 75,
+    "speed": 52
+  },
+  {
+    "name": "Hypno",
+    "type": "Psychic",
+    "ability": "Insomnia",
+    "hp": 85,
+    "attack": 73,
+    "defense": 70,
+    "special_attack": 73,
+    "special_defense": 115,
+    "speed": 67
+  },
+  {
+    "name": "Igglybuff",
+    "type": "Normal",
+    "ability": "Cute Charm",
+    "hp": 90,
+    "attack": 30,
+    "defense": 15,
+    "special_attack": 40,
+    "special_defense": 20,
+    "speed": 15
+  },
+  {
+    "name": "Illumise",
+    "type": "Bug",
+    "ability": "Oblivious",
+    "hp": 65,
+    "attack": 47,
+    "defense": 55,
+    "special_attack": 73,
+    "special_defense": 75,
+    "speed": 85
+  },
+  {
+    "name": "Ivysaur",
+    "type": [
+      "Grass",
+      "Poison"
+    ],
+    "ability": "Overgrow",
+    "hp": 60,
+    "attack": 62,
+    "defense": 63,
+    "special_attack": 80,
+    "special_defense": 80,
+    "speed": 60
+  },
+  {
+    "name": "Jigglypuff",
+    "type": "Normal",
+    "ability": "Cute Charm",
+    "hp": 115,
+    "attack": 45,
+    "defense": 20,
+    "special_attack": 45,
+    "special_defense": 25,
+    "speed": 20
+  },
+  {
+    "name": "Jirachi",
+    "type": [
+      "Steel",
+      "Psychic"
+    ],
+    "ability": "Serene Grace",
+    "hp": 100,
+    "attack": 100,
+    "defense": 100,
+    "special_attack": 100,
+    "special_defense": 100,
+    "speed": 100
+  },
+  {
+    "name": "Jolteon",
+    "type": "Electric",
+    "ability": "Volt Absorb",
+    "hp": 65,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 110,
+    "special_defense": 95,
+    "speed": 130
+  },
+  {
+    "name": "Jumpluff",
+    "type": [
+      "Grass",
+      "Flying"
+    ],
+    "ability": "Chlorophyll",
+    "hp": 75,
+    "attack": 55,
+    "defense": 70,
+    "special_attack": 55,
+    "special_defense": 85,
+    "speed": 110
+  },
+  {
+    "name": "Jynx",
+    "type": [
+      "Ice",
+      "Psychic"
+    ],
+    "ability": "Oblivious",
+    "hp": 65,
+    "attack": 50,
+    "defense": 35,
+    "special_attack": 115,
+    "special_defense": 95,
+    "speed": 95
+  },
+  {
+    "name": "Kabuto",
+    "type": [
+      "Rock",
+      "Water"
+    ],
+    "ability": [
+      "Swift Swim",
+      "Battle Armor"
+    ],
+    "hp": 30,
+    "attack": 80,
+    "defense": 90,
+    "special_attack": 55,
+    "special_defense": 45,
+    "speed": 55
+  },
+  {
+    "name": "Kabutops",
+    "type": [
+      "Rock",
+      "Water"
+    ],
+    "ability": [
+      "Swift Swim",
+      "Battle Armor"
+    ],
+    "hp": 60,
+    "attack": 115,
+    "defense": 105,
+    "special_attack": 65,
+    "special_defense": 70,
+    "speed": 80
+  },
+  {
+    "name": "Kadabra",
+    "type": "Psychic",
+    "ability": [
+      "Synchronize",
+      "Inner Focus"
+    ],
+    "hp": 40,
+    "attack": 35,
+    "defense": 30,
+    "special_attack": 120,
+    "special_defense": 70,
+    "speed": 105
+  },
+  {
+    "name": "Kakuna",
+    "type": [
+      "Bug",
+      "Poison"
+    ],
+    "ability": "Shed Skin",
+    "hp": 45,
+    "attack": 25,
+    "defense": 50,
+    "special_attack": 25,
+    "special_defense": 25,
+    "speed": 35
+  },
+  {
+    "name": "Kangaskhan",
+    "type": "Normal",
+    "ability": "Early Bird",
+    "hp": 105,
+    "attack": 95,
+    "defense": 80,
+    "special_attack": 40,
+    "special_defense": 80,
+    "speed": 90
+  },
+  {
+    "name": "Kecleon",
+    "type": "Normal",
+    "ability": "Color Change",
+    "hp": 60,
+    "attack": 90,
+    "defense": 70,
+    "special_attack": 60,
+    "special_defense": 120,
+    "speed": 40
+  },
+  {
+    "name": "Kingdra",
+    "type": [
+      "Water",
+      "Dragon"
+    ],
+    "ability": "Swift Swim",
+    "hp": 75,
+    "attack": 95,
+    "defense": 95,
+    "special_attack": 95,
+    "special_defense": 95,
+    "speed": 85
+  },
+  {
+    "name": "Kingler",
+    "type": "Water",
+    "ability": [
+      "Hyper Cutter",
+      "Shell Armor"
+    ],
+    "hp": 55,
+    "attack": 130,
+    "defense": 115,
+    "special_attack": 50,
+    "special_defense": 50,
+    "speed": 75
+  },
+  {
+    "name": "Kirlia",
+    "type": "Psychic",
+    "ability": [
+      "Synchronize",
+      "Trace"
+    ],
+    "hp": 38,
+    "attack": 35,
+    "defense": 35,
+    "special_attack": 65,
+    "special_defense": 55,
+    "speed": 50
+  },
+  {
+    "name": "Koffing",
+    "type": "Poison",
+    "ability": "Levitate",
+    "hp": 40,
+    "attack": 65,
+    "defense": 95,
+    "special_attack": 60,
+    "special_defense": 45,
+    "speed": 35
+  },
+  {
+    "name": "Krabby",
+    "type": "Water",
+    "ability": [
+      "Hyper Cutter",
+      "Shell Armor"
+    ],
+    "hp": 30,
+    "attack": 105,
+    "defense": 90,
+    "special_attack": 25,
+    "special_defense": 25,
+    "speed": 50
+  },
+  {
+    "name": "Kyogre",
+    "type": "Water",
+    "ability": "Drizzle",
+    "hp": 100,
+    "attack": 100,
+    "defense": 90,
+    "special_attack": 150,
+    "special_defense": 140,
+    "speed": 90
+  },
+  {
+    "name": "Lairon",
+    "type": [
+      "Steel",
+      "Rock"
+    ],
+    "ability": [
+      "Sturdy",
+      "Rock Head"
+    ],
+    "hp": 60,
+    "attack": 90,
+    "defense": 140,
+    "special_attack": 50,
+    "special_defense": 50,
+    "speed": 40
+  },
+  {
+    "name": "Lanturn",
+    "type": [
+      "Water",
+      "Electric"
+    ],
+    "ability": [
+      "Volt Absorb",
+      "Illuminate"
+    ],
+    "hp": 125,
+    "attack": 58,
+    "defense": 58,
+    "special_attack": 76,
+    "special_defense": 76,
+    "speed": 67
+  },
+  {
+    "name": "Lapras",
+    "type": [
+      "Water",
+      "Ice"
+    ],
+    "ability": [
+      "Water Absorb",
+      "Shell Armor"
+    ],
+    "hp": 130,
+    "attack": 85,
+    "defense": 80,
+    "special_attack": 85,
+    "special_defense": 95,
+    "speed": 60
+  },
+  {
+    "name": "Larvitar",
+    "type": [
+      "Rock",
+      "Ground"
+    ],
+    "ability": "Guts",
+    "hp": 50,
+    "attack": 64,
+    "defense": 50,
+    "special_attack": 45,
+    "special_defense": 50,
+    "speed": 41
+  },
+  {
+    "name": "Latias",
+    "type": [
+      "Dragon",
+      "Psychic"
+    ],
+    "ability": "Levitate",
+    "hp": 80,
+    "attack": 80,
+    "defense": 90,
+    "special_attack": 110,
+    "special_defense": 130,
+    "speed": 110
+  },
+  {
+    "name": "Latios",
+    "type": [
+      "Dragon",
+      "Psychic"
+    ],
+    "ability": "Levitate",
+    "hp": 80,
+    "attack": 90,
+    "defense": 80,
+    "special_attack": 130,
+    "special_defense": 110,
+    "speed": 110
+  },
+  {
+    "name": "Ledian",
+    "type": [
+      "Bug",
+      "Flying"
+    ],
+    "ability": [
+      "Swarm",
+      "Early Bird"
+    ],
+    "hp": 55,
+    "attack": 35,
+    "defense": 50,
+    "special_attack": 55,
+    "special_defense": 110,
+    "speed": 85
+  },
+  {
+    "name": "Ledyba",
+    "type": [
+      "Bug",
+      "Flying"
+    ],
+    "ability": [
+      "Swarm",
+      "Early Bird"
+    ],
+    "hp": 40,
+    "attack": 20,
+    "defense": 30,
+    "special_attack": 40,
+    "special_defense": 80,
+    "speed": 55
+  },
+  {
+    "name": "Lickitung",
+    "type": "Normal",
+    "ability": [
+      "Own Tempo",
+      "Oblivious"
+    ],
+    "hp": 90,
+    "attack": 55,
+    "defense": 75,
+    "special_attack": 60,
+    "special_defense": 75,
+    "speed": 30
+  },
+  {
+    "name": "Lileep",
+    "type": [
+      "Rock",
+      "Grass"
+    ],
+    "ability": "Suction Cups",
+    "hp": 66,
+    "attack": 41,
+    "defense": 77,
+    "special_attack": 61,
+    "special_defense": 87,
+    "speed": 23
+  },
+  {
+    "name": "Linoone",
+    "type": "Normal",
+    "ability": "Pickup",
+    "hp": 78,
+    "attack": 70,
+    "defense": 61,
+    "special_attack": 50,
+    "special_defense": 61,
+    "speed": 100
+  },
+  {
+    "name": "Lombre",
+    "type": [
+      "Water",
+      "Grass"
+    ],
+    "ability": [
+      "Swift Swim",
+      "Rain Dish"
+    ],
+    "hp": 60,
+    "attack": 50,
+    "defense": 50,
+    "special_attack": 60,
+    "special_defense": 70,
+    "speed": 50
+  },
+  {
+    "name": "Lotad",
+    "type": [
+      "Water",
+      "Grass"
+    ],
+    "ability": [
+      "Swift Swim",
+      "Rain Dish"
+    ],
+    "hp": 40,
+    "attack": 30,
+    "defense": 30,
+    "special_attack": 40,
+    "special_defense": 50,
+    "speed": 30
+  },
+  {
+    "name": "Loudred",
+    "type": "Normal",
+    "ability": "Soundproof",
+    "hp": 84,
+    "attack": 71,
+    "defense": 43,
+    "special_attack": 71,
+    "special_defense": 43,
+    "speed": 48
+  },
+  {
+    "name": "Ludicolo",
+    "type": [
+      "Water",
+      "Grass"
+    ],
+    "ability": [
+      "Swift Swim",
+      "Rain Dish"
+    ],
+    "hp": 80,
+    "attack": 70,
+    "defense": 70,
+    "special_attack": 90,
+    "special_defense": 100,
+    "speed": 70
+  },
+  {
+    "name": "Lugia",
+    "type": [
+      "Psychic",
+      "Flying"
+    ],
+    "ability": "Pressure",
+    "hp": 106,
+    "attack": 90,
+    "defense": 130,
+    "special_attack": 90,
+    "special_defense": 154,
+    "speed": 110
+  },
+  {
+    "name": "Lunatone",
+    "type": [
+      "Rock",
+      "Psychic"
+    ],
+    "ability": "Levitate",
+    "hp": 70,
+    "attack": 55,
+    "defense": 65,
+    "special_attack": 95,
+    "special_defense": 85,
+    "speed": 70
+  },
+  {
+    "name": "Luvdisc",
+    "type": "Water",
+    "ability": "Swift Swim",
+    "hp": 43,
+    "attack": 30,
+    "defense": 55,
+    "special_attack": 40,
+    "special_defense": 65,
+    "speed": 97
+  },
+  {
+    "name": "Machamp",
+    "type": "Fighting",
+    "ability": "Guts",
+    "hp": 90,
+    "attack": 130,
+    "defense": 80,
+    "special_attack": 65,
+    "special_defense": 85,
+    "speed": 55
+  },
+  {
+    "name": "Machoke",
+    "type": "Fighting",
+    "ability": "Guts",
+    "hp": 80,
+    "attack": 100,
+    "defense": 70,
+    "special_attack": 50,
+    "special_defense": 60,
+    "speed": 45
+  },
+  {
+    "name": "Machop",
+    "type": "Fighting",
+    "ability": "Guts",
+    "hp": 70,
+    "attack": 80,
+    "defense": 50,
+    "special_attack": 35,
+    "special_defense": 35,
+    "speed": 35
+  },
+  {
+    "name": "Magby",
+    "type": "Fire",
+    "ability": "Flame Body",
+    "hp": 45,
+    "attack": 75,
+    "defense": 37,
+    "special_attack": 70,
+    "special_defense": 55,
+    "speed": 83
+  },
+  {
+    "name": "Magcargo",
+    "type": [
+      "Fire",
+      "Rock"
+    ],
+    "ability": [
+      "Magma Armor",
+      "Flame Body"
+    ],
+    "hp": 50,
+    "attack": 50,
+    "defense": 120,
+    "special_attack": 80,
+    "special_defense": 80,
+    "speed": 30
+  },
+  {
+    "name": "Magikarp",
+    "type": "Water",
+    "ability": "Swift Swim",
+    "hp": 20,
+    "attack": 10,
+    "defense": 55,
+    "special_attack": 15,
+    "special_defense": 20,
+    "speed": 80
+  },
+  {
+    "name": "Magmar",
+    "type": "Fire",
+    "ability": "Flame Body",
+    "hp": 65,
+    "attack": 95,
+    "defense": 57,
+    "special_attack": 100,
+    "special_defense": 85,
+    "speed": 93
+  },
+  {
+    "name": "Magnemite",
+    "type": [
+      "Electric",
+      "Steel"
+    ],
+    "ability": [
+      "Magnet Pull",
+      "Sturdy"
+    ],
+    "hp": 25,
+    "attack": 35,
+    "defense": 70,
+    "special_attack": 95,
+    "special_defense": 55,
+    "speed": 45
+  },
+  {
+    "name": "Magneton",
+    "type": [
+      "Electric",
+      "Steel"
+    ],
+    "ability": [
+      "Magnet Pull",
+      "Sturdy"
+    ],
+    "hp": 50,
+    "attack": 60,
+    "defense": 95,
+    "special_attack": 120,
+    "special_defense": 70,
+    "speed": 70
+  },
+  {
+    "name": "Makuhita",
+    "type": "Fighting",
+    "ability": [
+      "Thick Fat",
+      "Guts"
+    ],
+    "hp": 72,
+    "attack": 60,
+    "defense": 30,
+    "special_attack": 20,
+    "special_defense": 30,
+    "speed": 25
+  },
+  {
+    "name": "Manectric",
+    "type": "Electric",
+    "ability": [
+      "Static",
+      "Lightning Rod"
+    ],
+    "hp": 70,
+    "attack": 75,
+    "defense": 60,
+    "special_attack": 105,
+    "special_defense": 60,
+    "speed": 105
+  },
+  {
+    "name": "Mankey",
+    "type": "Fighting",
+    "ability": "Vital Spirit",
+    "hp": 40,
+    "attack": 80,
+    "defense": 35,
+    "special_attack": 35,
+    "special_defense": 45,
+    "speed": 70
+  },
+  {
+    "name": "Mantine",
+    "type": [
+      "Water",
+      "Flying"
+    ],
+    "ability": [
+      "Swift Swim",
+      "Water Absorb"
+    ],
+    "hp": 65,
+    "attack": 40,
+    "defense": 70,
+    "special_attack": 80,
+    "special_defense": 140,
+    "speed": 70
+  },
+  {
+    "name": "Mareep",
+    "type": "Electric",
+    "ability": "Static",
+    "hp": 55,
+    "attack": 40,
+    "defense": 40,
+    "special_attack": 65,
+    "special_defense": 45,
+    "speed": 35
+  },
+  {
+    "name": "Marill",
+    "type": "Water",
+    "ability": [
+      "Thick Fat",
+      "Huge Power"
+    ],
+    "hp": 70,
+    "attack": 20,
+    "defense": 50,
+    "special_attack": 20,
+    "special_defense": 50,
+    "speed": 40
+  },
+  {
+    "name": "Marowak",
+    "type": "Ground",
+    "ability": [
+      "Rock Head",
+      "Lightning Rod"
+    ],
+    "hp": 60,
+    "attack": 80,
+    "defense": 110,
+    "special_attack": 50,
+    "special_defense": 80,
+    "speed": 45
+  },
+  {
+    "name": "Marshtomp",
+    "type": [
+      "Water",
+      "Ground"
+    ],
+    "ability": "Torrent",
+    "hp": 70,
+    "attack": 85,
+    "defense": 70,
+    "special_attack": 60,
+    "special_defense": 70,
+    "speed": 50
+  },
+  {
+    "name": "Masquerain",
+    "type": [
+      "Bug",
+      "Flying"
+    ],
+    "ability": "Intimidate",
+    "hp": 70,
+    "attack": 60,
+    "defense": 62,
+    "special_attack": 80,
+    "special_defense": 82,
+    "speed": 60
+  },
+  {
+    "name": "Mawile",
+    "type": "Steel",
+    "ability": [
+      "Hyper Cutter",
+      "Intimidate"
+    ],
+    "hp": 50,
+    "attack": 85,
+    "defense": 85,
+    "special_attack": 55,
+    "special_defense": 55,
+    "speed": 50
+  },
+  {
+    "name": "Medicham",
+    "type": [
+      "Fighting",
+      "Psychic"
+    ],
+    "ability": "Pure Power",
+    "hp": 60,
+    "attack": 60,
+    "defense": 75,
+    "special_attack": 60,
+    "special_defense": 75,
+    "speed": 80
+  },
+  {
+    "name": "Meditite",
+    "type": [
+      "Fighting",
+      "Psychic"
+    ],
+    "ability": "Pure Power",
+    "hp": 30,
+    "attack": 40,
+    "defense": 55,
+    "special_attack": 40,
+    "special_defense": 55,
+    "speed": 60
+  },
+  {
+    "name": "Meganium",
+    "type": "Grass",
+    "ability": "Overgrow",
+    "hp": 80,
+    "attack": 82,
+    "defense": 100,
+    "special_attack": 83,
+    "special_defense": 100,
+    "speed": 80
+  },
+  {
+    "name": "Meowth",
+    "type": "Normal",
+    "ability": "Pickup",
+    "hp": 40,
+    "attack": 45,
+    "defense": 35,
+    "special_attack": 40,
+    "special_defense": 40,
+    "speed": 90
+  },
+  {
+    "name": "Metagross",
+    "type": [
+      "Steel",
+      "Psychic"
+    ],
+    "ability": "Clear Body",
+    "hp": 80,
+    "attack": 135,
+    "defense": 130,
+    "special_attack": 95,
+    "special_defense": 90,
+    "speed": 70
+  },
+  {
+    "name": "Metang",
+    "type": [
+      "Steel",
+      "Psychic"
+    ],
+    "ability": "Clear Body",
+    "hp": 60,
+    "attack": 75,
+    "defense": 100,
+    "special_attack": 55,
+    "special_defense": 80,
+    "speed": 50
+  },
+  {
+    "name": "Metapod",
+    "type": "Bug",
+    "ability": "Shed Skin",
+    "hp": 50,
+    "attack": 20,
+    "defense": 55,
+    "special_attack": 25,
+    "special_defense": 25,
+    "speed": 30
+  },
+  {
+    "name": "Mew",
+    "type": "Psychic",
+    "ability": "Synchronize",
+    "hp": 100,
+    "attack": 100,
+    "defense": 100,
+    "special_attack": 100,
+    "special_defense": 100,
+    "speed": 100
+  },
+  {
+    "name": "Mewtwo",
+    "type": "Psychic",
+    "ability": "Pressure",
+    "hp": 106,
+    "attack": 110,
+    "defense": 90,
+    "special_attack": 154,
+    "special_defense": 90,
+    "speed": 130
+  },
+  {
+    "name": "Mightyena",
+    "type": "Dark",
+    "ability": "Intimidate",
+    "hp": 70,
+    "attack": 90,
+    "defense": 70,
+    "special_attack": 60,
+    "special_defense": 60,
+    "speed": 70
+  },
+  {
+    "name": "Milotic",
+    "type": "Water",
+    "ability": "Marvel Scale",
+    "hp": 95,
+    "attack": 60,
+    "defense": 79,
+    "special_attack": 100,
+    "special_defense": 125,
+    "speed": 81
+  },
+  {
+    "name": "Miltank",
+    "type": "Normal",
+    "ability": "Thick Fat",
+    "hp": 95,
+    "attack": 80,
+    "defense": 105,
+    "special_attack": 40,
+    "special_defense": 70,
+    "speed": 100
+  },
+  {
+    "name": "Minun",
+    "type": "Electric",
+    "ability": "Minus",
+    "hp": 60,
+    "attack": 40,
+    "defense": 50,
+    "special_attack": 75,
+    "special_defense": 85,
+    "speed": 95
+  },
+  {
+    "name": "Misdreavus",
+    "type": "Ghost",
+    "ability": "Levitate",
+    "hp": 60,
+    "attack": 60,
+    "defense": 60,
+    "special_attack": 85,
+    "special_defense": 85,
+    "speed": 85
+  },
+  {
+    "name": "Moltres",
+    "type": [
+      "Fire",
+      "Flying"
+    ],
+    "ability": "Pressure",
+    "hp": 90,
+    "attack": 100,
+    "defense": 90,
+    "special_attack": 125,
+    "special_defense": 85,
+    "speed": 90
+  },
+  {
+    "name": "Mr. Mime",
+    "type": "Psychic",
+    "ability": "Soundproof",
+    "hp": 40,
+    "attack": 45,
+    "defense": 65,
+    "special_attack": 100,
+    "special_defense": 120,
+    "speed": 90
+  },
+  {
+    "name": "Mudkip",
+    "type": "Water",
+    "ability": "Torrent",
+    "hp": 50,
+    "attack": 70,
+    "defense": 50,
+    "special_attack": 50,
+    "special_defense": 50,
+    "speed": 40
+  },
+  {
+    "name": "Muk",
+    "type": "Poison",
+    "ability": [
+      "Stench",
+      "Sticky Hold"
+    ],
+    "hp": 105,
+    "attack": 105,
+    "defense": 75,
+    "special_attack": 65,
+    "special_defense": 100,
+    "speed": 50
+  },
+  {
+    "name": "Murkrow",
+    "type": [
+      "Dark",
+      "Flying"
+    ],
+    "ability": "Insomnia",
+    "hp": 60,
+    "attack": 85,
+    "defense": 42,
+    "special_attack": 85,
+    "special_defense": 42,
+    "speed": 91
+  },
+  {
+    "name": "Natu",
+    "type": [
+      "Psychic",
+      "Flying"
+    ],
+    "ability": [
+      "Synchronize",
+      "Early Bird"
+    ],
+    "hp": 40,
+    "attack": 50,
+    "defense": 45,
+    "special_attack": 70,
+    "special_defense": 45,
+    "speed": 70
+  },
+  {
+    "name": "Nidoking",
+    "type": [
+      "Poison",
+      "Ground"
+    ],
+    "ability": "Poison Point",
+    "hp": 81,
+    "attack": 92,
+    "defense": 77,
+    "special_attack": 85,
+    "special_defense": 75,
+    "speed": 85
+  },
+  {
+    "name": "Nidoqueen",
+    "type": [
+      "Poison",
+      "Ground"
+    ],
+    "ability": "Poison Point",
+    "hp": 90,
+    "attack": 82,
+    "defense": 87,
+    "special_attack": 75,
+    "special_defense": 85,
+    "speed": 76
+  },
+  {
+    "name": "Nidoran-F",
+    "type": "Poison",
+    "ability": "Poison Point",
+    "hp": 55,
+    "attack": 47,
+    "defense": 52,
+    "special_attack": 40,
+    "special_defense": 40,
+    "speed": 41
+  },
+  {
+    "name": "Nidoran-M",
+    "type": "Poison",
+    "ability": "Poison Point",
+    "hp": 46,
+    "attack": 57,
+    "defense": 40,
+    "special_attack": 40,
+    "special_defense": 40,
+    "speed": 50
+  },
+  {
+    "name": "Nidorina",
+    "type": "Poison",
+    "ability": "Poison Point",
+    "hp": 70,
+    "attack": 62,
+    "defense": 67,
+    "special_attack": 55,
+    "special_defense": 55,
+    "speed": 56
+  },
+  {
+    "name": "Nidorino",
+    "type": "Poison",
+    "ability": "Poison Point",
+    "hp": 61,
+    "attack": 72,
+    "defense": 57,
+    "special_attack": 55,
+    "special_defense": 55,
+    "speed": 65
+  },
+  {
+    "name": "Nincada",
+    "type": [
+      "Bug",
+      "Ground"
+    ],
+    "ability": "Compound Eyes",
+    "hp": 31,
+    "attack": 45,
+    "defense": 90,
+    "special_attack": 30,
+    "special_defense": 30,
+    "speed": 40
+  },
+  {
+    "name": "Ninetales",
+    "type": "Fire",
+    "ability": "Flash Fire",
+    "hp": 73,
+    "attack": 76,
+    "defense": 75,
+    "special_attack": 81,
+    "special_defense": 100,
+    "speed": 100
+  },
+  {
+    "name": "Ninjask",
+    "type": [
+      "Bug",
+      "Flying"
+    ],
+    "ability": "Speed Boost",
+    "hp": 61,
+    "attack": 90,
+    "defense": 45,
+    "special_attack": 50,
+    "special_defense": 50,
+    "speed": 160
+  },
+  {
+    "name": "Noctowl",
+    "type": [
+      "Normal",
+      "Flying"
+    ],
+    "ability": [
+      "Insomnia",
+      "Keen Eye"
+    ],
+    "hp": 100,
+    "attack": 50,
+    "defense": 50,
+    "special_attack": 76,
+    "special_defense": 96,
+    "speed": 70
+  },
+  {
+    "name": "Nosepass",
+    "type": "Rock",
+    "ability": [
+      "Sturdy",
+      "Magnet Pull"
+    ],
+    "hp": 30,
+    "attack": 45,
+    "defense": 135,
+    "special_attack": 45,
+    "special_defense": 90,
+    "speed": 30
+  },
+  {
+    "name": "Numel",
+    "type": [
+      "Fire",
+      "Ground"
+    ],
+    "ability": "Oblivious",
+    "hp": 60,
+    "attack": 60,
+    "defense": 40,
+    "special_attack": 65,
+    "special_defense": 45,
+    "speed": 35
+  },
+  {
+    "name": "Nuzleaf",
+    "type": [
+      "Grass",
+      "Dark"
+    ],
+    "ability": [
+      "Chlorophyll",
+      "Early Bird"
+    ],
+    "hp": 70,
+    "attack": 70,
+    "defense": 40,
+    "special_attack": 60,
+    "special_defense": 40,
+    "speed": 60
+  },
+  {
+    "name": "Octillery",
+    "type": "Water",
+    "ability": "Suction Cups",
+    "hp": 75,
+    "attack": 105,
+    "defense": 75,
+    "special_attack": 105,
+    "special_defense": 75,
+    "speed": 45
+  },
+  {
+    "name": "Oddish",
+    "type": [
+      "Grass",
+      "Poison"
+    ],
+    "ability": "Chlorophyll",
+    "hp": 45,
+    "attack": 50,
+    "defense": 55,
+    "special_attack": 75,
+    "special_defense": 65,
+    "speed": 30
+  },
+  {
+    "name": "Omanyte",
+    "type": [
+      "Rock",
+      "Water"
+    ],
+    "ability": [
+      "Swift Swim",
+      "Shell Armor"
+    ],
+    "hp": 35,
+    "attack": 40,
+    "defense": 100,
+    "special_attack": 90,
+    "special_defense": 55,
+    "speed": 35
+  },
+  {
+    "name": "Omastar",
+    "type": [
+      "Rock",
+      "Water"
+    ],
+    "ability": [
+      "Swift Swim",
+      "Shell Armor"
+    ],
+    "hp": 70,
+    "attack": 60,
+    "defense": 125,
+    "special_attack": 115,
+    "special_defense": 70,
+    "speed": 55
+  },
+  {
+    "name": "Onix",
+    "type": [
+      "Rock",
+      "Ground"
+    ],
+    "ability": [
+      "Rock Head",
+      "Sturdy"
+    ],
+    "hp": 35,
+    "attack": 45,
+    "defense": 160,
+    "special_attack": 30,
+    "special_defense": 45,
+    "speed": 70
+  },
+  {
+    "name": "Paras",
+    "type": [
+      "Bug",
+      "Grass"
+    ],
+    "ability": "Effect Spore",
+    "hp": 35,
+    "attack": 70,
+    "defense": 55,
+    "special_attack": 45,
+    "special_defense": 55,
+    "speed": 25
+  },
+  {
+    "name": "Parasect",
+    "type": [
+      "Bug",
+      "Grass"
+    ],
+    "ability": "Effect Spore",
+    "hp": 60,
+    "attack": 95,
+    "defense": 80,
+    "special_attack": 60,
+    "special_defense": 80,
+    "speed": 30
+  },
+  {
+    "name": "Pelipper",
+    "type": [
+      "Water",
+      "Flying"
+    ],
+    "ability": "Keen Eye",
+    "hp": 60,
+    "attack": 50,
+    "defense": 100,
+    "special_attack": 85,
+    "special_defense": 70,
+    "speed": 65
+  },
+  {
+    "name": "Persian",
+    "type": "Normal",
+    "ability": "Limber",
+    "hp": 65,
+    "attack": 70,
+    "defense": 60,
+    "special_attack": 65,
+    "special_defense": 65,
+    "speed": 115
+  },
+  {
+    "name": "Phanpy",
+    "type": "Ground",
+    "ability": "Pickup",
+    "hp": 90,
+    "attack": 60,
+    "defense": 60,
+    "special_attack": 40,
+    "special_defense": 40,
+    "speed": 40
+  },
+  {
+    "name": "Pichu",
+    "type": "Electric",
+    "ability": "Static",
+    "hp": 20,
+    "attack": 40,
+    "defense": 15,
+    "special_attack": 35,
+    "special_defense": 35,
+    "speed": 60
+  },
+  {
+    "name": "Pidgeot",
+    "type": [
+      "Normal",
+      "Flying"
+    ],
+    "ability": "Keen Eye",
+    "hp": 83,
+    "attack": 80,
+    "defense": 75,
+    "special_attack": 70,
+    "special_defense": 70,
+    "speed": 91
+  },
+  {
+    "name": "Pidgeotto",
+    "type": [
+      "Normal",
+      "Flying"
+    ],
+    "ability": "Keen Eye",
+    "hp": 63,
+    "attack": 60,
+    "defense": 55,
+    "special_attack": 50,
+    "special_defense": 50,
+    "speed": 71
+  },
+  {
+    "name": "Pidgey",
+    "type": [
+      "Normal",
+      "Flying"
+    ],
+    "ability": "Keen Eye",
+    "hp": 40,
+    "attack": 45,
+    "defense": 40,
+    "special_attack": 35,
+    "special_defense": 35,
+    "speed": 56
+  },
+  {
+    "name": "Pikachu",
+    "type": "Electric",
+    "ability": "Static",
+    "hp": 35,
+    "attack": 55,
+    "defense": 30,
+    "special_attack": 50,
+    "special_defense": 40,
+    "speed": 90
+  },
+  {
+    "name": "Piloswine",
+    "type": [
+      "Ice",
+      "Ground"
+    ],
+    "ability": "Oblivious",
+    "hp": 100,
+    "attack": 100,
+    "defense": 80,
+    "special_attack": 60,
+    "special_defense": 60,
+    "speed": 50
+  },
+  {
+    "name": "Pineco",
+    "type": "Bug",
+    "ability": "Sturdy",
+    "hp": 50,
+    "attack": 65,
+    "defense": 90,
+    "special_attack": 35,
+    "special_defense": 35,
+    "speed": 15
+  },
+  {
+    "name": "Pinsir",
+    "type": "Bug",
+    "ability": "Hyper Cutter",
+    "hp": 65,
+    "attack": 125,
+    "defense": 100,
+    "special_attack": 55,
+    "special_defense": 70,
+    "speed": 85
+  },
+  {
+    "name": "Plusle",
+    "type": "Electric",
+    "ability": "Plus",
+    "hp": 60,
+    "attack": 50,
+    "defense": 40,
+    "special_attack": 85,
+    "special_defense": 75,
+    "speed": 95
+  },
+  {
+    "name": "Politoed",
+    "type": "Water",
+    "ability": [
+      "Water Absorb",
+      "Damp"
+    ],
+    "hp": 90,
+    "attack": 75,
+    "defense": 75,
+    "special_attack": 90,
+    "special_defense": 100,
+    "speed": 70
+  },
+  {
+    "name": "Poliwag",
+    "type": "Water",
+    "ability": [
+      "Water Absorb",
+      "Damp"
+    ],
+    "hp": 40,
+    "attack": 50,
+    "defense": 40,
+    "special_attack": 40,
+    "special_defense": 40,
+    "speed": 90
+  },
+  {
+    "name": "Poliwhirl",
+    "type": "Water",
+    "ability": [
+      "Water Absorb",
+      "Damp"
+    ],
+    "hp": 65,
+    "attack": 65,
+    "defense": 65,
+    "special_attack": 50,
+    "special_defense": 50,
+    "speed": 90
+  },
+  {
+    "name": "Poliwrath",
+    "type": [
+      "Water",
+      "Fighting"
+    ],
+    "ability": [
+      "Water Absorb",
+      "Damp"
+    ],
+    "hp": 90,
+    "attack": 85,
+    "defense": 95,
+    "special_attack": 70,
+    "special_defense": 90,
+    "speed": 70
+  },
+  {
+    "name": "Ponyta",
+    "type": "Fire",
+    "ability": [
+      "Run Away",
+      "Flash Fire"
+    ],
+    "hp": 50,
+    "attack": 85,
+    "defense": 55,
+    "special_attack": 65,
+    "special_defense": 65,
+    "speed": 90
+  },
+  {
+    "name": "Poochyena",
+    "type": "Dark",
+    "ability": "Run Away",
+    "hp": 35,
+    "attack": 55,
+    "defense": 35,
+    "special_attack": 30,
+    "special_defense": 30,
+    "speed": 35
+  },
+  {
+    "name": "Porygon",
+    "type": "Normal",
+    "ability": "Trace",
+    "hp": 65,
+    "attack": 60,
+    "defense": 70,
+    "special_attack": 85,
+    "special_defense": 75,
+    "speed": 40
+  },
+  {
+    "name": "Porygon2",
+    "type": "Normal",
+    "ability": "Trace",
+    "hp": 85,
+    "attack": 80,
+    "defense": 90,
+    "special_attack": 105,
+    "special_defense": 95,
+    "speed": 60
+  },
+  {
+    "name": "Primeape",
+    "type": "Fighting",
+    "ability": "Vital Spirit",
+    "hp": 65,
+    "attack": 105,
+    "defense": 60,
+    "special_attack": 60,
+    "special_defense": 70,
+    "speed": 95
+  },
+  {
+    "name": "Psyduck",
+    "type": "Water",
+    "ability": [
+      "Damp",
+      "Cloud Nine"
+    ],
+    "hp": 50,
+    "attack": 52,
+    "defense": 48,
+    "special_attack": 65,
+    "special_defense": 50,
+    "speed": 55
+  },
+  {
+    "name": "Pupitar",
+    "type": [
+      "Rock",
+      "Ground"
+    ],
+    "ability": "Shed Skin",
+    "hp": 70,
+    "attack": 84,
+    "defense": 70,
+    "special_attack": 65,
+    "special_defense": 70,
+    "speed": 51
+  },
+  {
+    "name": "Quagsire",
+    "type": [
+      "Water",
+      "Ground"
+    ],
+    "ability": [
+      "Damp",
+      "Water Absorb"
+    ],
+    "hp": 95,
+    "attack": 85,
+    "defense": 85,
+    "special_attack": 65,
+    "special_defense": 65,
+    "speed": 35
+  },
+  {
+    "name": "Quilava",
+    "type": "Fire",
+    "ability": "Blaze",
+    "hp": 58,
+    "attack": 64,
+    "defense": 58,
+    "special_attack": 80,
+    "special_defense": 65,
+    "speed": 80
+  },
+  {
+    "name": "Qwilfish",
+    "type": [
+      "Water",
+      "Poison"
+    ],
+    "ability": [
+      "Poison Point",
+      "Swift Swim"
+    ],
+    "hp": 65,
+    "attack": 95,
+    "defense": 75,
+    "special_attack": 55,
+    "special_defense": 55,
+    "speed": 85
+  },
+  {
+    "name": "Raichu",
+    "type": "Electric",
+    "ability": "Static",
+    "hp": 60,
+    "attack": 90,
+    "defense": 55,
+    "special_attack": 90,
+    "special_defense": 80,
+    "speed": 100
+  },
+  {
+    "name": "Raikou",
+    "type": "Electric",
+    "ability": "Pressure",
+    "hp": 90,
+    "attack": 85,
+    "defense": 75,
+    "special_attack": 115,
+    "special_defense": 100,
+    "speed": 115
+  },
+  {
+    "name": "Ralts",
+    "type": "Psychic",
+    "ability": [
+      "Synchronize",
+      "Trace"
+    ],
+    "hp": 28,
+    "attack": 25,
+    "defense": 25,
+    "special_attack": 45,
+    "special_defense": 35,
+    "speed": 40
+  },
+  {
+    "name": "Rapidash",
+    "type": "Fire",
+    "ability": [
+      "Run Away",
+      "Flash Fire"
+    ],
+    "hp": 65,
+    "attack": 100,
+    "defense": 70,
+    "special_attack": 80,
+    "special_defense": 80,
+    "speed": 105
+  },
+  {
+    "name": "Raticate",
+    "type": "Normal",
+    "ability": [
+      "Run Away",
+      "Guts"
+    ],
+    "hp": 55,
+    "attack": 81,
+    "defense": 60,
+    "special_attack": 50,
+    "special_defense": 70,
+    "speed": 97
+  },
+  {
+    "name": "Rattata",
+    "type": "Normal",
+    "ability": [
+      "Run Away",
+      "Guts"
+    ],
+    "hp": 30,
+    "attack": 56,
+    "defense": 35,
+    "special_attack": 25,
+    "special_defense": 35,
+    "speed": 72
+  },
+  {
+    "name": "Rayquaza",
+    "type": [
+      "Dragon",
+      "Flying"
+    ],
+    "ability": "Air Lock",
+    "hp": 105,
+    "attack": 150,
+    "defense": 90,
+    "special_attack": 150,
+    "special_defense": 90,
+    "speed": 95
+  },
+  {
+    "name": "Regice",
+    "type": "Ice",
+    "ability": "Clear Body",
+    "hp": 80,
+    "attack": 50,
+    "defense": 100,
+    "special_attack": 100,
+    "special_defense": 200,
+    "speed": 50
+  },
+  {
+    "name": "Regirock",
+    "type": "Rock",
+    "ability": "Clear Body",
+    "hp": 80,
+    "attack": 100,
+    "defense": 200,
+    "special_attack": 50,
+    "special_defense": 100,
+    "speed": 50
+  },
+  {
+    "name": "Registeel",
+    "type": "Steel",
+    "ability": "Clear Body",
+    "hp": 80,
+    "attack": 75,
+    "defense": 150,
+    "special_attack": 75,
+    "special_defense": 150,
+    "speed": 50
+  },
+  {
+    "name": "Relicanth",
+    "type": [
+      "Water",
+      "Rock"
+    ],
+    "ability": [
+      "Swift Swim",
+      "Rock Head"
+    ],
+    "hp": 100,
+    "attack": 90,
+    "defense": 130,
+    "special_attack": 45,
+    "special_defense": 65,
+    "speed": 55
+  },
+  {
+    "name": "Remoraid",
+    "type": "Water",
+    "ability": "Hustle",
+    "hp": 35,
+    "attack": 65,
+    "defense": 35,
+    "special_attack": 65,
+    "special_defense": 35,
+    "speed": 65
+  },
+  {
+    "name": "Rhydon",
+    "type": [
+      "Ground",
+      "Rock"
+    ],
+    "ability": [
+      "Lightning Rod",
+      "Rock Head"
+    ],
+    "hp": 105,
+    "attack": 130,
+    "defense": 120,
+    "special_attack": 45,
+    "special_defense": 45,
+    "speed": 40
+  },
+  {
+    "name": "Rhyhorn",
+    "type": [
+      "Ground",
+      "Rock"
+    ],
+    "ability": [
+      "Lightning Rod",
+      "Rock Head"
+    ],
+    "hp": 80,
+    "attack": 85,
+    "defense": 95,
+    "special_attack": 30,
+    "special_defense": 30,
+    "speed": 25
+  },
+  {
+    "name": "Roselia",
+    "type": [
+      "Grass",
+      "Poison"
+    ],
+    "ability": [
+      "Natural Cure",
+      "Poison Point"
+    ],
+    "hp": 50,
+    "attack": 60,
+    "defense": 45,
+    "special_attack": 100,
+    "special_defense": 80,
+    "speed": 65
+  },
+  {
+    "name": "Sableye",
+    "type": [
+      "Dark",
+      "Ghost"
+    ],
+    "ability": "Keen Eye",
+    "hp": 50,
+    "attack": 75,
+    "defense": 75,
+    "special_attack": 65,
+    "special_defense": 65,
+    "speed": 50
+  },
+  {
+    "name": "Salamence",
+    "type": [
+      "Dragon",
+      "Flying"
+    ],
+    "ability": "Intimidate",
+    "hp": 95,
+    "attack": 135,
+    "defense": 80,
+    "special_attack": 110,
+    "special_defense": 80,
+    "speed": 100
+  },
+  {
+    "name": "Sandshrew",
+    "type": "Ground",
+    "ability": "Sand Veil",
+    "hp": 50,
+    "attack": 75,
+    "defense": 85,
+    "special_attack": 20,
+    "special_defense": 30,
+    "speed": 40
+  },
+  {
+    "name": "Sandslash",
+    "type": "Ground",
+    "ability": "Sand Veil",
+    "hp": 75,
+    "attack": 100,
+    "defense": 110,
+    "special_attack": 45,
+    "special_defense": 55,
+    "speed": 65
+  },
+  {
+    "name": "Sceptile",
+    "type": "Grass",
+    "ability": "Overgrow",
+    "hp": 70,
+    "attack": 85,
+    "defense": 65,
+    "special_attack": 105,
+    "special_defense": 85,
+    "speed": 120
+  },
+  {
+    "name": "Scizor",
+    "type": [
+      "Bug",
+      "Steel"
+    ],
+    "ability": "Swarm",
+    "hp": 70,
+    "attack": 130,
+    "defense": 100,
+    "special_attack": 55,
+    "special_defense": 80,
+    "speed": 65
+  },
+  {
+    "name": "Scyther",
+    "type": [
+      "Bug",
+      "Flying"
+    ],
+    "ability": "Swarm",
+    "hp": 70,
+    "attack": 110,
+    "defense": 80,
+    "special_attack": 55,
+    "special_defense": 80,
+    "speed": 105
+  },
+  {
+    "name": "Seadra",
+    "type": "Water",
+    "ability": "Poison Point",
+    "hp": 55,
+    "attack": 65,
+    "defense": 95,
+    "special_attack": 95,
+    "special_defense": 45,
+    "speed": 85
+  },
+  {
+    "name": "Seaking",
+    "type": "Water",
+    "ability": [
+      "Swift Swim",
+      "Water Veil"
+    ],
+    "hp": 80,
+    "attack": 92,
+    "defense": 65,
+    "special_attack": 65,
+    "special_defense": 80,
+    "speed": 68
+  },
+  {
+    "name": "Sealeo",
+    "type": [
+      "Ice",
+      "Water"
+    ],
+    "ability": "Thick Fat",
+    "hp": 90,
+    "attack": 60,
+    "defense": 70,
+    "special_attack": 75,
+    "special_defense": 70,
+    "speed": 45
+  },
+  {
+    "name": "Seedot",
+    "type": "Grass",
+    "ability": [
+      "Chlorophyll",
+      "Early Bird"
+    ],
+    "hp": 40,
+    "attack": 40,
+    "defense": 50,
+    "special_attack": 30,
+    "special_defense": 30,
+    "speed": 30
+  },
+  {
+    "name": "Seel",
+    "type": "Water",
+    "ability": "Thick Fat",
+    "hp": 65,
+    "attack": 45,
+    "defense": 55,
+    "special_attack": 45,
+    "special_defense": 70,
+    "speed": 45
+  },
+  {
+    "name": "Sentret",
+    "type": "Normal",
+    "ability": [
+      "Run Away",
+      "Keen Eye"
+    ],
+    "hp": 35,
+    "attack": 46,
+    "defense": 34,
+    "special_attack": 35,
+    "special_defense": 45,
+    "speed": 20
+  },
+  {
+    "name": "Seviper",
+    "type": "Poison",
+    "ability": "Shed Skin",
+    "hp": 73,
+    "attack": 100,
+    "defense": 60,
+    "special_attack": 100,
+    "special_defense": 60,
+    "speed": 65
+  },
+  {
+    "name": "Sharpedo",
+    "type": [
+      "Water",
+      "Dark"
+    ],
+    "ability": "Rough Skin",
+    "hp": 70,
+    "attack": 120,
+    "defense": 40,
+    "special_attack": 95,
+    "special_defense": 40,
+    "speed": 95
+  },
+  {
+    "name": "Shedinja",
+    "type": [
+      "Bug",
+      "Ghost"
+    ],
+    "ability": "Wonder Guard",
+    "hp": 1,
+    "attack": 90,
+    "defense": 45,
+    "special_attack": 30,
+    "special_defense": 30,
+    "speed": 40
+  },
+  {
+    "name": "Shelgon",
+    "type": "Dragon",
+    "ability": "Rock Head",
+    "hp": 65,
+    "attack": 95,
+    "defense": 100,
+    "special_attack": 60,
+    "special_defense": 50,
+    "speed": 50
+  },
+  {
+    "name": "Shellder",
+    "type": "Water",
+    "ability": "Shell Armor",
+    "hp": 30,
+    "attack": 65,
+    "defense": 100,
+    "special_attack": 45,
+    "special_defense": 25,
+    "speed": 40
+  },
+  {
+    "name": "Shiftry",
+    "type": [
+      "Grass",
+      "Dark"
+    ],
+    "ability": [
+      "Chlorophyll",
+      "Early Bird"
+    ],
+    "hp": 90,
+    "attack": 100,
+    "defense": 60,
+    "special_attack": 90,
+    "special_defense": 60,
+    "speed": 80
+  },
+  {
+    "name": "Shroomish",
+    "type": "Grass",
+    "ability": "Effect Spore",
+    "hp": 60,
+    "attack": 40,
+    "defense": 60,
+    "special_attack": 40,
+    "special_defense": 60,
+    "speed": 35
+  },
+  {
+    "name": "Shuckle",
+    "type": [
+      "Bug",
+      "Rock"
+    ],
+    "ability": "Sturdy",
+    "hp": 20,
+    "attack": 10,
+    "defense": 230,
+    "special_attack": 10,
+    "special_defense": 230,
+    "speed": 5
+  },
+  {
+    "name": "Shuppet",
+    "type": "Ghost",
+    "ability": "Insomnia",
+    "hp": 44,
+    "attack": 75,
+    "defense": 35,
+    "special_attack": 63,
+    "special_defense": 33,
+    "speed": 45
+  },
+  {
+    "name": "Silcoon",
+    "type": "Bug",
+    "ability": "Shed Skin",
+    "hp": 50,
+    "attack": 35,
+    "defense": 55,
+    "special_attack": 25,
+    "special_defense": 25,
+    "speed": 15
+  },
+  {
+    "name": "Skarmory",
+    "type": [
+      "Steel",
+      "Flying"
+    ],
+    "ability": [
+      "Keen Eye",
+      "Sturdy"
+    ],
+    "hp": 65,
+    "attack": 80,
+    "defense": 140,
+    "special_attack": 40,
+    "special_defense": 70,
+    "speed": 70
+  },
+  {
+    "name": "Skiploom",
+    "type": [
+      "Grass",
+      "Flying"
+    ],
+    "ability": "Chlorophyll",
+    "hp": 55,
+    "attack": 45,
+    "defense": 50,
+    "special_attack": 45,
+    "special_defense": 65,
+    "speed": 80
+  },
+  {
+    "name": "Skitty",
+    "type": "Normal",
+    "ability": "Cute Charm",
+    "hp": 50,
+    "attack": 45,
+    "defense": 45,
+    "special_attack": 35,
+    "special_defense": 35,
+    "speed": 50
+  },
+  {
+    "name": "Slaking",
+    "type": "Normal",
+    "ability": "Truant",
+    "hp": 150,
+    "attack": 160,
+    "defense": 100,
+    "special_attack": 95,
+    "special_defense": 65,
+    "speed": 100
+  },
+  {
+    "name": "Slakoth",
+    "type": "Normal",
+    "ability": "Truant",
+    "hp": 60,
+    "attack": 60,
+    "defense": 60,
+    "special_attack": 35,
+    "special_defense": 35,
+    "speed": 30
+  },
+  {
+    "name": "Slowbro",
+    "type": [
+      "Water",
+      "Psychic"
+    ],
+    "ability": [
+      "Oblivious",
+      "Own Tempo"
+    ],
+    "hp": 95,
+    "attack": 75,
+    "defense": 110,
+    "special_attack": 100,
+    "special_defense": 80,
+    "speed": 30
+  },
+  {
+    "name": "Slowking",
+    "type": [
+      "Water",
+      "Psychic"
+    ],
+    "ability": [
+      "Oblivious",
+      "Own Tempo"
+    ],
+    "hp": 95,
+    "attack": 75,
+    "defense": 80,
+    "special_attack": 100,
+    "special_defense": 110,
+    "speed": 30
+  },
+  {
+    "name": "Slowpoke",
+    "type": [
+      "Water",
+      "Psychic"
+    ],
+    "ability": [
+      "Oblivious",
+      "Own Tempo"
+    ],
+    "hp": 90,
+    "attack": 65,
+    "defense": 65,
+    "special_attack": 40,
+    "special_defense": 40,
+    "speed": 15
+  },
+  {
+    "name": "Slugma",
+    "type": "Fire",
+    "ability": [
+      "Magma Armor",
+      "Flame Body"
+    ],
+    "hp": 40,
+    "attack": 40,
+    "defense": 40,
+    "special_attack": 70,
+    "special_defense": 40,
+    "speed": 20
+  },
+  {
+    "name": "Smeargle",
+    "type": "Normal",
+    "ability": "Own Tempo",
+    "hp": 55,
+    "attack": 20,
+    "defense": 35,
+    "special_attack": 20,
+    "special_defense": 45,
+    "speed": 75
+  },
+  {
+    "name": "Smoochum",
+    "type": [
+      "Ice",
+      "Psychic"
+    ],
+    "ability": "Oblivious",
+    "hp": 45,
+    "attack": 30,
+    "defense": 15,
+    "special_attack": 85,
+    "special_defense": 65,
+    "speed": 65
+  },
+  {
+    "name": "Sneasel",
+    "type": [
+      "Dark",
+      "Ice"
+    ],
+    "ability": [
+      "Inner Focus",
+      "Keen Eye"
+    ],
+    "hp": 55,
+    "attack": 95,
+    "defense": 55,
+    "special_attack": 35,
+    "special_defense": 75,
+    "speed": 115
+  },
+  {
+    "name": "Snorlax",
+    "type": "Normal",
+    "ability": [
+      "Immunity",
+      "Thick Fat"
+    ],
+    "hp": 160,
+    "attack": 110,
+    "defense": 65,
+    "special_attack": 65,
+    "special_defense": 110,
+    "speed": 30
+  },
+  {
+    "name": "Snorunt",
+    "type": "Ice",
+    "ability": "Inner Focus",
+    "hp": 50,
+    "attack": 50,
+    "defense": 50,
+    "special_attack": 50,
+    "special_defense": 50,
+    "speed": 50
+  },
+  {
+    "name": "Snubbull",
+    "type": "Normal",
+    "ability": [
+      "Intimidate",
+      "Run Away"
+    ],
+    "hp": 60,
+    "attack": 80,
+    "defense": 50,
+    "special_attack": 40,
+    "special_defense": 40,
+    "speed": 30
+  },
+  {
+    "name": "Solrock",
+    "type": [
+      "Rock",
+      "Psychic"
+    ],
+    "ability": "Levitate",
+    "hp": 70,
+    "attack": 95,
+    "defense": 85,
+    "special_attack": 55,
+    "special_defense": 65,
+    "speed": 70
+  },
+  {
+    "name": "Spearow",
+    "type": [
+      "Normal",
+      "Flying"
+    ],
+    "ability": "Keen Eye",
+    "hp": 40,
+    "attack": 60,
+    "defense": 30,
+    "special_attack": 31,
+    "special_defense": 31,
+    "speed": 70
+  },
+  {
+    "name": "Spheal",
+    "type": [
+      "Ice",
+      "Water"
+    ],
+    "ability": "Thick Fat",
+    "hp": 70,
+    "attack": 40,
+    "defense": 50,
+    "special_attack": 55,
+    "special_defense": 50,
+    "speed": 25
+  },
+  {
+    "name": "Spinarak",
+    "type": [
+      "Bug",
+      "Poison"
+    ],
+    "ability": [
+      "Swarm",
+      "Insomnia"
+    ],
+    "hp": 40,
+    "attack": 60,
+    "defense": 40,
+    "special_attack": 40,
+    "special_defense": 40,
+    "speed": 30
+  },
+  {
+    "name": "Spinda",
+    "type": "Normal",
+    "ability": "Own Tempo",
+    "hp": 60,
+    "attack": 60,
+    "defense": 60,
+    "special_attack": 60,
+    "special_defense": 60,
+    "speed": 60
+  },
+  {
+    "name": "Spoink",
+    "type": "Psychic",
+    "ability": [
+      "Thick Fat",
+      "Own Tempo"
+    ],
+    "hp": 60,
+    "attack": 25,
+    "defense": 35,
+    "special_attack": 70,
+    "special_defense": 80,
+    "speed": 60
+  },
+  {
+    "name": "Squirtle",
+    "type": "Water",
+    "ability": "Torrent",
+    "hp": 44,
+    "attack": 48,
+    "defense": 65,
+    "special_attack": 50,
+    "special_defense": 64,
+    "speed": 43
+  },
+  {
+    "name": "Stantler",
+    "type": "Normal",
+    "ability": "Intimidate",
+    "hp": 73,
+    "attack": 95,
+    "defense": 62,
+    "special_attack": 85,
+    "special_defense": 65,
+    "speed": 85
+  },
+  {
+    "name": "Starmie",
+    "type": [
+      "Water",
+      "Psychic"
+    ],
+    "ability": [
+      "Illuminate",
+      "Natural Cure"
+    ],
+    "hp": 60,
+    "attack": 75,
+    "defense": 85,
+    "special_attack": 100,
+    "special_defense": 85,
+    "speed": 115
+  },
+  {
+    "name": "Staryu",
+    "type": "Water",
+    "ability": [
+      "Illuminate",
+      "Natural Cure"
+    ],
+    "hp": 30,
+    "attack": 45,
+    "defense": 55,
+    "special_attack": 70,
+    "special_defense": 55,
+    "speed": 85
+  },
+  {
+    "name": "Steelix",
+    "type": [
+      "Steel",
+      "Ground"
+    ],
+    "ability": [
+      "Rock Head",
+      "Sturdy"
+    ],
+    "hp": 75,
+    "attack": 85,
+    "defense": 200,
+    "special_attack": 55,
+    "special_defense": 65,
+    "speed": 30
+  },
+  {
+    "name": "Sudowoodo",
+    "type": "Rock",
+    "ability": [
+      "Sturdy",
+      "Rock Head"
+    ],
+    "hp": 70,
+    "attack": 100,
+    "defense": 115,
+    "special_attack": 30,
+    "special_defense": 65,
+    "speed": 30
+  },
+  {
+    "name": "Suicune",
+    "type": "Water",
+    "ability": "Pressure",
+    "hp": 100,
+    "attack": 75,
+    "defense": 115,
+    "special_attack": 90,
+    "special_defense": 115,
+    "speed": 85
+  },
+  {
+    "name": "Sunflora",
+    "type": "Grass",
+    "ability": "Chlorophyll",
+    "hp": 75,
+    "attack": 75,
+    "defense": 55,
+    "special_attack": 105,
+    "special_defense": 85,
+    "speed": 30
+  },
+  {
+    "name": "Sunkern",
+    "type": "Grass",
+    "ability": "Chlorophyll",
+    "hp": 30,
+    "attack": 30,
+    "defense": 30,
+    "special_attack": 30,
+    "special_defense": 30,
+    "speed": 30
+  },
+  {
+    "name": "Surskit",
+    "type": [
+      "Bug",
+      "Water"
+    ],
+    "ability": "Swift Swim",
+    "hp": 40,
+    "attack": 30,
+    "defense": 32,
+    "special_attack": 50,
+    "special_defense": 52,
+    "speed": 65
+  },
+  {
+    "name": "Swablu",
+    "type": [
+      "Normal",
+      "Flying"
+    ],
+    "ability": "Natural Cure",
+    "hp": 45,
+    "attack": 40,
+    "defense": 60,
+    "special_attack": 40,
+    "special_defense": 75,
+    "speed": 50
+  },
+  {
+    "name": "Swalot",
+    "type": "Poison",
+    "ability": [
+      "Liquid Ooze",
+      "Sticky Hold"
+    ],
+    "hp": 100,
+    "attack": 73,
+    "defense": 83,
+    "special_attack": 73,
+    "special_defense": 83,
+    "speed": 55
+  },
+  {
+    "name": "Swampert",
+    "type": [
+      "Water",
+      "Ground"
+    ],
+    "ability": "Torrent",
+    "hp": 100,
+    "attack": 110,
+    "defense": 90,
+    "special_attack": 85,
+    "special_defense": 90,
+    "speed": 60
+  },
+  {
+    "name": "Swellow",
+    "type": [
+      "Normal",
+      "Flying"
+    ],
+    "ability": "Guts",
+    "hp": 60,
+    "attack": 85,
+    "defense": 60,
+    "special_attack": 50,
+    "special_defense": 50,
+    "speed": 125
+  },
+  {
+    "name": "Swinub",
+    "type": [
+      "Ice",
+      "Ground"
+    ],
+    "ability": "Oblivious",
+    "hp": 50,
+    "attack": 50,
+    "defense": 40,
+    "special_attack": 30,
+    "special_defense": 30,
+    "speed": 50
+  },
+  {
+    "name": "Taillow",
+    "type": [
+      "Normal",
+      "Flying"
+    ],
+    "ability": "Guts",
+    "hp": 40,
+    "attack": 55,
+    "defense": 30,
+    "special_attack": 30,
+    "special_defense": 30,
+    "speed": 85
+  },
+  {
+    "name": "Tangela",
+    "type": "Grass",
+    "ability": "Chlorophyll",
+    "hp": 65,
+    "attack": 55,
+    "defense": 115,
+    "special_attack": 100,
+    "special_defense": 40,
+    "speed": 60
+  },
+  {
+    "name": "Tauros",
+    "type": "Normal",
+    "ability": "Intimidate",
+    "hp": 75,
+    "attack": 100,
+    "defense": 95,
+    "special_attack": 40,
+    "special_defense": 70,
+    "speed": 110
+  },
+  {
+    "name": "Teddiursa",
+    "type": "Normal",
+    "ability": "Pickup",
+    "hp": 60,
+    "attack": 80,
+    "defense": 50,
+    "special_attack": 50,
+    "special_defense": 50,
+    "speed": 40
+  },
+  {
+    "name": "Tentacool",
+    "type": [
+      "Water",
+      "Poison"
+    ],
+    "ability": [
+      "Clear Body",
+      "Liquid Ooze"
+    ],
+    "hp": 40,
+    "attack": 40,
+    "defense": 35,
+    "special_attack": 50,
+    "special_defense": 100,
+    "speed": 70
+  },
+  {
+    "name": "Tentacruel",
+    "type": [
+      "Water",
+      "Poison"
+    ],
+    "ability": [
+      "Clear Body",
+      "Liquid Ooze"
+    ],
+    "hp": 80,
+    "attack": 70,
+    "defense": 65,
+    "special_attack": 80,
+    "special_defense": 120,
+    "speed": 100
+  },
+  {
+    "name": "Togepi",
+    "type": "Normal",
+    "ability": [
+      "Hustle",
+      "Serene Grace"
+    ],
+    "hp": 35,
+    "attack": 20,
+    "defense": 65,
+    "special_attack": 40,
+    "special_defense": 65,
+    "speed": 20
+  },
+  {
+    "name": "Togetic",
+    "type": [
+      "Normal",
+      "Flying"
+    ],
+    "ability": [
+      "Hustle",
+      "Serene Grace"
+    ],
+    "hp": 55,
+    "attack": 40,
+    "defense": 85,
+    "special_attack": 80,
+    "special_defense": 105,
+    "speed": 40
+  },
+  {
+    "name": "Torchic",
+    "type": "Fire",
+    "ability": "Blaze",
+    "hp": 45,
+    "attack": 60,
+    "defense": 40,
+    "special_attack": 70,
+    "special_defense": 50,
+    "speed": 45
+  },
+  {
+    "name": "Torkoal",
+    "type": "Fire",
+    "ability": "White Smoke",
+    "hp": 70,
+    "attack": 85,
+    "defense": 140,
+    "special_attack": 85,
+    "special_defense": 70,
+    "speed": 20
+  },
+  {
+    "name": "Totodile",
+    "type": "Water",
+    "ability": "Torrent",
+    "hp": 50,
+    "attack": 65,
+    "defense": 64,
+    "special_attack": 44,
+    "special_defense": 48,
+    "speed": 43
+  },
+  {
+    "name": "Trapinch",
+    "type": "Ground",
+    "ability": [
+      "Hyper Cutter",
+      "Arena Trap"
+    ],
+    "hp": 45,
+    "attack": 100,
+    "defense": 45,
+    "special_attack": 45,
+    "special_defense": 45,
+    "speed": 10
+  },
+  {
+    "name": "Treecko",
+    "type": "Grass",
+    "ability": "Overgrow",
+    "hp": 40,
+    "attack": 45,
+    "defense": 35,
+    "special_attack": 65,
+    "special_defense": 55,
+    "speed": 70
+  },
+  {
+    "name": "Tropius",
+    "type": [
+      "Grass",
+      "Flying"
+    ],
+    "ability": "Chlorophyll",
+    "hp": 99,
+    "attack": 68,
+    "defense": 83,
+    "special_attack": 72,
+    "special_defense": 87,
+    "speed": 51
+  },
+  {
+    "name": "Typhlosion",
+    "type": "Fire",
+    "ability": "Blaze",
+    "hp": 78,
+    "attack": 84,
+    "defense": 78,
+    "special_attack": 109,
+    "special_defense": 85,
+    "speed": 100
+  },
+  {
+    "name": "Tyranitar",
+    "type": [
+      "Rock",
+      "Dark"
+    ],
+    "ability": "Sand Stream",
+    "hp": 100,
+    "attack": 134,
+    "defense": 110,
+    "special_attack": 95,
+    "special_defense": 100,
+    "speed": 61
+  },
+  {
+    "name": "Tyrogue",
+    "type": "Fighting",
+    "ability": "Guts",
+    "hp": 35,
+    "attack": 35,
+    "defense": 35,
+    "special_attack": 35,
+    "special_defense": 35,
+    "speed": 35
+  },
+  {
+    "name": "Umbreon",
+    "type": "Dark",
+    "ability": "Synchronize",
+    "hp": 95,
+    "attack": 65,
+    "defense": 110,
+    "special_attack": 60,
+    "special_defense": 130,
+    "speed": 65
+  },
+  {
+    "name": "Unown",
+    "type": "Psychic",
+    "ability": "Levitate",
+    "hp": 48,
+    "attack": 72,
+    "defense": 48,
+    "special_attack": 72,
+    "special_defense": 48,
+    "speed": 48
+  },
+  {
+    "name": "Ursaring",
+    "type": "Normal",
+    "ability": "Guts",
+    "hp": 90,
+    "attack": 130,
+    "defense": 75,
+    "special_attack": 75,
+    "special_defense": 75,
+    "speed": 55
+  },
+  {
+    "name": "Vaporeon",
+    "type": "Water",
+    "ability": "Water Absorb",
+    "hp": 130,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 110,
+    "special_defense": 95,
+    "speed": 65
+  },
+  {
+    "name": "Venomoth",
+    "type": [
+      "Bug",
+      "Poison"
+    ],
+    "ability": "Shield Dust",
+    "hp": 70,
+    "attack": 65,
+    "defense": 60,
+    "special_attack": 90,
+    "special_defense": 75,
+    "speed": 90
+  },
+  {
+    "name": "Venonat",
+    "type": [
+      "Bug",
+      "Poison"
+    ],
+    "ability": "Compound Eyes",
+    "hp": 60,
+    "attack": 55,
+    "defense": 50,
+    "special_attack": 40,
+    "special_defense": 55,
+    "speed": 45
+  },
+  {
+    "name": "Venusaur",
+    "type": [
+      "Grass",
+      "Poison"
+    ],
+    "ability": "Overgrow",
+    "hp": 80,
+    "attack": 82,
+    "defense": 83,
+    "special_attack": 100,
+    "special_defense": 100,
+    "speed": 80
+  },
+  {
+    "name": "Vibrava",
+    "type": [
+      "Ground",
+      "Dragon"
+    ],
+    "ability": "Levitate",
+    "hp": 50,
+    "attack": 70,
+    "defense": 50,
+    "special_attack": 50,
+    "special_defense": 50,
+    "speed": 70
+  },
+  {
+    "name": "Victreebel",
+    "type": [
+      "Grass",
+      "Poison"
+    ],
+    "ability": "Chlorophyll",
+    "hp": 80,
+    "attack": 105,
+    "defense": 65,
+    "special_attack": 100,
+    "special_defense": 60,
+    "speed": 70
+  },
+  {
+    "name": "Vigoroth",
+    "type": "Normal",
+    "ability": "Vital Spirit",
+    "hp": 80,
+    "attack": 80,
+    "defense": 80,
+    "special_attack": 55,
+    "special_defense": 55,
+    "speed": 90
+  },
+  {
+    "name": "Vileplume",
+    "type": [
+      "Grass",
+      "Poison"
+    ],
+    "ability": "Chlorophyll",
+    "hp": 75,
+    "attack": 80,
+    "defense": 85,
+    "special_attack": 100,
+    "special_defense": 90,
+    "speed": 50
+  },
+  {
+    "name": "Volbeat",
+    "type": "Bug",
+    "ability": [
+      "Illuminate",
+      "Swarm"
+    ],
+    "hp": 65,
+    "attack": 73,
+    "defense": 55,
+    "special_attack": 47,
+    "special_defense": 75,
+    "speed": 85
+  },
+  {
+    "name": "Voltorb",
+    "type": "Electric",
+    "ability": [
+      "Soundproof",
+      "Static"
+    ],
+    "hp": 40,
+    "attack": 30,
+    "defense": 50,
+    "special_attack": 55,
+    "special_defense": 55,
+    "speed": 100
+  },
+  {
+    "name": "Vulpix",
+    "type": "Fire",
+    "ability": "Flash Fire",
+    "hp": 38,
+    "attack": 41,
+    "defense": 40,
+    "special_attack": 50,
+    "special_defense": 65,
+    "speed": 65
+  },
+  {
+    "name": "Wailmer",
+    "type": "Water",
+    "ability": [
+      "Water Veil",
+      "Oblivious"
+    ],
+    "hp": 130,
+    "attack": 70,
+    "defense": 35,
+    "special_attack": 70,
+    "special_defense": 35,
+    "speed": 60
+  },
+  {
+    "name": "Wailord",
+    "type": "Water",
+    "ability": [
+      "Water Veil",
+      "Oblivious"
+    ],
+    "hp": 170,
+    "attack": 90,
+    "defense": 45,
+    "special_attack": 90,
+    "special_defense": 45,
+    "speed": 60
+  },
+  {
+    "name": "Walrein",
+    "type": [
+      "Ice",
+      "Water"
+    ],
+    "ability": "Thick Fat",
+    "hp": 110,
+    "attack": 80,
+    "defense": 90,
+    "special_attack": 95,
+    "special_defense": 90,
+    "speed": 65
+  },
+  {
+    "name": "Wartortle",
+    "type": "Water",
+    "ability": "Torrent",
+    "hp": 59,
+    "attack": 63,
+    "defense": 80,
+    "special_attack": 65,
+    "special_defense": 80,
+    "speed": 58
+  },
+  {
+    "name": "Weedle",
+    "type": [
+      "Bug",
+      "Poison"
+    ],
+    "ability": "Shield Dust",
+    "hp": 40,
+    "attack": 35,
+    "defense": 30,
+    "special_attack": 20,
+    "special_defense": 20,
+    "speed": 50
+  },
+  {
+    "name": "Weepinbell",
+    "type": [
+      "Grass",
+      "Poison"
+    ],
+    "ability": "Chlorophyll",
+    "hp": 65,
+    "attack": 90,
+    "defense": 50,
+    "special_attack": 85,
+    "special_defense": 45,
+    "speed": 55
+  },
+  {
+    "name": "Weezing",
+    "type": "Poison",
+    "ability": "Levitate",
+    "hp": 65,
+    "attack": 90,
+    "defense": 120,
+    "special_attack": 85,
+    "special_defense": 70,
+    "speed": 60
+  },
+  {
+    "name": "Whiscash",
+    "type": [
+      "Water",
+      "Ground"
+    ],
+    "ability": "Oblivious",
+    "hp": 110,
+    "attack": 78,
+    "defense": 73,
+    "special_attack": 76,
+    "special_defense": 71,
+    "speed": 60
+  },
+  {
+    "name": "Whismur",
+    "type": "Normal",
+    "ability": "Soundproof",
+    "hp": 64,
+    "attack": 51,
+    "defense": 23,
+    "special_attack": 51,
+    "special_defense": 23,
+    "speed": 28
+  },
+  {
+    "name": "Wigglytuff",
+    "type": "Normal",
+    "ability": "Cute Charm",
+    "hp": 140,
+    "attack": 70,
+    "defense": 45,
+    "special_attack": 75,
+    "special_defense": 50,
+    "speed": 45
+  },
+  {
+    "name": "Wingull",
+    "type": [
+      "Water",
+      "Flying"
+    ],
+    "ability": "Keen Eye",
+    "hp": 40,
+    "attack": 30,
+    "defense": 30,
+    "special_attack": 55,
+    "special_defense": 30,
+    "speed": 85
+  },
+  {
+    "name": "Wobbuffet",
+    "type": "Psychic",
+    "ability": "Shadow Tag",
+    "hp": 190,
+    "attack": 33,
+    "defense": 58,
+    "special_attack": 33,
+    "special_defense": 58,
+    "speed": 33
+  },
+  {
+    "name": "Wooper",
+    "type": [
+      "Water",
+      "Ground"
+    ],
+    "ability": [
+      "Damp",
+      "Water Absorb"
+    ],
+    "hp": 55,
+    "attack": 45,
+    "defense": 45,
+    "special_attack": 25,
+    "special_defense": 25,
+    "speed": 15
+  },
+  {
+    "name": "Wurmple",
+    "type": "Bug",
+    "ability": "Shield Dust",
+    "hp": 45,
+    "attack": 45,
+    "defense": 35,
+    "special_attack": 20,
+    "special_defense": 30,
+    "speed": 20
+  },
+  {
+    "name": "Wynaut",
+    "type": "Psychic",
+    "ability": "Shadow Tag",
+    "hp": 95,
+    "attack": 23,
+    "defense": 48,
+    "special_attack": 23,
+    "special_defense": 48,
+    "speed": 23
+  },
+  {
+    "name": "Xatu",
+    "type": [
+      "Psychic",
+      "Flying"
+    ],
+    "ability": [
+      "Synchronize",
+      "Early Bird"
+    ],
+    "hp": 65,
+    "attack": 75,
+    "defense": 70,
+    "special_attack": 95,
+    "special_defense": 70,
+    "speed": 95
+  },
+  {
+    "name": "Yanma",
+    "type": [
+      "Bug",
+      "Flying"
+    ],
+    "ability": [
+      "Speed Boost",
+      "Compound Eyes"
+    ],
+    "hp": 65,
+    "attack": 65,
+    "defense": 45,
+    "special_attack": 75,
+    "special_defense": 45,
+    "speed": 95
+  },
+  {
+    "name": "Zangoose",
+    "type": "Normal",
+    "ability": "Immunity",
+    "hp": 73,
+    "attack": 115,
+    "defense": 60,
+    "special_attack": 60,
+    "special_defense": 60,
+    "speed": 90
+  },
+  {
+    "name": "Zapdos",
+    "type": [
+      "Electric",
+      "Flying"
+    ],
+    "ability": "Pressure",
+    "hp": 90,
+    "attack": 90,
+    "defense": 85,
+    "special_attack": 125,
+    "special_defense": 90,
+    "speed": 100
+  },
+  {
+    "name": "Zigzagoon",
+    "type": "Normal",
+    "ability": "Pickup",
+    "hp": 38,
+    "attack": 30,
+    "defense": 41,
+    "special_attack": 30,
+    "special_defense": 41,
+    "speed": 60
+  },
+  {
+    "name": "Zubat",
+    "type": [
+      "Poison",
+      "Flying"
+    ],
+    "ability": "Inner Focus",
+    "hp": 40,
+    "attack": 45,
+    "defense": 35,
+    "special_attack": 30,
+    "special_defense": 40,
+    "speed": 55
+  }
+]
