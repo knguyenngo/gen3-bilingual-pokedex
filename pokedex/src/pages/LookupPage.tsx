@@ -1,42 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
 import { typeColors } from '../domain/typeColors'
 
-type PokemonCsvRow = {
-  name: string
-  type: string[] | string
-  ability: string[] | string
-  hp: number
-  attack: number
-  defense: number
-  special_attack: number
-  special_defense: number
-  speed: number
-}
-
-type JpNameRow = {
-  dex_entry: string // e.g. "#001"
-  eng_name: string
-  kanji: string
-  hepburn: string
-}
-
-type PokemonMerged = {
-  dexEntry: string
-  name: string
-  kanji: string
-  hepburn: string
-  types: string[]
-  abilities: string[]
-  stats: {
-    hp: number
-    attack: number
-    defense: number
-    specialAttack: number
-    specialDefense: number
-    speed: number
-  }
-}
-
 const parseMaybeList = (v: string[] | string): string[] => {
   if (Array.isArray(v)) return v.map(String)
   if (typeof v !== 'string') return []
