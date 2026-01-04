@@ -1,37 +1,7 @@
-// src/pages/PokemonPage.tsx
 import { useEffect, useMemo, useState } from 'react'
 import PokemonFilterPanel from '../components/PokemonFilterPanel'
-import '../styles/PokemonPage.css'
-
-type PokemonRow = {
-  name: string
-  hp: number
-  attack: number
-  defense: number
-  special_attack: number
-  special_defense: number
-  speed: number
-}
-
-type JpNameRow = {
-  dex_entry: string
-  eng_name: string
-  kanji: string
-  hepburn: string
-}
-
-type PokemonMerged = {
-  dex: string
-  name: string
-  kanji: string
-  hepburn: string
-  hp: number
-  attack: number
-  defense: number
-  specialAttack: number
-  specialDefense: number
-  speed: number
-}
+// Import the types to stay consistent with your domain
+import type { PokemonRow, JPPokemonRow, Pokemon } from '../domain/types'
 
 const dexToNum = (dex: string) => dex.replace('#', '').replace(/^0+/, '') || '1'
 
@@ -40,11 +10,11 @@ const spriteUrl = (dex: string) =>
 
 const PokemonPage = () => {
   const [pokemon, setPokemon] = useState<PokemonRow[]>([])
-  const [jpNames, setJpNames] = useState<JpNameRow[]>([])
+  const [jpNames, setJpNames] = useState<JPPokemonRow[]>([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
 
-  // filters
+  // Filters state
   const [search, setSearch] = useState('')
   const [minSpeed, setMinSpeed] = useState(0)
   const [minAtk, setMinAtk] = useState(0)
@@ -54,8 +24,8 @@ const PokemonPage = () => {
 
   useEffect(() => {
     Promise.all([
-      fetch('/data/pokemon.json').then(r => r.json()),
-      fetch('/data/jp_names.json').then(r => r.json())
+      fetch('/data/pokemon.json').then(r => r.ok ? r.json() : Promise.reject(`pokemon.json HTTP ${r.status}`)),
+      fetch('/data/jp_names.json').then(r => r.ok ? r.json() : Promise.reject(`jp_names.json HTTP ${r.status}`))
     ])
       .then(([p, j]) => {
         setPokemon(p)
@@ -65,22 +35,27 @@ const PokemonPage = () => {
       .finally(() => setLoading(false))
   }, [])
 
-  const merged = useMemo<PokemonMerged[]>(() => {
+  // The Naming Bridge: Mapping underscores to camelCase
+  const merged = useMemo((): Pokemon[] => {
     const jpMap = new Map(jpNames.map(j => [j.eng_name, j]))
 
     return pokemon.map(p => {
       const jp = jpMap.get(p.name)
       return {
-        dex: jp?.dex_entry ?? '',
-        name: p.name,
+        dexEntry: jp?.dex_entry ?? '',
+        pokemon: p.name,
         kanji: jp?.kanji ?? '',
         hepburn: jp?.hepburn ?? '',
-        hp: p.hp,
-        attack: p.attack,
-        defense: p.defense,
-        specialAttack: p.special_attack,
-        specialDefense: p.special_defense,
-        speed: p.speed
+        types: [], // Add logic if types are needed here
+        abilities: [], // Add logic if abilities are needed here
+        stats: {
+          hp: p.hp,
+          attack: p.attack,
+          defense: p.defense,
+          specialAttack: p.special_attack, // Bridge here
+          specialDefense: p.special_defense, // Bridge here
+          speed: p.speed
+        }
       }
     })
   }, [pokemon, jpNames])
@@ -90,119 +65,107 @@ const PokemonPage = () => {
 
     return merged.filter(p => {
       if (q) {
-        const dexNum = p.dex.replace('#', '')
+        const dexNum = p.dexEntry.replace('#', '')
         if (
-          !p.name.toLowerCase().includes(q) &&
+          !p.pokemon.toLowerCase().includes(q) &&
           !p.kanji.toLowerCase().includes(q) &&
           !p.hepburn.toLowerCase().includes(q) &&
           !dexNum.includes(q)
-        ) {
-          return false
-        }
+        ) return false
       }
 
-      if (p.speed < minSpeed) return false
-      if (p.attack < minAtk) return false
-      if (p.defense < minDef) return false
-      if (p.specialDefense < minSpDef) return false
+      if (p.stats.speed < minSpeed) return false
+      if (p.stats.attack < minAtk) return false
+      if (p.stats.defense < minDef) return false
+      if (p.stats.specialDefense < minSpDef) return false
 
-      if (role === 'physical' && p.attack <= p.specialAttack) return false
-      if (role === 'special' && p.specialAttack <= p.attack) return false
-      if (role === 'fast' && p.speed < 100) return false
-
-      if (role === 'wall' && !(p.hp >= 90 && (p.defense >= 100 || p.specialDefense >= 100)))
-        return false
+      if (role === 'physical' && p.stats.attack <= p.stats.specialAttack) return false
+      if (role === 'special' && p.stats.specialAttack <= p.stats.attack) return false
+      if (role === 'fast' && p.stats.speed < 100) return false
+      if (role === 'wall' && !(p.stats.hp >= 90 && (p.stats.defense >= 100 || p.stats.specialDefense >= 100))) return false
 
       return true
     })
   }, [merged, search, minSpeed, minAtk, minDef, minSpDef, role])
 
-  if (loading) return <div className="p-4 text-zinc-300">Loading…</div>
-  if (error) return <div className="p-4 text-red-300">Error: {error}</div>
+  if (loading) return <div className="p-10 font-black uppercase text-[#306090]">Syncing Database...</div>
+  if (error) return <div className="p-10 text-[#e04030] font-bold uppercase">Error: {error}</div>
 
   return (
-    <div className="flex pokemonPage">
-      <PokemonFilterPanel
-        search={search}
-        setSearch={setSearch}
-        minSpeed={minSpeed}
-        setMinSpeed={setMinSpeed}
-        minAtk={minAtk}
-        setMinAtk={setMinAtk}
-        minDef={minDef}
-        setMinDef={setMinDef}
-        minSpDef={minSpDef}
-        setMinSpDef={setMinSpDef}
-        role={role}
-        setRole={setRole}
-      />
+    <div className="flex flex-col lg:flex-row gap-6">
+      {/* Side Filter Panel */}
+      <aside className="w-full lg:w-72">
+        <div className="card-container sticky top-4">
+          <PokemonFilterPanel
+            search={search} setSearch={setSearch}
+            minSpeed={minSpeed} setMinSpeed={setMinSpeed}
+            minAtk={minAtk} setMinAtk={setMinAtk}
+            minDef={minDef} setMinDef={setMinDef}
+            minSpDef={minSpDef} setMinSpDef={setMinSpDef}
+            role={role} setRole={setRole}
+          />
+        </div>
+      </aside>
 
-      <div className="flex-1 p-4 space-y-2">
-        <div className="text-sm text-zinc-400">Showing {filtered.length} Pokémon</div>
+      {/* Main Table Content */}
+      <main className="flex-1 space-y-4">
+        <div className="flex items-end justify-between px-2">
+            <div>
+                <h1 className="text-3xl font-black uppercase tracking-tighter text-[#306090]">Pokemon List</h1>
+                <p className="text-[10px] font-bold text-gray-400 uppercase tracking-widest">
+                    Showing {filtered.length} Results
+                </p>
+            </div>
+            <div className="h-1 w-20 bg-[#e04030] mb-2" />
+        </div>
 
-        <div className="max-h-[70vh] overflow-y-auto rounded-lg border border-zinc-800 pokemonScroll pokemonTableShell">
-          <table className="w-full table-fixed text-sm text-zinc-200 pokemonTable">
-            <colgroup>
-              <col className="w-[48px]" />
-              <col className="w-[240px]" />
-              <col className="w-[60px]" />
-              <col className="w-[60px]" />
-              <col className="w-[60px]" />
-              <col className="w-[70px]" />
-              <col className="w-[70px]" />
-              <col className="w-[60px]" />
-            </colgroup>
-
-            <thead className="sticky top-0 z-10 bg-zinc-900">
-              <tr className="[&>th]:px-3 [&>th]:py-2 [&>th]:text-left [&>th]:border-b [&>th]:border-zinc-700">
-                <th />
-                <th>Name</th>
-                <th>HP</th>
-                <th>Atk</th>
-                <th>Def</th>
-                <th>Sp.Atk</th>
-                <th>Sp.Def</th>
-                <th>Speed</th>
-              </tr>
-            </thead>
-
-            <tbody className="[&>tr:hover]:bg-zinc-900/60">
-              {filtered.map(p => (
-                <tr key={`${p.dex}-${p.name}`} className="border-b border-zinc-800">
-                  <td className="px-2 py-1">
-                    {p.dex && (
+        <div className="card-container overflow-hidden p-0 bg-white">
+          <div className="max-h-[75vh] overflow-y-auto custom-scrollbar">
+            <table className="w-full text-left text-sm">
+              <thead className="sticky top-0 z-10 bg-gray-50 border-b-2 border-[#404040]">
+                <tr className="text-[10px] font-black uppercase tracking-widest text-gray-500">
+                  <th className="px-4 py-3 w-16">Icon</th>
+                  <th className="px-4 py-3">Pokemon</th>
+                  <th className="px-2 py-3 text-center">HP</th>
+                  <th className="px-2 py-3 text-center">Atk</th>
+                  <th className="px-2 py-3 text-center">Def</th>
+                  <th className="px-2 py-3 text-center">SpA</th>
+                  <th className="px-2 py-3 text-center">SpD</th>
+                  <th className="px-2 py-3 text-center">Spe</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-gray-100">
+                {filtered.map(p => (
+                  <tr key={`${p.dexEntry}-${p.pokemon}`} className="hover:bg-[#38a060]/5 transition-colors">
+                    <td className="px-4 py-2">
                       <img
-                        src={spriteUrl(p.dex)}
-                        alt={p.name}
-                        className="h-8 w-8"
-                        style={{ imageRendering: 'pixelated' }}
+                        src={spriteUrl(p.dexEntry)}
+                        alt={p.pokemon}
+                        className="h-10 w-10 pixelated"
                         loading="lazy"
                       />
-                    )}
-                  </td>
-
-                  <td className="px-3 py-2">
-                    <div className="font-medium text-zinc-100">{p.name}</div>
-                    <div className="text-xs text-zinc-400">
-                      {p.kanji} · {p.hepburn}
-                    </div>
-                  </td>
-
-                  <td className="px-3 py-2 tabular-nums">{p.hp}</td>
-                  <td className="px-3 py-2 tabular-nums">{p.attack}</td>
-                  <td className="px-3 py-2 tabular-nums">{p.defense}</td>
-                  <td className="px-3 py-2 tabular-nums">{p.specialAttack}</td>
-                  <td className="px-3 py-2 tabular-nums">{p.specialDefense}</td>
-                  <td className="px-3 py-2 tabular-nums">{p.speed}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
+                    </td>
+                    <td className="px-4 py-2">
+                      <div className="font-black uppercase text-[#404040] leading-tight">{p.pokemon}</div>
+                      <div className="text-[10px] text-gray-400 font-bold uppercase tracking-tighter">
+                        {p.dexEntry} • {p.kanji}
+                      </div>
+                    </td>
+                    <td className="px-2 py-2 text-center font-mono font-bold text-gray-600">{p.stats.hp}</td>
+                    <td className="px-2 py-2 text-center font-mono font-bold text-gray-600">{p.stats.attack}</td>
+                    <td className="px-2 py-2 text-center font-mono font-bold text-gray-600">{p.stats.defense}</td>
+                    <td className="px-2 py-2 text-center font-mono font-bold text-gray-600">{p.stats.specialAttack}</td>
+                    <td className="px-2 py-2 text-center font-mono font-bold text-gray-600">{p.stats.specialDefense}</td>
+                    <td className="px-2 py-2 text-center font-mono font-bold text-gray-600">{p.stats.speed}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
         </div>
-      </div>
+      </main>
     </div>
   )
 }
 
 export default PokemonPage
-

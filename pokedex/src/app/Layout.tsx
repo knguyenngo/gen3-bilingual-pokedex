@@ -1,23 +1,42 @@
-// src/app/Layout.tsx
-import { Link, Outlet } from 'react-router-dom'
+import { Link, Outlet, useLocation } from 'react-router-dom'
 
 const Layout = () => {
+  const { pathname } = useLocation();
+
   return (
-    <div className="min-h-screen bg-zinc-950 text-zinc-100">
-      <header className="border-b border-zinc-800">
-        <nav className="mx-auto flex max-w-6xl gap-4 p-4">
-          <Link to="/" className="text-sm hover:text-white">Moves</Link>
-          <Link to="/pokemon" className="text-sm hover:text-white">Pokémon</Link>
-          <Link to="/lookup" className="text-sm hover:text-white">Lookup</Link>
+    /* Removed bg-zinc-950 and text-zinc-100 to let index.css variables take over */
+    <div className="min-h-screen flex flex-col">
+      <header className="border-b-4 border-[var(--pkmn-border)] bg-white shadow-sm">
+        <nav className="mx-auto flex max-w-6xl gap-8 p-4">
+          {[
+            { to: '/', label: 'Moves' },
+            { to: '/pokemon', label: 'Pokémon' },
+            { to: '/lookup', label: 'Lookup' },
+          ].map((link) => (
+            <Link
+              key={link.to}
+              to={link.to}
+              className={`text-xs font-black uppercase tracking-widest transition-colors ${
+                pathname === link.to 
+                  ? 'text-[var(--pkmn-red)] border-b-2 border-[var(--pkmn-red)]' 
+                  : 'text-[var(--pkmn-blue)] hover:text-[var(--pkmn-green)]'
+              }`}
+            >
+              {link.label}
+            </Link>
+          ))}
         </nav>
       </header>
 
-      <main className="mx-auto max-w-6xl p-6">
+      <main className="mx-auto w-full max-w-6xl p-6 flex-grow">
         <Outlet />
       </main>
+
+      <footer className="p-4 text-center text-[10px] font-bold uppercase opacity-50">
+        Bilingual Pokédex — Gen 3 Edition
+      </footer>
     </div>
   )
 }
 
 export default Layout
-
