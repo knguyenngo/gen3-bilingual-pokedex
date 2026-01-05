@@ -1,6 +1,5 @@
 import { useEffect, useMemo, useState } from 'react'
 import PokemonFilterPanel from '../components/PokemonFilterPanel'
-// Import the types to stay consistent with your domain
 import type { PokemonRow, JPPokemonRow, Pokemon } from '../domain/types'
 
 const dexToNum = (dex: string) => dex.replace('#', '').replace(/^0+/, '') || '1'
@@ -8,13 +7,30 @@ const dexToNum = (dex: string) => dex.replace('#', '').replace(/^0+/, '') || '1'
 const spriteUrl = (dex: string) =>
   `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/${dexToNum(dex)}.png`
 
+const parseMaybeList = (v: string[] | string | undefined): string[] => {
+  if (!v) return []
+  if (Array.isArray(v)) return v.map(String)
+  if (typeof v !== 'string') return []
+  const s = v.trim()
+  if (!s) return []
+  if (s.startsWith('[') && s.endsWith(']')) {
+    try {
+      const parsed = JSON.parse(s)
+      return Array.isArray(parsed) ? parsed.map(String) : [s]
+    } catch {
+      return [s]
+    }
+  }
+  if (s.includes(',')) return s.split(',').map(x => x.trim()).filter(Boolean)
+  return [s]
+}
+
 const PokemonPage = () => {
   const [pokemon, setPokemon] = useState<PokemonRow[]>([])
   const [jpNames, setJpNames] = useState<JPPokemonRow[]>([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
 
-  // Filters state
   const [search, setSearch] = useState('')
   const [minSpeed, setMinSpeed] = useState(0)
   const [minAtk, setMinAtk] = useState(0)
@@ -35,7 +51,6 @@ const PokemonPage = () => {
       .finally(() => setLoading(false))
   }, [])
 
-  // The Naming Bridge: Mapping underscores to camelCase
   const merged = useMemo((): Pokemon[] => {
     const jpMap = new Map(jpNames.map(j => [j.eng_name, j]))
 
@@ -46,15 +61,15 @@ const PokemonPage = () => {
         pokemon: p.name,
         kanji: jp?.kanji ?? '',
         hepburn: jp?.hepburn ?? '',
-        types: [], // Add logic if types are needed here
-        abilities: [], // Add logic if abilities are needed here
+        types: parseMaybeList(p.type),
+        abilities: parseMaybeList(p.ability),
         stats: {
-          hp: p.hp,
-          attack: p.attack,
-          defense: p.defense,
-          specialAttack: p.special_attack, // Bridge here
-          specialDefense: p.special_defense, // Bridge here
-          speed: p.speed
+          hp: Number(p.hp),
+          attack: Number(p.attack),
+          defense: Number(p.defense),
+          specialAttack: Number(p.special_attack),
+          specialDefense: Number(p.special_defense),
+          speed: Number(p.speed)
         }
       }
     })
@@ -92,8 +107,7 @@ const PokemonPage = () => {
   if (error) return <div className="p-10 text-[#e04030] font-bold uppercase">Error: {error}</div>
 
   return (
-    <div className="flex flex-col lg:flex-row gap-6">
-      {/* Side Filter Panel */}
+    <div className="flex flex-col lg:flex-row gap-6 p-4 max-w-7xl mx-auto">
       <aside className="w-full lg:w-72">
         <div className="card-container sticky top-4">
           <PokemonFilterPanel
@@ -107,22 +121,21 @@ const PokemonPage = () => {
         </div>
       </aside>
 
-      {/* Main Table Content */}
       <main className="flex-1 space-y-4">
         <div className="flex items-end justify-between px-2">
-            <div>
-                <h1 className="text-3xl font-black uppercase tracking-tighter text-[#306090]">Pokemon List</h1>
-                <p className="text-[10px] font-bold text-gray-400 uppercase tracking-widest">
-                    Showing {filtered.length} Results
-                </p>
-            </div>
-            <div className="h-1 w-20 bg-[#e04030] mb-2" />
+          <div>
+            <h1 className="text-3xl font-black uppercase tracking-tighter text-[#306090]">Pokemon List</h1>
+            <p className="text-[10px] font-bold text-gray-400 uppercase tracking-widest">
+              Showing {filtered.length} Results
+            </p>
+          </div>
+          <div className="h-1 w-20 bg-[#e04030] mb-2" />
         </div>
 
         <div className="card-container overflow-hidden p-0 bg-white">
           <div className="max-h-[75vh] overflow-y-auto custom-scrollbar">
-            <table className="w-full text-left text-sm">
-              <thead className="sticky top-0 z-10 bg-gray-50 border-b-2 border-[#404040]">
+            <table className="w-full text-left text-sm border-collapse">
+              <thead className="sticky top-0 z-10 bg-gray-50 border-b-4 border-[#404040]">
                 <tr className="text-[10px] font-black uppercase tracking-widest text-gray-500">
                   <th className="px-4 py-3 w-16">Icon</th>
                   <th className="px-4 py-3">Pokemon</th>
@@ -134,29 +147,32 @@ const PokemonPage = () => {
                   <th className="px-2 py-3 text-center">Spe</th>
                 </tr>
               </thead>
-              <tbody className="divide-y divide-gray-100">
+              <tbody className="divide-y-2 divide-gray-100">
                 {filtered.map(p => (
-                  <tr key={`${p.dexEntry}-${p.pokemon}`} className="hover:bg-[#38a060]/5 transition-colors">
+                  <tr key={`${p.dexEntry}-${p.pokemon}`} className="hover:bg-[#38a060]/5 transition-colors group">
                     <td className="px-4 py-2">
                       <img
                         src={spriteUrl(p.dexEntry)}
                         alt={p.pokemon}
-                        className="h-10 w-10 pixelated"
+                        className="h-10 w-10"
+                        style={{ imageRendering: 'pixelated' }}
                         loading="lazy"
                       />
                     </td>
                     <td className="px-4 py-2">
-                      <div className="font-black uppercase text-[#404040] leading-tight">{p.pokemon}</div>
+                      <div className="font-black uppercase text-[#404040] leading-tight group-hover:text-[#306090]">
+                        {p.pokemon}
+                      </div>
                       <div className="text-[10px] text-gray-400 font-bold uppercase tracking-tighter">
                         {p.dexEntry} • {p.kanji}
                       </div>
                     </td>
-                    <td className="px-2 py-2 text-center font-mono font-bold text-gray-600">{p.stats.hp}</td>
-                    <td className="px-2 py-2 text-center font-mono font-bold text-gray-600">{p.stats.attack}</td>
-                    <td className="px-2 py-2 text-center font-mono font-bold text-gray-600">{p.stats.defense}</td>
-                    <td className="px-2 py-2 text-center font-mono font-bold text-gray-600">{p.stats.specialAttack}</td>
-                    <td className="px-2 py-2 text-center font-mono font-bold text-gray-600">{p.stats.specialDefense}</td>
-                    <td className="px-2 py-2 text-center font-mono font-bold text-gray-600">{p.stats.speed}</td>
+                    <td className="px-2 py-2 text-center font-bold text-gray-600">{p.stats.hp}</td>
+                    <td className="px-2 py-2 text-center font-bold text-gray-600">{p.stats.attack}</td>
+                    <td className="px-2 py-2 text-center font-bold text-gray-600">{p.stats.defense}</td>
+                    <td className="px-2 py-2 text-center font-bold text-gray-600">{p.stats.specialAttack}</td>
+                    <td className="px-2 py-2 text-center font-bold text-gray-600">{p.stats.specialDefense}</td>
+                    <td className="px-2 py-2 text-center font-bold text-gray-600">{p.stats.speed}</td>
                   </tr>
                 ))}
               </tbody>
