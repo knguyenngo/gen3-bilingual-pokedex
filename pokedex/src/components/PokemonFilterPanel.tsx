@@ -5,19 +5,14 @@ type Role = 'all' | 'physical' | 'special' | 'fast' | 'wall'
 type Props = {
   search: string
   setSearch: (v: string) => void
-
   minSpeed: number
   setMinSpeed: (v: number) => void
-
   minAtk: number
   setMinAtk: (v: number) => void
-
   minDef: number
   setMinDef: (v: number) => void
-
   minSpDef: number
   setMinSpDef: (v: number) => void
-
   role: Role
   setRole: (v: Role) => void
 }
@@ -31,15 +26,16 @@ const Input = ({
   value: number
   onChange: (v: number) => void
 }) => (
-  <div>
-    <label className="block text-[10px] font-black uppercase text-gray-500 mb-1 leading-none">
+  <div className="flex items-center justify-between gap-2">
+    <label className="text-[10px] font-black uppercase text-gray-500 whitespace-nowrap">
       {label}
     </label>
     <input
       type="number"
       value={value}
       onChange={e => onChange(+e.target.value || 0)}
-      className="pkmn-input py-1"
+      /* Added appearance-none to remove arrows and prevent layout break */
+      className="pkmn-input py-1 w-16 text-right [appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none"
     />
   </div>
 )
@@ -75,7 +71,7 @@ const PokemonFilterPanel = ({
         <h2 className="text-xs font-black uppercase text-[var(--pkmn-blue)] border-b-2 border-[var(--pkmn-border)] mb-3">
           Min Stats
         </h2>
-        <div className="grid grid-cols-2 gap-3">
+        <div className="flex flex-col gap-2">
           <Input label="Speed" value={minSpeed} onChange={setMinSpeed} />
           <Input label="Attack" value={minAtk} onChange={setMinAtk} />
           <Input label="Defense" value={minDef} onChange={setMinDef} />
