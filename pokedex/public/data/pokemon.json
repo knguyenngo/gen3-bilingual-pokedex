@@ -528,39 +528,6 @@
     "speed": 70
   },
   {
-    "name": "Castform-Rainy",
-    "type": "Water",
-    "ability": "Forecast",
-    "hp": 70,
-    "attack": 70,
-    "defense": 70,
-    "special_attack": 70,
-    "special_defense": 70,
-    "speed": 70
-  },
-  {
-    "name": "Castform-Snowy",
-    "type": "Ice",
-    "ability": "Forecast",
-    "hp": 70,
-    "attack": 70,
-    "defense": 70,
-    "special_attack": 70,
-    "special_defense": 70,
-    "speed": 70
-  },
-  {
-    "name": "Castform-Sunny",
-    "type": "Fire",
-    "ability": "Forecast",
-    "hp": 70,
-    "attack": 70,
-    "defense": 70,
-    "special_attack": 70,
-    "special_defense": 70,
-    "speed": 70
-  },
-  {
     "name": "Caterpie",
     "type": "Bug",
     "ability": "Shield Dust",
@@ -910,39 +877,6 @@
     "special_attack": 150,
     "special_defense": 50,
     "speed": 150
-  },
-  {
-    "name": "Deoxys-Attack",
-    "type": "Psychic",
-    "ability": "Pressure",
-    "hp": 50,
-    "attack": 180,
-    "defense": 20,
-    "special_attack": 180,
-    "special_defense": 20,
-    "speed": 150
-  },
-  {
-    "name": "Deoxys-Defense",
-    "type": "Psychic",
-    "ability": "Pressure",
-    "hp": 50,
-    "attack": 70,
-    "defense": 160,
-    "special_attack": 70,
-    "special_defense": 160,
-    "speed": 90
-  },
-  {
-    "name": "Deoxys-Speed",
-    "type": "Psychic",
-    "ability": "Pressure",
-    "hp": 50,
-    "attack": 95,
-    "defense": 90,
-    "special_attack": 95,
-    "special_defense": 90,
-    "speed": 180
   },
   {
     "name": "Dewgong",
