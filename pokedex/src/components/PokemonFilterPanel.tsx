@@ -30,12 +30,14 @@ const Input = ({
   onChange: (v: number) => void
 }) => (
   <div>
-    <label className="block text-xs text-zinc-400 mb-1">{label}</label>
+    <label className="block text-[10px] font-black uppercase text-gray-500 mb-1 leading-none">
+      {label}
+    </label>
     <input
       type="number"
       value={value}
       onChange={e => onChange(+e.target.value || 0)}
-      className="w-full rounded bg-zinc-900 px-2 py-1 text-sm text-zinc-100 outline-none focus:ring-2 focus:ring-indigo-500"
+      className="pkmn-input py-1"
     />
   </div>
 )
@@ -55,42 +57,63 @@ const PokemonFilterPanel = ({
   setRole
 }: Props) => {
   return (
-    <aside className="sticky top-0 h-[calc(100vh-4rem)] w-64 shrink-0 border-r border-zinc-800 bg-zinc-950 p-4 space-y-4">
-      <div>
-        <h2 className="text-sm font-semibold text-zinc-200">Search</h2>
+    <div className="space-y-6">
+      <section>
+        <h2 className="text-xs font-black uppercase text-[var(--pkmn-blue)] border-b-2 border-[var(--pkmn-border)] mb-3">
+          Search
+        </h2>
         <input
           value={search}
           onChange={e => setSearch(e.target.value)}
-          placeholder="Name / 漢字 / Romaji / Dex"
-          className="mt-2 w-full rounded bg-zinc-900 px-3 py-2 text-sm text-zinc-100 placeholder:text-zinc-500 outline-none focus:ring-2 focus:ring-indigo-500"
+          placeholder="NAME / 漢字 / DEX"
+          className="pkmn-input"
         />
-      </div>
+      </section>
 
-      <div className="space-y-3">
-        <h2 className="text-sm font-semibold text-zinc-200">Stats</h2>
-        <Input label="Min Speed" value={minSpeed} onChange={setMinSpeed} />
-        <Input label="Min Attack" value={minAtk} onChange={setMinAtk} />
-        <Input label="Min Defense" value={minDef} onChange={setMinDef} />
-        <Input label="Min Sp. Def" value={minSpDef} onChange={setMinSpDef} />
-      </div>
+      <section>
+        <h2 className="text-xs font-black uppercase text-[var(--pkmn-blue)] border-b-2 border-[var(--pkmn-border)] mb-3">
+          Min Stats
+        </h2>
+        <div className="grid grid-cols-2 gap-3">
+          <Input label="Speed" value={minSpeed} onChange={setMinSpeed} />
+          <Input label="Attack" value={minAtk} onChange={setMinAtk} />
+          <Input label="Defense" value={minDef} onChange={setMinDef} />
+          <Input label="Sp. Def" value={minSpDef} onChange={setMinSpDef} />
+        </div>
+      </section>
 
-      <div>
-        <h2 className="text-sm font-semibold text-zinc-200 mb-1">Role</h2>
+      <section>
+        <h2 className="text-xs font-black uppercase text-[var(--pkmn-blue)] border-b-2 border-[var(--pkmn-border)] mb-3">
+          Role Filter
+        </h2>
         <select
           value={role}
           onChange={e => setRole(e.target.value as Role)}
-          className="w-full rounded bg-zinc-900 px-2 py-1 text-sm text-zinc-100"
+          className="pkmn-input cursor-pointer"
         >
-          <option value="all">All</option>
-          <option value="physical">Physical Attacker</option>
-          <option value="special">Special Attacker</option>
-          <option value="fast">Fast</option>
-          <option value="wall">Wall</option>
+          <option value="all">ALL POKEMON</option>
+          <option value="physical">PHYSICAL ATTACKER</option>
+          <option value="special">SPECIAL ATTACKER</option>
+          <option value="fast">FAST (100+ SPE)</option>
+          <option value="wall">TANK/WALL</option>
         </select>
-      </div>
-    </aside>
+      </section>
+
+      <button 
+        onClick={() => {
+          setSearch('');
+          setMinSpeed(0);
+          setMinAtk(0);
+          setMinDef(0);
+          setMinSpDef(0);
+          setRole('all');
+        }}
+        className="pkmn-button w-full bg-[var(--pkmn-red)] text-white border-none mt-4 hover:opacity-90"
+      >
+        Reset Filters
+      </button>
+    </div>
   )
 }
 
 export default PokemonFilterPanel
-
