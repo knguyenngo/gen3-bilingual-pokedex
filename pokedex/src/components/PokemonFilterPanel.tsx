@@ -1,3 +1,5 @@
+import SearchInput from './SearchInput'
+
 type Role = 'all' | 'physical' | 'special' | 'fast' | 'wall'
 
 type Props = {
@@ -62,11 +64,10 @@ const PokemonFilterPanel = ({
         <h2 className="text-xs font-black uppercase text-[var(--pkmn-blue)] border-b-2 border-[var(--pkmn-border)] mb-3">
           Search
         </h2>
-        <input
+        <SearchInput
           value={search}
-          onChange={e => setSearch(e.target.value)}
+          onChange={setSearch}
           placeholder="NAME / 漢字 / DEX"
-          className="pkmn-input"
         />
       </section>
 
@@ -108,7 +109,7 @@ const PokemonFilterPanel = ({
           setMinSpDef(0);
           setRole('all');
         }}
-        className="pkmn-button w-full bg-[var(--pkmn-red)] text-white border-none mt-4 hover:opacity-90"
+        className="pkmn-button w-full bg-[var(--pkmn-red)] text-white border-none mt-4 hover:opacity-90 cursor-pointer"
       >
         Reset Filters
       </button>
