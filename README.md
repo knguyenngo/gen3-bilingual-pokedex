@@ -53,14 +53,15 @@ gen3-bilingual-pokedex/
 │   │   ├── pages/           # Page components
 │   │   └── styles/          # CSS and styling
 │   └── package.json
-├── scraped/                 # CSV data files
+├── scraped_data/            # CSV data files
 │   ├── abilities.csv
 │   ├── items.csv
 │   ├── jp_moves.csv
 │   ├── jp_names.csv
 │   ├── moves.csv
 │   └── pokemon.csv
-├── scripts/                 # Data collection scripts
+├── python/                  # Python code mainly for data scraping/cleaning
+│   ├── csv_to_json.py
 │   ├── scrape.py
 │   ├── scrape_functions.py
 │   └── test.py
