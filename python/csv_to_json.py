@@ -5,9 +5,8 @@ import json
 from pathlib import Path
 import pandas as pd
 
-# ✅ EDIT THESE TWO IF YOUR PATHS DIFFER
 VITE_ROOT = Path("/home/anti/Projects/gen3-bilingual-pokedex/pokedex")
-SCRAPED_DIR = Path("/home/anti/Projects/gen3-bilingual-pokedex/scraped")
+SCRAPED_DIR = Path("/home/anti/Projects/gen3-bilingual-pokedex/scraped_data")
 
 OUT_DIR = VITE_ROOT / "public" / "data"
 OUT_DIR.mkdir(parents=True, exist_ok=True)
@@ -48,7 +47,7 @@ def write_json(df: pd.DataFrame, out_path: Path):
         json.dumps(records, ensure_ascii=False, indent=2),
         encoding="utf-8",
     )
-    print(f"✓ wrote {len(records):,} rows -> {out_path}")
+    print(f"wrote {len(records):,} rows -> {out_path}")
 
 def main():
     required = ["jp_moves.csv", "moves.csv", "pokemon.csv", "jp_names.csv"]
