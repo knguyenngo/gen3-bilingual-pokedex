@@ -61,11 +61,11 @@ gen3-bilingual-pokedex/
 │   ├── moves.csv
 │   └── pokemon.csv
 ├── python/                  # Python code mainly for data scraping/cleaning
+│   ├── app.py               # Streamlit prototype for front-end
 │   ├── csv_to_json.py
 │   ├── scrape.py
 │   ├── scrape_functions.py
 │   └── test.py
-├── app.py                   # Streamlit prototype
 ├── requirements.txt
 └── README.md
 ```
