@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
 import PokemonFilterPanel from '../components/PokemonFilterPanel'
+import TypeBadge from '../components/TypeBadge'
 import type { PokemonRow, JPPokemonRow, Pokemon } from '../domain/types'
 
 const dexToNum = (dex: string) => dex.replace('#', '').replace(/^0+/, '') || '1'
@@ -96,11 +97,8 @@ const PokemonPage = () => {
   if (loading) return <div className="p-10 font-black uppercase text-[#306090]">Syncing Database...</div>
   if (error) return <div className="p-10 text-[#e04030] font-bold uppercase">Error: {error}</div>
 
-// ... keep imports and logic exactly as they are ...
-
   return (
     <div className="w-full space-y-6">
-      {/* 1. Header is now outside the flex container to ensure cards align below it */}
       <header className="flex items-end justify-between border-b-4 border-[var(--pkmn-border)] pb-3">
         <div>
           <h1 className="text-4xl font-black uppercase tracking-tighter text-[var(--pkmn-blue)] leading-none">
@@ -113,7 +111,6 @@ const PokemonPage = () => {
         <div className="h-1.5 w-24 bg-[var(--pkmn-red)] mb-1" />
       </header>
 
-      {/* 2. Flex container now starts with both cards at the same Y-coordinate */}
       <div className="flex flex-col lg:flex-row gap-6 items-start">
         <aside className="w-full lg:w-72 shrink-0">
           <div className="card-container lg:sticky lg:top-4">
@@ -136,6 +133,7 @@ const PokemonPage = () => {
                   <tr className="text-[10px] font-black uppercase tracking-widest text-gray-500">
                     <th className="px-4 py-3 w-16">Icon</th>
                     <th className="px-4 py-3">Pokemon</th>
+                    <th className="px-4 py-3">Type</th>
                     <th className="px-2 py-3 text-center">HP</th>
                     <th className="px-2 py-3 text-center">Atk</th>
                     <th className="px-2 py-3 text-center">Def</th>
@@ -161,6 +159,13 @@ const PokemonPage = () => {
                         </div>
                         <div className="text-[10px] text-gray-400 font-bold uppercase tracking-tighter">
                           {p.dexEntry} • {p.kanji}
+                        </div>
+                      </td>
+                      <td className="px-4 py-2">
+                        <div className="flex gap-1">
+                          {p.types.map(type => (
+                            <TypeBadge key={type} type={type} />
+                          ))}
                         </div>
                       </td>
                       <td className="px-2 py-2 text-center font-bold text-gray-600 tabular-nums">{p.stats.hp}</td>
