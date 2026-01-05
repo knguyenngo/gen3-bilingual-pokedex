@@ -6,7 +6,6 @@ const parseMaybeList = (v: string[] | string): string[] => {
   if (typeof v !== 'string') return []
   const s = v.trim()
   if (!s) return []
-  // If your converter made arrays, this won’t hit often, but it’s safe
   if (s.startsWith('[') && s.endsWith(']')) {
     try {
       const parsed = JSON.parse(s)
@@ -20,7 +19,6 @@ const parseMaybeList = (v: string[] | string): string[] => {
 }
 
 const dexToSpriteNumber = (dexEntry: string) => {
-  // "#001" -> "1"
   const n = dexEntry.replace('#', '').replace(/^0+/, '')
   return n || '1'
 }
@@ -32,7 +30,7 @@ const spriteUrl = (dexEntry: string) => {
 
 const TypeBadge = ({ type }: { type: string }) => (
   <span
-    className="inline-block rounded px-2 py-0.5 text-xs font-medium text-white mr-1"
+    className="inline-block border-2 border-[var(--pkmn-border)] px-2 py-0.5 text-[10px] font-black uppercase text-white mr-1"
     style={{ backgroundColor: typeColors[type] ?? '#777' }}
   >
     {type}
@@ -41,25 +39,27 @@ const TypeBadge = ({ type }: { type: string }) => (
 
 const StatBar = ({ label, value, max = 255 }: { label: string; value: number; max?: number }) => {
   const pct = Math.min(Math.round((value / max) * 100), 100)
-  const color =
-    pct > 70 ? 'bg-emerald-500' : pct > 40 ? 'bg-amber-500' : 'bg-rose-500'
+  const color = pct > 70 ? 'var(--pkmn-green)' : pct > 40 ? 'var(--pkmn-blue)' : 'var(--pkmn-red)'
 
   return (
     <div className="space-y-1">
-      <div className="flex items-center justify-between text-sm">
-        <div className="w-32 font-medium text-zinc-200">{label}</div>
-        <div className="text-zinc-300 tabular-nums">{value}</div>
+      <div className="flex items-center justify-between text-[10px] font-black uppercase">
+        <div className="w-24 text-[var(--pkmn-blue)]">{label}</div>
+        <div className="tabular-nums">{value}</div>
       </div>
-      <div className="h-3 w-full rounded bg-zinc-800">
-        <div className={`h-3 rounded ${color}`} style={{ width: `${pct}%` }} />
+      <div className="h-3 w-full border-2 border-[var(--pkmn-border)] bg-gray-200">
+        <div 
+          className="h-full transition-all duration-500" 
+          style={{ width: `${pct}%`, backgroundColor: color }} 
+        />
       </div>
     </div>
   )
 }
 
 const LookupPage = () => {
-  const [pokemonRows, setPokemonRows] = useState<PokemonCsvRow[]>([])
-  const [jpRows, setJpRows] = useState<JpNameRow[]>([])
+  const [pokemonRows, setPokemonRows] = useState<any[]>([])
+  const [jpRows, setJpRows] = useState<any[]>([])
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState<string | null>(null)
 
@@ -88,8 +88,7 @@ const LookupPage = () => {
 
   const merged = useMemo(() => {
     const jpByEng = new Map(jpRows.map(r => [r.eng_name, r]))
-
-    const list: PokemonMerged[] = pokemonRows.map(p => {
+    const list = pokemonRows.map(p => {
       const jp = jpByEng.get(p.name)
       return {
         dexEntry: jp?.dex_entry ?? '',
@@ -108,17 +107,14 @@ const LookupPage = () => {
         }
       }
     })
-
-    // Sort by dex if available, otherwise by name
     return list.sort((a, b) => (a.dexEntry || '').localeCompare(b.dexEntry || '') || a.name.localeCompare(b.name))
   }, [pokemonRows, jpRows])
 
-  // Set default selections once data is ready
   useEffect(() => {
     if (!merged.length) return
     if (!selectedName) setSelectedName(merged[0].name)
     if (!selectedDex) setSelectedDex(merged[0].dexEntry)
-  }, [merged, selectedName, selectedDex])
+  }, [merged])
 
   const current = useMemo(() => {
     if (!merged.length) return null
@@ -126,142 +122,104 @@ const LookupPage = () => {
     return merged.find(p => p.dexEntry === selectedDex) ?? null
   }, [merged, searchBy, selectedName, selectedDex])
 
-  if (loading) return <div className="p-6 text-zinc-300">Loading…</div>
-  if (error) return <div className="p-6 text-red-300">Error: {error}</div>
-  if (!current) return <div className="p-6 text-zinc-300">No Pokémon found</div>
+  if (loading) return <div className="p-6 font-black uppercase">Loading...</div>
+  if (error) return <div className="p-6 text-[var(--pkmn-red)] font-black uppercase">Error: {error}</div>
+  if (!current) return <div className="p-6 font-black uppercase">No Pokémon found</div>
 
-  const total =
-    current.stats.hp +
-    current.stats.attack +
-    current.stats.defense +
-    current.stats.specialAttack +
-    current.stats.specialDefense +
-    current.stats.speed
+  const total = Object.values(current.stats).reduce((a, b) => a + b, 0)
 
   return (
-    <div className="space-y-6">
-      <div>
-        <h1 className="text-2xl font-semibold text-zinc-50">Pokémon Details</h1>
-        <p className="text-sm text-zinc-400">Lookup by name or Pokédex number</p>
-      </div>
+    <div className="space-y-6 max-w-6xl mx-auto p-4">
+      <header className="border-b-4 border-[var(--pkmn-border)] pb-2">
+        <h1 className="text-3xl font-black uppercase text-[var(--pkmn-blue)]">Pokémon Details</h1>
+        <p className="text-[10px] font-bold uppercase tracking-widest">Gen 3 Pokédex Data System</p>
+      </header>
 
-      {/* Controls */}
-      <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
-        <div className="flex gap-2">
+      <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
+        <div className="flex gap-1">
           <button
-            className={`rounded-md px-3 py-2 text-sm border ${
-              searchBy === 'name'
-                ? 'border-indigo-500 bg-indigo-500/10 text-indigo-200'
-                : 'border-zinc-700 bg-zinc-900 text-zinc-200 hover:bg-zinc-800'
-            }`}
+            className={`pkmn-button ${searchBy === 'name' ? 'bg-[var(--pkmn-blue)] text-white' : 'bg-white'}`}
             onClick={() => setSearchBy('name')}
-            type="button"
           >
             Name
           </button>
           <button
-            className={`rounded-md px-3 py-2 text-sm border ${
-              searchBy === 'dex'
-                ? 'border-indigo-500 bg-indigo-500/10 text-indigo-200'
-                : 'border-zinc-700 bg-zinc-900 text-zinc-200 hover:bg-zinc-800'
-            }`}
+            className={`pkmn-button ${searchBy === 'dex' ? 'bg-[var(--pkmn-blue)] text-white' : 'bg-white'}`}
             onClick={() => setSearchBy('dex')}
-            type="button"
           >
-            Pokédex #
+            Dex #
           </button>
         </div>
 
-        {searchBy === 'name' ? (
-          <select
-            className="w-full sm:w-80 rounded-md border border-zinc-700 bg-zinc-900 px-3 py-2 text-zinc-100"
-            value={selectedName}
-            onChange={e => setSelectedName(e.target.value)}
-          >
-            {merged
-              .slice()
-              .sort((a, b) => a.name.localeCompare(b.name))
-              .map(p => (
-                <option key={p.name} value={p.name}>
-                  {p.name}
-                </option>
-              ))}
-          </select>
-        ) : (
-          <select
-            className="w-full sm:w-80 rounded-md border border-zinc-700 bg-zinc-900 px-3 py-2 text-zinc-100"
-            value={selectedDex}
-            onChange={e => setSelectedDex(e.target.value)}
-          >
-            {merged
-              .filter(p => p.dexEntry)
-              .map(p => (
+        <select
+          className="pkmn-input w-full sm:w-80 cursor-pointer"
+          value={searchBy === 'name' ? selectedName : selectedDex}
+          onChange={e => searchBy === 'name' ? setSelectedName(e.target.value) : setSelectedDex(e.target.value)}
+        >
+          {searchBy === 'name' 
+            ? merged.map(p => <option key={p.name} value={p.name}>{p.name.toUpperCase()}</option>)
+            : merged.filter(p => p.dexEntry).map(p => (
                 <option key={p.dexEntry} value={p.dexEntry}>
-                  {p.dexEntry} — {p.name}
+                  {p.dexEntry} — {p.name.toUpperCase()}
                 </option>
-              ))}
-          </select>
-        )}
+              ))
+          }
+        </select>
       </div>
 
-      {/* Content */}
       <div className="grid gap-6 lg:grid-cols-[320px_1fr]">
-        {/* Left */}
-        <div className="rounded-xl border border-zinc-800 bg-zinc-950 p-5">
-          <div className="flex justify-center">
+        <div className="card-container flex flex-col items-center">
+          <div className="bg-[#f8f8f8] border-2 border-[var(--pkmn-border)] p-4 mb-4 shadow-inner">
             <img
               src={spriteUrl(current.dexEntry)}
               alt={current.name}
               className="h-48 w-48"
-              style={{ imageRendering: 'pixelated' }}
             />
           </div>
 
-          <div className="mt-4 space-y-1">
-            <div className="text-xl font-semibold text-zinc-50">{current.dexEntry || '—'}</div>
-            <div className="text-lg text-zinc-100">
-              {current.name}
-              <span className="ml-2 text-sm font-normal text-zinc-400">
-                • {current.kanji || ''} • {current.hepburn || ''}
-              </span>
+          <div className="text-center space-y-1">
+            <div className="text-2xl font-black text-[var(--pkmn-red)]">{current.dexEntry || '???' }</div>
+            <div className="text-xl font-black uppercase tracking-widest">{current.name}</div>
+            <div className="text-[10px] font-bold text-gray-500 uppercase">
+              {current.kanji} • {current.hepburn}
             </div>
           </div>
         </div>
 
-        {/* Right */}
-        <div className="rounded-xl border border-zinc-800 bg-zinc-950 p-5 space-y-5">
-          <div className="space-y-2">
-            <div className="text-sm font-semibold text-zinc-200">Types</div>
-            <div>{current.types.map(t => <TypeBadge key={t} type={t} />)}</div>
+        <div className="card-container space-y-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <section className="space-y-2">
+              <h3 className="text-xs font-black uppercase text-[var(--pkmn-blue)] border-b-2 border-[var(--pkmn-border)] inline-block">Types</h3>
+              <div className="pt-1">{current.types.map(t => <TypeBadge key={t} type={t} />)}</div>
+            </section>
+
+            <section className="space-y-2">
+              <h3 className="text-xs font-black uppercase text-[var(--pkmn-blue)] border-b-2 border-[var(--pkmn-border)] inline-block">Abilities</h3>
+              <div className="text-[10px] font-black uppercase pt-1">{current.abilities.join(', ')}</div>
+            </section>
           </div>
 
-          <div className="space-y-2">
-            <div className="text-sm font-semibold text-zinc-200">Abilities</div>
-            <div className="text-zinc-300">{current.abilities.join(', ')}</div>
-          </div>
-
-          <div className="space-y-3">
-            <div className="flex items-center justify-between">
-              <div className="text-sm font-semibold text-zinc-200">Base Stats</div>
-              <div className="text-sm text-zinc-300">
-                Total: <span className="font-semibold text-zinc-100 tabular-nums">{total}</span>
+          <section className="space-y-4">
+            <div className="flex items-center justify-between border-b-2 border-[var(--pkmn-border)]">
+              <h3 className="text-xs font-black uppercase text-[var(--pkmn-blue)]">Base Stats</h3>
+              <div className="text-[10px] font-black uppercase">
+                Total: <span className="text-[var(--pkmn-red)]">{total}</span>
               </div>
             </div>
 
-            <div className="space-y-3">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-3">
               <StatBar label="HP" value={current.stats.hp} />
               <StatBar label="Attack" value={current.stats.attack} />
               <StatBar label="Defense" value={current.stats.defense} />
-              <StatBar label="Special Attack" value={current.stats.specialAttack} />
-              <StatBar label="Special Defense" value={current.stats.specialDefense} />
+              <StatBar label="Sp. Atk" value={current.stats.specialAttack} />
+              <StatBar label="Sp. Def" value={current.stats.specialDefense} />
               <StatBar label="Speed" value={current.stats.speed} />
             </div>
-          </div>
+          </section>
         </div>
       </div>
     </div>
   )
 }
 
-export default LookupPage
-
+export default LookupPage;
