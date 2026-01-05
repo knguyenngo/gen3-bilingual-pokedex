@@ -1,55 +1,80 @@
 # Generation III Pokémon Explorer
 
-A bilingual Streamlit web app that lets you search and filter Generation III Pokémon and moves by English name, Japanese Kanji, or Hepburn transliteration. Features color‑coded type badges, custom HTML tables, inline sprites, and detailed stat‑bar visualizations.
+A bilingual web app that makes exploring Generation III Pokémon effortless in both English and Japanese. Search by English name, Japanese Kanji, or Hepburn romanization—something you won't find anywhere else in one place.
 
-## 🚀 Features
-- **All Moves**: Searchable table of 165 moves with bilingual names, categories, stats, and descriptions.
-- **All Pokémon**: Searchable table of 386 Pokémon with English & Japanese names, type badges, abilities, and base stats.
-- **Lookup a Pokémon**: Detail view showing sprite, bilingual labels, and horizontal stat bars.
-- **Dark‑mode styling** with custom HTML/CSS and fixed‑width columns.
-- **AI‑powered development**: Claude for scaffolding/CSS, GPT‑4 for creative UI ideas & debugging.
+## What Makes This Special
 
-## 📦 Installation
+Most Pokémon resources make you choose between English or Japanese, or force you to navigate multiple pages to see both languages. This app puts everything side-by-side, making it perfect for language learners, nostalgic players, or anyone curious about the original Japanese names and details.
 
-1. **Create a virtual environment**  
+## Features
+
+- **Bilingual Search**: Find any Generation III Pokémon or move by typing in English, Japanese characters, or romanized Japanese
+- **All 386 Pokémon**: Browse complete stats, abilities, types, and names in both languages
+- **354 Moves**: Full move list with power, accuracy, categories, and descriptions
+- **Beautiful Detail Views**: See Pokémon sprites alongside stat bars and bilingual information
+
+## Getting Started
+
+### You'll Need
+
+- Node.js (version 16 or higher)
+- Python 3.x (just for the initial data collection)
+
+### Quick Setup
+
+1. **Get the Pokémon data**
    ```bash
    python3 -m venv venv
    source venv/bin/activate
-   ```
-
-2. **Install dependencies**  
-   ```bash
    pip install -r requirements.txt
+   python scrape.py
    ```
 
-3. **Scrape data**  
+2. **Launch the app**
    ```bash
-   python scrape_functions.py
-   # Produces CSVs in ./scraped/
+   cd pokedex
+   npm install
+   npm run dev
    ```
 
-## ▶️ Usage
+3. **Start exploring** at `http://localhost:5173`
 
-Run the Streamlit app:
-```bash
-streamlit run app.py
-```
-App will automatically open in your browser to explore Pokémon and moves!
+## Project Structure
 
-## 📁 File Structure
 ```
-.
-├── app.py               # Main Streamlit application
-├── scrape_functions.py  # Selenium scraping helpers
-├── requirements.txt     # Python dependencies
-├── scraped/             # Generated CSV data
-│   ├── moves.csv
+gen3-bilingual-pokedex/
+├── pokedex/                 # Main React app
+│   ├── src/
+│   │   ├── app/             # App configuration
+│   │   ├── assets/          # Images and static files
+│   │   ├── components/      # UI components
+│   │   ├── domain/          # Business logic
+│   │   ├── lib/             # Utilities and helpers
+│   │   ├── pages/           # Page components
+│   │   └── styles/          # CSS and styling
+│   └── package.json
+├── scraped/                 # CSV data files
+│   ├── abilities.csv
+│   ├── items.csv
 │   ├── jp_moves.csv
-│   ├── pokemon.csv
-│   └── jp_names.csv
-├── test.py              # Basic data-loading and merge tests
-└── README.md            # This file
+│   ├── jp_names.csv
+│   ├── moves.csv
+│   └── pokemon.csv
+├── scripts/                 # Data collection scripts
+│   ├── scrape.py
+│   ├── scrape_functions.py
+│   └── test.py
+├── app.py                   # Streamlit prototype
+├── requirements.txt
+└── README.md
 ```
 
-## 📄 License
-This project is licensed under the MIT License. See `LICENSE` for details.
+## Built With
+
+- React & TypeScript for a smooth, type-safe experience
+- Tailwind CSS for beautiful styling
+- Python & Selenium for gathering all the data
+
+## License
+
+MIT
