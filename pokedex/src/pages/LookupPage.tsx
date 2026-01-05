@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
-import { typeColors } from '../domain/typeColors'
-import StatBar from '../components/StatBar' // [!code ++]
+import TypeBadge from '../components/TypeBadge'
+import StatBar from '../components/StatBar'
 
 const parseMaybeList = (v: string[] | string): string[] => {
   if (Array.isArray(v)) return v.map(String)
@@ -28,15 +28,6 @@ const spriteUrl = (dexEntry: string) => {
   const dexNum = dexToSpriteNumber(dexEntry)
   return `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-iii/emerald/${dexNum}.png`
 }
-
-const TypeBadge = ({ type }: { type: string }) => (
-  <span
-    className="inline-block border-2 border-[var(--pkmn-border)] px-2 py-0.5 text-[10px] font-black uppercase text-white mr-1"
-    style={{ backgroundColor: typeColors[type] ?? '#777' }}
-  >
-    {type}
-  </span>
-)
 
 const LookupPage = () => {
   const [pokemonRows, setPokemonRows] = useState<any[]>([])
@@ -103,7 +94,7 @@ const LookupPage = () => {
     return merged.find(p => p.dexEntry === selectedDex) ?? null
   }, [merged, searchBy, selectedName, selectedDex])
 
-  if (loading) return <div className="p-6 font-black uppercase">Loading...</div>
+  if (loading) return <div className="p-6 font-black uppercase text-[var(--pkmn-blue)]">Syncing Data...</div>
   if (error) return <div className="p-6 text-[var(--pkmn-red)] font-black uppercase">Error: {error}</div>
   if (!current) return <div className="p-6 font-black uppercase">No Pokémon found</div>
 
@@ -171,7 +162,11 @@ const LookupPage = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <section className="space-y-2">
               <h3 className="text-xs font-black uppercase text-[var(--pkmn-blue)] border-b-2 border-[var(--pkmn-border)] inline-block">Types</h3>
-              <div className="pt-1">{current.types.map(t => <TypeBadge key={t} type={t} />)}</div>
+              <div className="pt-1 flex flex-wrap gap-1">
+                {current.types.map(t => (
+                  <TypeBadge key={t} type={t} />
+                ))}
+              </div>
             </section>
 
             <section className="space-y-2">
@@ -203,4 +198,4 @@ const LookupPage = () => {
   )
 }
 
-export default LookupPage;
+export default LookupPage
