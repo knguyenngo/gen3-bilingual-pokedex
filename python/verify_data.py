@@ -1,46 +1,84 @@
 import pandas as pd
 
-# Import csv
-pokemon = pd.read_csv('../scraped_data/pokemon.csv')
-moves = pd.read_csv('../scraped_data/moves.csv')
-jp_names = pd.read_csv('../scraped_data/jp_names.csv')
-jp_moves = pd.read_csv('../scraped_data/jp_moves.csv')
+# Import csv files
+DATA_FILES = {
+    'pokemon': '../scraped_data/pokemon.csv',
+    'moves': '../scraped_data/moves.csv',
+    'abilities': '../scraped_data/abilities.csv',
+    'items': '../scraped_data/items.csv',
+    'jp_names': '../scraped_data/jp_names.csv',
+    'jp_moves': '../scraped_data/jp_moves.csv',
+    'jp_abilities': '../scraped_data/jp_abilities.csv',
+    'jp_items': '../scraped_data/jp_items.csv'
+}
 
-# Drop forms of same species
-pokemon.drop(pokemon[pokemon["name"] == "Deoxys-Attack"].index, inplace=True)
-pokemon.drop(pokemon[pokemon["name"] == "Deoxys-Defense"].index, inplace=True)
-pokemon.drop(pokemon[pokemon["name"] == "Deoxys-Speed"].index, inplace=True)
-pokemon.drop(pokemon[pokemon["name"] == "Castform-Rainy"].index, inplace=True)
-pokemon.drop(pokemon[pokemon["name"] == "Castform-Snowy"].index, inplace=True)
-pokemon.drop(pokemon[pokemon["name"] == "Castform-Sunny"].index, inplace=True)
+# Load all dataframes
+data = {name: pd.read_csv(path) for name, path in DATA_FILES.items()}
 
-# Check if number of mons and moves are same
-i, j = 0, 0
+# Drop unwanted rows
+DROP_RULES = {
+    'pokemon': [
+        "Deoxys-Attack",
+        "Deoxys-Defense",
+        "Deoxys-Speed",
+        "Castform-Rainy",
+        "Castform-Snowy",
+        "Castform-Sunny"
+    ],
+    'items': [
+        "Mail",
+        "No Item",
+        "Stick"
+    ]
+}
 
-print("Checking if pokemon lists are equal")
-eng_names = jp_names.eng_name.values
+def drop_rows(df, names):
+    """Drop rows where 'name' column matches any value in names list."""
+    return df[~df['name'].isin(names)]
 
-mon_passed = True
-move_passed = True
+# Apply drop rules
+for df_name, drop_names in DROP_RULES.items():
+    data[df_name] = drop_rows(data[df_name], drop_names)
 
-for name in eng_names:
-    i = i+1
-    if name not in pokemon.name.values:
-        mon_passed = False
+# Validation function
+def validate_match(eng_df, jp_df, eng_col='name', jp_col='eng_name', data_type='items'):
+    """
+    Validate that English and Japanese dataframes have matching entries.
+    
+    Args:
+        eng_df: English dataframe
+        jp_df: Japanese dataframe
+        eng_col: Column name in English df (default: 'name')
+        jp_col: Column name in Japanese df (default: 'eng_name')
+        data_type: Description of data being validated
+    
+    Returns:
+        tuple: (all_matched: bool, missed: list)
+    """
+    print(f"Checking if {data_type} lists are equal")
+    
+    eng_values = set(eng_df[eng_col].values)
+    jp_values = set(jp_df[jp_col].values)
+    
+    missed = list(jp_values - eng_values) if eng_col == 'name' else list(eng_values - jp_values)
+    all_matched = len(eng_values) == len(jp_values) and len(missed) == 0
+    
+    if all_matched:
+        print(f"All {data_type} matched")
+    else:
+        print(f"Missed {data_type}:")
+        print(missed)
+    
+    return all_matched, missed
 
-# No mons missing and names matched up
-if i == len(pokemon.name.values) and mon_passed:
-    print("All names matched")
+# Run validations
+validations = [
+    (data['jp_names'], data['pokemon'], 'eng_name', 'name', 'pokemon'),
+    (data['jp_moves'], data['moves'], 'eng_name', 'name', 'moves'),
+    (data['jp_abilities'], data['abilities'], 'eng_name', 'name', 'abilities'),
+    (data['items'], data['jp_items'], 'name', 'eng_name', 'items')
+]
 
-print("Checking if move lists are equal")
-move_names = jp_moves.eng_name.values
-
-for name in move_names:
-    j = j+1
-    if name not in moves.name.values:
-        move_passed = False
-
-# No moves missing and names matched up
-if j == len(moves.name.values) and move_passed:
-    print("All moves matched")
-
+results = {}
+for jp_df, eng_df, jp_col, eng_col, name in validations:
+    results[name] = validate_match(eng_df, jp_df, eng_col, jp_col, name)
