@@ -78,12 +78,6 @@ gen3-bilingual-pokedex/
 └── README.md
 ```
 
-## Built With
-
-- React & TypeScript for a smooth, type-safe experience
-- Tailwind CSS for beautiful styling
-- Python & Selenium for gathering all the data
-
 ## License
 
 MIT
