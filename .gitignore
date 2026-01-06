@@ -6,3 +6,6 @@ venv/
 gen3_moves_files/
 move_names_files/
 scraped_data/backup_data/
+
+# Py file for testing scrape functions
+python/test_functions.py
