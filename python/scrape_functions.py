@@ -335,3 +335,59 @@ def scrape_moves_jp(url, move_df):
         df = pd.DataFrame(move_list)
         df = df.sort_values('eng_name')
         return df # Return dataframe
+
+def scrape_abilities_jp(url, abilities_df):
+# Set options for Firefox to run in background
+    options = Options()
+    options.add_argument("--headless")
+    options.add_argument("--disable-gpu")
+
+    driver = webdriver.Firefox(options=options)
+    try:
+        # Go to url
+        driver.get(url)
+
+        # Expand window size to capture all dynamically generated elements
+        driver.set_window_size(1920, 13000)
+        time.sleep(5)
+
+        # Find table for moves
+        table = driver.find_element(By.XPATH, "/html/body/div[1]/div[2]/div[1]/div[3]/div[4]/div[1]/table[2]")
+        moves = driver.find_elements(By.TAG_NAME, "tr")
+
+        move_list = []
+
+        # Extract move name data
+        for m in moves:
+            # Extract cells from row
+            cells = m.find_elements(By.TAG_NAME, "td")
+
+            # Create move names dictionary
+            if len(cells) > 2:
+                eng_name = cells[1].text.strip()
+
+                # Vice Grip is listed as Vise Grip on Bulba -.-
+                if eng_name == 'Vise Grip':
+                    eng_name = 'Vice Grip'
+
+                # Only scrape for moves available in gen 3
+                if eng_name in abilities_df.name.values:
+                    move = {
+                        'eng_name': eng_name,
+                        'kanji': cells[2].text.strip(),
+                        'hepburn': cells[3].text.strip()
+                    }
+
+                    # Add move to list
+                    move_list.append(move)
+
+    # Print errors if any
+    except Exception as e: print(e)
+
+    # Succesful scrape return dataframe
+    finally:
+        driver.quit()
+
+        df = pd.DataFrame(move_list)
+        df = df.sort_values('eng_name')
+        return df # Return dataframe
