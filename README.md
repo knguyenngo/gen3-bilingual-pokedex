@@ -39,6 +39,12 @@ Most Pokémon resources make you choose between English or Japanese, or force yo
 
 3. **Start exploring** at `http://localhost:5173`
 
+## Screenshots
+
+![Screenshot showing pokemon page](./screenshots/pokemon_page.png)
+![Screenshot showing moves page](./screenshots/moves_page.png)
+![Screenshot showing lookup page](./screenshots/lookup_page.png)
+
 ## Project Structure
 
 ```
