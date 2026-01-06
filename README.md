@@ -56,6 +56,8 @@ gen3-bilingual-pokedex/
 ├── scraped_data/            # CSV data files
 │   ├── abilities.csv
 │   ├── items.csv
+│   ├── jp_abilities.csv
+│   ├── jp_items.csv
 │   ├── jp_moves.csv
 │   ├── jp_names.csv
 │   ├── moves.csv
@@ -65,7 +67,7 @@ gen3-bilingual-pokedex/
 │   ├── csv_to_json.py
 │   ├── scrape.py
 │   ├── scrape_functions.py
-│   └── test.py
+│   └── verify_data.py
 ├── requirements.txt
 └── README.md
 ```
